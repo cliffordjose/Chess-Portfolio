@@ -665,3 +665,11 @@ body::after {
 .modal-input:focus { border-color:var(--gold); }
 .modal-btn { width:100%; padding:12px; border-radius:var(--radius-m); border:none; background:var(--gold); color:#000; font-family:var(--font); font-weight:600; font-size:15px; cursor:pointer; transition:var(--t); }
 .modal-btn:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(212,168,83,0.3); }
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}

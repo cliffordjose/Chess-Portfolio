@@ -1,0 +1,41 @@
+[Event "The Opera Game"]
+[Site "Paris FRA"]
+[Date "1858.??.??"]
+[Round "?"]
+[White "Paul Morphy"]
+[Black "Duke Karl / Count Isouard"]
+[Result "1-0"]
+
+1. e4 { The game begins with the King's Pawn opening, fighting for the center. } 
+1... e5 
+2. Nf3 { White develops a knight and attacks the e5 pawn. } 
+2... d6 { The Philidor Defense. It's solid but a bit passive. } 
+3. d4 { Morphy immediately challenges the center! } 
+3... Bg4 { Black pins the knight, but this allows White to gain a tempo. } 
+4. dxe5 { Forcing Black to react. } 
+4... Bxf3 { Black removes the defender of the center. } 
+5. Qxf3 
+5... dxe5 
+6. Bc4 { Threatening checkmate on f7! A classic attacking theme. } 
+6... Nf6 
+7. Qb3 { A powerful double attack! White hits f7 and b7 simultaneously. } 
+7... Qe7 { Defending f7, but b7 falls. } 
+8. Nc3 { Morphy prioritizes rapid development over grabbing the b7 pawn immediately. } 
+8... c6 { Defending the pawn and restricting the knight. } 
+9. Bg5 { Pinning another knight. } 
+9... b5 
+10. Nxb5! { A brilliant piece sacrifice to open lines to the black King! } 
+10... cxb5 
+11. Bxb5+ 
+11... Nbd7 
+12. O-O-O { Bringing the rook into the attack with a tempo. } 
+12... Rd8 
+13. Rxd7 { Another exchange sacrifice to break the defense! } 
+13... Rxd7 
+14. Rd1 
+14... Qe6 
+15. Bxd7+ 
+15... Nxd7 
+16. Qb8+!! { An immortal queen sacrifice! } 
+16... Nxb8 
+17. Rd8# { Checkmate! A masterpiece of development and attacking play. } 1-0

@@ -70,6 +70,11 @@ window.addEventListener('DOMContentLoaded', async () => {
   setFooterDate();
   // Init live board with start position
   renderLiveBoard(new Chess());
+  
+  // Init academy
+  initAcademy();
+  initTactics();
+  initExplorer();
 
   // Init polling
   pollLiveGame();
@@ -633,6 +638,431 @@ function fmtDate(d) {
   const [y, m] = d.split('-');
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   return `${months[parseInt(m) - 1]} ${y}`;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ACADEMY / INTERACTIVE BOOK
+═══════════════════════════════════════════════════════════ */
+let acChess = null;
+let acHistory = [];
+let acMoveIdx = -1;
+
+let acSelectedSq = null;
+
+async function initAcademy() {
+  try {
+    const res = await fetch('courses/lesson1.pgn');
+    if (!res.ok) return;
+    const pgn = await res.text();
+    acChess = new Chess();
+    acChess.load_pgn(pgn);
+    acHistory = acChess.history({ verbose: true });
+    
+    const bookContainer = document.getElementById('acBook');
+    let html = `<h3 style="color:var(--text-1); font-size:1.4rem; margin-bottom: 1rem;">Course: The Opera Game</h3>`;
+    
+    let tokens = pgn.replace(/\\[.*?\\]/g, '').replace(/\\r?\\n/g, ' ').split(/(\\{[^}]+\\}|\\d+\\.+|\\s+)/).filter(t => t.trim().length > 0);
+    
+    let moveCounter = 0;
+    tokens.forEach(token => {
+      if (token.startsWith('{')) {
+        html += `<div style="background: rgba(77,201,148,0.1); border-left: 3px solid var(--primary); padding: 0.5rem; margin: 0.5rem 0; color: var(--text-2); font-size: 0.95rem;">${token.slice(1, -1)}</div>`;
+      } else if (token.match(/^\\d+\\.+$/)) {
+        html += `<strong style="color:var(--text-3); margin-right: 4px;">${token}</strong>`;
+      } else if (!token.match(/^(1-0|0-1|1\\/2-1\\/2|\\*)$/)) {
+        html += `<span class="ac-move-link" data-idx="${moveCounter}" style="color:var(--primary); cursor:pointer; padding: 2px 4px; border-radius: 4px; transition: 0.2s;">${token}</span> `;
+        moveCounter++;
+      }
+    });
+    
+    bookContainer.innerHTML = html;
+    
+    document.querySelectorAll('.ac-move-link').forEach(el => {
+      el.addEventListener('click', (e) => acGoTo(parseInt(e.target.dataset.idx)));
+    });
+    
+    document.getElementById('acFirst').addEventListener('click', () => acGoTo(-1));
+    document.getElementById('acPrev').addEventListener('click', () => acGoTo(acMoveIdx - 1));
+    document.getElementById('acNext').addEventListener('click', () => acGoTo(acMoveIdx + 1));
+    document.getElementById('acLast').addEventListener('click', () => acGoTo(acHistory.length - 1));
+    document.getElementById('acFlip').addEventListener('click', () => {
+      document.getElementById('acBoardGrid').classList.toggle('flipped');
+      acGoTo(acMoveIdx);
+    });
+    
+    acGoTo(-1);
+  } catch (e) {
+    console.error('Academy load failed', e);
+  }
+}
+
+function acGoTo(idx) {
+  if (idx < -1) idx = -1;
+  if (idx >= acHistory.length) idx = acHistory.length - 1;
+  acMoveIdx = idx;
+  
+  const temp = new Chess();
+  for (let i = 0; i <= idx; i++) {
+    temp.move(acHistory[i].san);
+  }
+  
+  document.querySelectorAll('.ac-move-link').forEach(el => {
+    el.style.background = 'transparent';
+    el.style.color = 'var(--primary)';
+  });
+  if (idx >= 0) {
+    const activeEl = document.querySelector(`.ac-move-link[data-idx="${idx}"]`);
+    if (activeEl) {
+      activeEl.style.background = 'var(--primary)';
+      activeEl.style.color = '#000';
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+  
+  document.getElementById('acMoveLbl').textContent = `Move ${idx + 1} / ${acHistory.length}`;
+  renderAcBoard(temp, idx >= 0 ? acHistory[idx] : null);
+}
+
+function renderAcBoard(game, moveObj) {
+  const grid = document.getElementById('acBoardGrid');
+  grid.innerHTML = '';
+  const board = game.board();
+  
+  board.forEach((row, r) => {
+    row.forEach((sq, c) => {
+      const cell = document.createElement('div');
+      cell.className = `board-cell ${(r + c) % 2 === 0 ? 'light' : 'dark'}`;
+      const alg = String.fromCharCode(97 + c) + (8 - r);
+      
+      if (moveObj && (moveObj.from === alg || moveObj.to === alg)) {
+        cell.classList.add('hl');
+      }
+      if (acSelectedSq === alg) {
+        cell.style.backgroundColor = 'rgba(77,201,148,0.5)';
+      }
+      
+      if (sq) {
+        const img = document.createElement('img');
+        img.src = PIECES[sq.color + sq.type.toUpperCase()];
+        cell.appendChild(img);
+      }
+      
+      // Click-to-move logic
+      cell.addEventListener('click', () => {
+        // If the lesson is over, don't allow moves
+        if (acMoveIdx >= acHistory.length - 1) return;
+        
+        if (!acSelectedSq) {
+          // Select piece if it's the correct turn's color
+          if (sq && sq.color === game.turn()) {
+            acSelectedSq = alg;
+            renderAcBoard(game, moveObj);
+          }
+        } else {
+          // Attempt move
+          if (acSelectedSq === alg) {
+            acSelectedSq = null; // deselect
+            renderAcBoard(game, moveObj);
+            return;
+          }
+          
+          const nextCorrectMove = acHistory[acMoveIdx + 1];
+          // Simple validation using chess.js
+          const tempGame = new Chess(game.fen());
+          const moveAttempt = tempGame.move({ from: acSelectedSq, to: alg, promotion: 'q' });
+          
+          if (moveAttempt) {
+            // It's a pseudo-legal move
+            if (moveAttempt.san === nextCorrectMove.san) {
+              // Correct move!
+              acSelectedSq = null;
+              acGoTo(acMoveIdx + 1);
+            } else {
+              // Incorrect move for this lesson
+              grid.style.animation = 'shake 0.4s';
+              setTimeout(() => grid.style.animation = '', 400);
+              acSelectedSq = null;
+              renderAcBoard(game, moveObj);
+            }
+          } else {
+            // Invalid move, check if clicked another own piece
+            if (sq && sq.color === game.turn()) {
+              acSelectedSq = alg;
+              renderAcBoard(game, moveObj);
+            } else {
+              acSelectedSq = null;
+              renderAcBoard(game, moveObj);
+            }
+          }
+        }
+      });
+      
+      grid.appendChild(cell);
+    });
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   DAILY TACTICS TRAINER
+═══════════════════════════════════════════════════════════ */
+let tacChess = null;
+let tacSolution = [];
+let tacMoveIdx = 0;
+let tacSelectedSq = null;
+let tacBoardFlipped = false;
+
+async function initTactics() {
+  try {
+    const res = await fetch('https://lichess.org/api/puzzle/daily');
+    if (!res.ok) return;
+    const data = await res.json();
+    
+    tacChess = new Chess();
+    const pgnMoves = data.game.pgn.split(' ');
+    for (const move of pgnMoves) {
+      if (!move.includes('.')) {
+        tacChess.move(move);
+      }
+    }
+    
+    tacSolution = data.puzzle.solution;
+    tacMoveIdx = 0;
+    
+    document.getElementById('tacRating').textContent = `Rating: ${data.puzzle.rating}`;
+    document.getElementById('tacMsg').textContent = 'Find the best move!';
+    document.getElementById('tacMsg').style.color = 'var(--text-1)';
+    
+    const blunder = tacSolution[0];
+    const from = blunder.substring(0, 2);
+    const to = blunder.substring(2, 4);
+    const prom = blunder.length > 4 ? blunder[4] : undefined;
+    tacChess.move({ from, to, promotion: prom });
+    tacMoveIdx++; 
+    
+    tacBoardFlipped = (tacChess.turn() === 'b');
+    renderTacBoard();
+  } catch (e) {
+    document.getElementById('tacMsg').textContent = 'Failed to load puzzle.';
+  }
+}
+
+function renderTacBoard() {
+  const grid = document.getElementById('tacBoardGrid');
+  grid.innerHTML = '';
+  
+  if (tacBoardFlipped) {
+    grid.style.transform = 'rotate(180deg)';
+  } else {
+    grid.style.transform = 'none';
+  }
+  
+  const board = tacChess.board();
+  board.forEach((row, r) => {
+    row.forEach((sq, c) => {
+      const cell = document.createElement('div');
+      cell.className = `board-cell ${(r + c) % 2 === 0 ? 'light' : 'dark'}`;
+      const alg = String.fromCharCode(97 + c) + (8 - r);
+      
+      if (tacBoardFlipped) {
+        cell.style.transform = 'rotate(180deg)';
+      }
+      
+      if (tacSelectedSq === alg) {
+        cell.style.backgroundColor = 'rgba(212,168,83,0.5)';
+      }
+      
+      if (sq) {
+        const img = document.createElement('img');
+        img.src = PIECES[sq.color + sq.type.toUpperCase()];
+        cell.appendChild(img);
+      }
+      
+      cell.addEventListener('click', () => handleTacClick(alg, sq));
+      grid.appendChild(cell);
+    });
+  });
+}
+
+function handleTacClick(alg, sq) {
+  if (tacMoveIdx >= tacSolution.length) return; 
+  
+  if (!tacSelectedSq) {
+    if (sq && sq.color === tacChess.turn()) {
+      tacSelectedSq = alg;
+      renderTacBoard();
+    }
+  } else {
+    if (tacSelectedSq === alg) {
+      tacSelectedSq = null;
+      renderTacBoard();
+      return;
+    }
+    
+    const requiredMove = tacSolution[tacMoveIdx];
+    const from = requiredMove.substring(0, 2);
+    const to = requiredMove.substring(2, 4);
+    
+    if (tacSelectedSq === from && alg === to) {
+      const prom = requiredMove.length > 4 ? requiredMove[4] : 'q';
+      tacChess.move({ from, to, promotion: prom });
+      tacSelectedSq = null;
+      tacMoveIdx++;
+      
+      if (tacMoveIdx >= tacSolution.length) {
+        document.getElementById('tacMsg').textContent = 'Puzzle Solved!';
+        document.getElementById('tacMsg').style.color = '#4dc994';
+        renderTacBoard();
+      } else {
+        document.getElementById('tacMsg').textContent = 'Correct! Keep going.';
+        document.getElementById('tacMsg').style.color = '#4dc994';
+        renderTacBoard();
+        
+        setTimeout(() => {
+          const oppMove = tacSolution[tacMoveIdx];
+          const of = oppMove.substring(0, 2);
+          const ot = oppMove.substring(2, 4);
+          const op = oppMove.length > 4 ? oppMove[4] : 'q';
+          tacChess.move({ from: of, to: ot, promotion: op });
+          tacMoveIdx++;
+          renderTacBoard();
+        }, 500);
+      }
+    } else {
+      const grid = document.getElementById('tacBoardGrid');
+      grid.style.animation = 'shake 0.4s';
+      setTimeout(() => grid.style.animation = '', 400);
+      tacSelectedSq = null;
+      document.getElementById('tacMsg').textContent = 'Incorrect. Try again.';
+      document.getElementById('tacMsg').style.color = 'var(--live-red)';
+      renderTacBoard();
+    }
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   OPENING EXPLORER
+═══════════════════════════════════════════════════════════ */
+let expChess = new Chess();
+let expSelectedSq = null;
+
+async function initExplorer() {
+  document.getElementById('expReset').addEventListener('click', () => {
+    expChess = new Chess();
+    expSelectedSq = null;
+    fetchExplorerData();
+  });
+  document.getElementById('expUndo').addEventListener('click', () => {
+    expChess.undo();
+    expSelectedSq = null;
+    fetchExplorerData();
+  });
+  
+  fetchExplorerData();
+}
+
+async function fetchExplorerData() {
+  renderExpBoard();
+  const tbody = document.getElementById('expMovesTable');
+  tbody.innerHTML = '<tr><td colspan="3" style="text-align:center; padding: 1rem;">Loading...</td></tr>';
+  
+  try {
+    const fen = encodeURIComponent(expChess.fen());
+    const res = await fetch(`https://explorer.lichess.ovh/masters?fen=${fen}`);
+    if (!res.ok) throw new Error('API Error');
+    const data = await res.json();
+    
+    tbody.innerHTML = '';
+    
+    if (data.moves.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="3" style="text-align:center; padding: 1rem;">No games found in Masters database.</td></tr>';
+      return;
+    }
+    
+    data.moves.slice(0, 10).forEach(m => {
+      const total = m.white + m.draws + m.black;
+      const wp = Math.round((m.white / total) * 100);
+      const dp = Math.round((m.draws / total) * 100);
+      const bp = Math.round((m.black / total) * 100);
+      
+      const tr = document.createElement('tr');
+      tr.style.borderBottom = '1px solid rgba(255,255,255,0.05)';
+      tr.style.cursor = 'pointer';
+      tr.innerHTML = `
+        <td style="padding: 0.5rem; font-weight: bold; color: var(--text-1);">${m.san}</td>
+        <td style="padding: 0.5rem;">${total.toLocaleString()}</td>
+        <td style="padding: 0.5rem;">
+          <div style="display:flex; height: 6px; width: 100%; border-radius: 3px; overflow: hidden; background: #333;">
+            <div style="width: ${wp}%; background: #fff;"></div>
+            <div style="width: ${dp}%; background: #888;"></div>
+            <div style="width: ${bp}%; background: #000;"></div>
+          </div>
+          <div style="font-size: 0.75rem; margin-top: 2px; color: var(--text-3);">${wp}% / ${dp}% / ${bp}%</div>
+        </td>
+      `;
+      
+      tr.addEventListener('click', () => {
+        expChess.move(m.san);
+        fetchExplorerData();
+      });
+      tbody.appendChild(tr);
+    });
+  } catch (e) {
+    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center; padding: 1rem; color: var(--live-red);">Error loading data.</td></tr>';
+  }
+}
+
+function renderExpBoard() {
+  const grid = document.getElementById('expBoardGrid');
+  grid.innerHTML = '';
+  
+  const board = expChess.board();
+  board.forEach((row, r) => {
+    row.forEach((sq, c) => {
+      const cell = document.createElement('div');
+      cell.className = `board-cell ${(r + c) % 2 === 0 ? 'light' : 'dark'}`;
+      const alg = String.fromCharCode(97 + c) + (8 - r);
+      
+      if (expSelectedSq === alg) {
+        cell.style.backgroundColor = 'rgba(77,201,148,0.5)';
+      }
+      
+      if (sq) {
+        const img = document.createElement('img');
+        img.src = PIECES[sq.color + sq.type.toUpperCase()];
+        cell.appendChild(img);
+      }
+      
+      cell.addEventListener('click', () => {
+        if (!expSelectedSq) {
+          if (sq && sq.color === expChess.turn()) {
+            expSelectedSq = alg;
+            renderExpBoard();
+          }
+        } else {
+          if (expSelectedSq === alg) {
+            expSelectedSq = null;
+            renderExpBoard();
+            return;
+          }
+          
+          const moveAttempt = expChess.move({ from: expSelectedSq, to: alg, promotion: 'q' });
+          if (moveAttempt) {
+            expSelectedSq = null;
+            fetchExplorerData();
+          } else {
+            if (sq && sq.color === expChess.turn()) {
+              expSelectedSq = alg;
+            } else {
+              expSelectedSq = null;
+            }
+            renderExpBoard();
+          }
+        }
+      });
+      
+      grid.appendChild(cell);
+    });
+  });
 }
 
 /* ═══════════════════════════════════════════════════════════
