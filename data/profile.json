@@ -11,13 +11,13 @@
   "ratings": {
     "rapid": 1547,
     "blitz": 1058,
-    "bullet": 1016,
+    "bullet": 1010,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1006,
+    "gamesPlayed": 1007,
     "wins": 460,
-    "losses": 504,
+    "losses": 505,
     "draws": 42,
     "winRate": 45.7,
     "avgAccuracy": 82.0,
@@ -126,7 +126,7 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Center Game",
+      "name": "Nimzowitsch Defense: Scandinavian Variation, Advance Variation",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -134,7 +134,7 @@
       "color": "#e67e22"
     },
     {
-      "name": "Nimzowitsch Defense: Scandinavian Variation, Advance Variation",
+      "name": "Van't Kruijs Opening",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -190,7 +190,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1016
+        "rating": 1010
       }
     ],
     "blitz": [
