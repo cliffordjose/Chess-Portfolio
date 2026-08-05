@@ -15,9 +15,9 @@
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1007,
-    "wins": 460,
-    "losses": 505,
+    "gamesPlayed": 1009,
+    "wins": 461,
+    "losses": 506,
     "draws": 42,
     "winRate": 45.7,
     "avgAccuracy": 82.0,
@@ -87,10 +87,10 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 7,
+      "games": 6,
       "wins": 1,
       "draws": 1,
-      "losses": 5,
+      "losses": 4,
       "color": "#769656"
     },
     {
