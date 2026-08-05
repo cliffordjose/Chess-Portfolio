@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Clifford Jose — Chess Portfolio. FIDE 2000 rated player & software developer from Bocholt, Germany. Live game analysis, rating history, opening explorer." />
+  <meta property="og:title" content="Clifford Jose — Chess Portfolio" />
+  <meta property="og:description" content="FIDE 2000 · Lichess clifford10 · Software developer from Bocholt, Germany. Live best-move analysis, game replays & rating charts." />
+  <meta property="og:type" content="website" />
+  <title>Clifford Jose — Chess Portfolio</title>
+  <link rel="stylesheet" href="style.css?v=4" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+</head>
+<body>
+  <!-- Audio for moves -->
+  <audio id="sndMove" src="https://lichess1.org/assets/sound/standard/Move.mp3" preload="auto"></audio>
+  <audio id="sndCapture" src="https://lichess1.org/assets/sound/standard/Capture.mp3" preload="auto"></audio>
+
+<div class="page-content">
+
+<!-- ░░░ NAVBAR ░░░ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#hero">
+      <span class="nav-logo-icon">♟</span>
+      Clifford Jose
+    </a>
+    <ul class="nav-links">
+      <li><a href="#live">Live</a></li>
+      <li><a href="#ratings">Ratings</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#replay">Replay</a></li>
+      <li><a href="#openings">Openings</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a href="https://lichess.org/@/clifford10" target="_blank" rel="noopener" class="nav-cta">Play on Lichess ↗</a>
+    <button class="nav-mob" id="navMob" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<!-- Live game notification banner -->
+<div class="live-banner" id="liveBanner">
+  <div class="live-dot"></div>
+  <span class="live-text"><span>LIVE</span> — You're currently in a game!</span>
+  <a href="#live">Watch & Analyse ↓</a>
+</div>
+
+<!-- ░░░ HERO ░░░ -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      FIDE Rated · Lichess clifford10 · Bocholt, Germany 🇩🇪
+    </div>
+
+    <h1 class="hero-title">Clifford Jose</h1>
+
+    <p class="hero-sub">Software developer &amp; chess player. I build things that think — from algorithms to algorithms in chess openings.</p>
+    <p class="hero-loc">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:text-bottom"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+      Trivandrum, Kerala, India
+    </p>
+
+    <div class="rating-row">
+      <div class="r-card">
+        <span class="r-card-label">⚡ Rapid</span>
+        <span class="r-card-val counter" data-target="1547">0</span>
+        <span class="r-card-delta">peak 1577</span>
+      </div>
+      <div class="r-card">
+        <span class="r-card-label">🔥 Blitz</span>
+        <span class="r-card-val counter" data-target="1083">0</span>
+        <span class="r-card-delta">peak 1132</span>
+      </div>
+      <div class="r-card">
+        <span class="r-card-label">💨 Bullet</span>
+        <span class="r-card-val counter" data-target="1011">0</span>
+        <span class="r-card-delta">+515 games</span>
+      </div>
+      <div class="r-card">
+        <span class="r-card-label">🧩 Puzzle</span>
+        <span class="r-card-val counter" data-target="1568">0</span>
+        <span class="r-card-delta">top solver</span>
+      </div>
+    </div>
+
+    <div class="stats-strip">
+      <div class="stat-item">
+        <span class="stat-item-val counter" data-target="991">0</span>
+        <span class="stat-item-lbl">Games</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item-val counter" data-target="454">0</span>
+        <span class="stat-item-lbl">Wins</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item-val stat-fide counter" data-target="2000">0</span>
+        <span class="stat-item-lbl">FIDE Rating</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item-val" id="liveCount" style="color:var(--live-red)">—</span>
+        <span class="stat-item-lbl">Live Now</span>
+      </div>
+    </div>
+
+    <div class="hero-cta">
+      <a href="https://lichess.org/@/clifford10" target="_blank" rel="noopener" class="btn-prim">
+        View on Lichess ↗
+      </a>
+      <a href="#live" class="btn-sec">Live Analysis ↓</a>
+    </div>
+
+    <p class="scroll-hint">scroll to explore ↓</p>
+  </div>
+</section>
+
+<!-- ░░░ LIVE ANALYSIS ░░░ -->
+<section class="section section-alt" id="live">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <p class="s-eyebrow">🔴 Real-Time</p>
+      <h2 class="s-title">Live Game Analysis</h2>
+      <p class="s-sub">When clifford10 is playing on Lichess, this board updates live with Stockfish's best moves every few seconds.</p>
+    </div>
+
+    <div class="live-status-panel reveal" id="livePanel">
+      <!-- Panel Header -->
+      <div class="live-panel-head" id="livePanelHead">
+        <span class="live-status-idle" id="liveStatusBadge">● Waiting for game…</span>
+        <span class="live-opp" id="liveOppInfo" style="display:none">
+          vs <strong id="liveOppName">—</strong>
+        </span>
+        <span class="live-clock" id="liveClock" style="display:none">—</span>
+        <span class="live-opening" id="liveOpening" style="display:none; font-size:0.85rem; color:var(--primary); margin-left:auto">—</span>
+      </div>
+
+      <!-- Panel Body: board + analysis -->
+      <div class="live-body">
+        <!-- Board -->
+        <div class="live-board-col" id="liveBoardCol">
+          <div class="live-board-wrap">
+            <div class="live-board-grid" id="liveBoardGrid">
+              <!-- cells injected by JS -->
+            </div>
+            <svg class="board-arrows" id="boardArrows" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <marker id="arr-head-1" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <path d="M0,0 L6,3 L0,6 Z" fill="rgba(77,201,148,0.9)"/>
+                </marker>
+                <marker id="arr-head-2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <path d="M0,0 L6,3 L0,6 Z" fill="rgba(77,201,148,0.6)"/>
+                </marker>
+                <marker id="arr-head-3" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                  <path d="M0,0 L6,3 L0,6 Z" fill="rgba(77,201,148,0.35)"/>
+                </marker>
+              </defs>
+            </svg>
+          </div>
+          <div class="eval-bar-wrap" id="evalBarWrap" style="display:none">
+            <div class="eval-bar">
+              <div class="eval-fill" id="evalFill"></div>
+            </div>
+            <span class="eval-score" id="evalScore">+0.00</span>
+          </div>
+
+        <!-- Analysis panel or idle state -->
+        <div class="live-analysis-col" id="liveAnalysisCol">
+          <!-- Shown when idle -->
+          <div class="live-idle" id="liveIdleState">
+            <div class="live-idle-icon">♟</div>
+            <p class="live-idle-title">No active game right now</p>
+            <p class="live-idle-sub" style="margin-bottom:0.5rem">Start a game on Lichess as <strong>clifford10</strong>, or watch any game by pasting its ID below.</p>
+            
+            <div style="display:flex; gap:0.5rem; margin-top:0.5rem; justify-content:center; width:100%; padding:0 1rem; max-width:350px;">
+              <input type="text" id="customGameId" placeholder="Game ID (e.g. w02eSMa7)" style="flex:1; padding:0.6rem 1rem; border-radius:100px; border:1px solid rgba(255,255,255,0.1); background:rgba(255,255,255,0.03); color:var(--text-1); font-size:0.85rem; outline:none;" />
+              <button id="watchCustomGame" style="padding:0.6rem 1.2rem; border-radius:100px; background:var(--primary); color:#000; border:none; font-weight:600; cursor:pointer; font-size:0.85rem; transition:transform 0.2s, background 0.2s;">Watch</button>
+            </div>
+
+            <a href="https://lichess.org/@/clifford10" target="_blank" rel="noopener" class="live-idle-link" style="margin-top:1.5rem;">
+              Go to Lichess ↗
+            </a>
+          </div>
+
+          <!-- Shown when game is active -->
+          <div id="liveActiveState" style="display:none; flex-direction:column; gap:1rem; flex:1">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <p class="best-moves-title">Stockfish 10 (Local)</p>
+              <span id="liveEngineSpecs" style="font-size:0.75rem; color:var(--text-3);">Depth 13</span>
+            </div>
+            <div id="bestMovesList">
+              <!-- injected by JS -->
+            </div>
+            <div style="margin-top:auto; padding-top:0.75rem; border-top:1px solid var(--border)">
+              <div class="live-eval-footer">
+                <p>Analysis powered by Stockfish.js running directly in your browser. Lightning fast & entirely local.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="live-refresh-info">
+        <div class="refresh-spinner"></div>
+        <span id="liveRefreshText">Polling Lichess every 4 seconds…</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░ RATING HISTORY ░░░ -->
+<section class="section" id="ratings">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <p class="s-eyebrow">📈 Progress</p>
+      <h2 class="s-title">Rating History</h2>
+      <p class="s-sub">Real data from Lichess — watch the climb across all time controls.</p>
+    </div>
+
+    <div class="chart-tabs reveal">
+      <button class="c-tab active" data-tc="bullet"  id="tab-bullet">Bullet</button>
+      <button class="c-tab"        data-tc="blitz"   id="tab-blitz">Blitz</button>
+      <button class="c-tab"        data-tc="rapid"   id="tab-rapid">Rapid</button>
+      <button class="c-tab"        data-tc="classical" id="tab-classical">Classical</button>
+    </div>
+
+    <div class="chart-box reveal">
+      <canvas id="ratingChart"></canvas>
+    </div>
+
+    <div class="chart-pills reveal">
+      <div class="c-pill">
+        <span class="c-pill-lbl">Start</span>
+        <span class="c-pill-val" id="pillStart">—</span>
+      </div>
+      <div class="c-pill highlight">
+        <span class="c-pill-lbl">Peak</span>
+        <span class="c-pill-val" id="pillPeak">—</span>
+      </div>
+      <div class="c-pill highlight">
+        <span class="c-pill-lbl">Current</span>
+        <span class="c-pill-val" id="pillCurrent">—</span>
+      </div>
+      <div class="c-pill">
+        <span class="c-pill-lbl">Gain</span>
+        <span class="c-pill-val" id="pillGain">—</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░ LATEST GAMES ░░░ -->
+<section class="section section-alt" id="games">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <p class="s-eyebrow">♟ Recent</p>
+      <h2 class="s-title">Latest Games</h2>
+      <p class="s-sub">Click any game card to replay it move by move on the board below.</p>
+    </div>
+    <div class="games-grid" id="gamesGrid"></div>
+  </div>
+</section>
+
+<!-- ░░░ BOARD REPLAY ░░░ -->
+<section class="section" id="replay">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <p class="s-eyebrow">🎥 Interactive</p>
+      <h2 class="s-title">Game Replay</h2>
+      <p class="s-sub">Load any game above, then step through every move or hit auto-play.</p>
+    </div>
+
+    <div class="replay-layout reveal">
+      <div class="replay-board-col">
+        <div class="replay-board-grid" id="repBoardGrid">
+          <!-- cells by JS -->
+        </div>
+        <div class="replay-files">
+          <span>a</span><span>b</span><span>c</span><span>d</span>
+          <span>e</span><span>f</span><span>g</span><span>h</span>
+        </div>
+        <div class="replay-ranks">
+          <span>8</span><span>7</span><span>6</span><span>5</span>
+          <span>4</span><span>3</span><span>2</span><span>1</span>
+        </div>
+      </div>
+
+      <div class="replay-panel">
+        <div class="rep-info" id="repInfo">
+          <p class="rep-title">No game loaded</p>
+          <p class="rep-sub">Select a game card above to start replaying</p>
+        </div>
+
+        <div class="rep-controls">
+          <button class="ctrl" id="repFirst" title="First">⏮</button>
+          <button class="ctrl" id="repPrev"  title="Previous">◀</button>
+          <button class="ctrl ctrl-play" id="repPlay" title="Auto-play">▶</button>
+          <button class="ctrl" id="repNext"  title="Next">▶</button>
+          <button class="ctrl" id="repLast"  title="Last">⏭</button>
+        </div>
+
+        <div class="rep-progress"><div class="rep-progress-fill" id="repProg"></div></div>
+        <p class="rep-move-lbl" id="repMoveLbl">Move 0 / 0</p>
+
+        <div id="repEngineAnalysis" style="margin-top: 1rem; padding: 1rem; border-radius: 8px; background: rgba(255,255,255,0.03); display: none;">
+          <p style="font-size: 0.85rem; color: var(--primary); margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between;">
+            Stockfish 16.1 NNUE Analysis
+            <span id="repEngineLoading" style="display:none; font-size: 0.8rem; color: var(--text-3);">Loading...</span>
+          </p>
+          <div id="repEngineText" style="font-size: 0.9rem; color: var(--text-2); line-height: 1.5;"></div>
+        </div>
+
+        <div class="move-list" id="moveList">
+          <p class="move-list-empty">Load a game to see moves</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░ OPENINGS ░░░ -->
+<section class="section section-alt" id="openings">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <p class="s-eyebrow">📚 Repertoire</p>
+      <h2 class="s-title">Opening Explorer</h2>
+      <p class="s-sub">Most-played openings with win/draw/loss breakdown.</p>
+    </div>
+    <div class="openings-layout reveal">
+      <div class="openings-chart">
+        <canvas id="openingsChart"></canvas>
+      </div>
+      <div class="opening-list" id="openingList"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░ STATISTICS ░░░ -->
+<section class="section" id="stats">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <p class="s-eyebrow">📊 Numbers</p>
+      <h2 class="s-title">Statistics</h2>
+      <p class="s-sub">The data behind 991 rated games on Lichess.</p>
+    </div>
+    <div class="stats-cards reveal" id="statsCards"></div>
+    <div class="wdl-box reveal">
+      <p class="wdl-label">Win / Draw / Loss Breakdown</p>
+      <div class="wdl-bar">
+        <div class="wdl-w" id="wdlW" style="width:0"><span class="wdl-seg-lbl" id="wdlWLbl"></span></div>
+        <div class="wdl-d" id="wdlD" style="width:0"><span class="wdl-seg-lbl" id="wdlDLbl"></span></div>
+        <div class="wdl-l" id="wdlL" style="width:0"><span class="wdl-seg-lbl" id="wdlLLbl"></span></div>
+      </div>
+      <div class="wdl-legend">
+        <span><span class="wdl-dot" style="background:var(--win)"></span>Wins: <strong id="wdlWN">454</strong></span>
+        <span><span class="wdl-dot" style="background:var(--draw)"></span>Draws: <strong id="wdlDN">42</strong></span>
+        <span><span class="wdl-dot" style="background:var(--loss)"></span>Losses: <strong id="wdlLN">495</strong></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░ ACHIEVEMENTS ░░░ -->
+<section class="section section-alt" id="achievements">
+  <div class="wrap">
+    <div class="s-head reveal">
+      <p class="s-eyebrow">🏆 Milestones</p>
+      <h2 class="s-title">Achievements</h2>
+      <p class="s-sub">Earned through hours of play, study, and improvement.</p>
+    </div>
+    <div class="ach-grid reveal" id="achGrid"></div>
+  </div>
+</section>
+
+<!-- ░░░ ABOUT ░░░ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="about-layout reveal">
+      <div class="about-avatar-box">
+        <img src="avatar.png" alt="Clifford Jose" class="about-avatar" />
+        <div class="avatar-glow"></div>
+      </div>
+      <div class="about-text">
+        <p class="s-eyebrow">👤 About Me</p>
+        <h2 class="s-title" style="text-align:left">Clifford Jose Nediyaparambil</h2>
+        <p class="about-bio">
+          Software developer hailing from <strong>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:text-bottom"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Trivandrum, Kerala, India</strong>. I hold an official
+          FIDE rating of <strong>2000</strong>, earned through years of competitive over-the-board play. I play under the handle <strong>clifford10</strong> on Lichess.<br /><br />
+          I love the intersection of code and chess — both demand deep thinking, pattern recognition,
+          and the courage to commit to a plan. This portfolio is built entirely with vanilla
+          HTML, CSS &amp; JavaScript, auto-synced with the Lichess API, and deployed via GitHub Actions.
+        </p>
+        <div class="social-row">
+          <a href="https://cliffordjose.github.io/clifford-website/" target="_blank" rel="noopener" class="soc-btn" id="link-portfolio">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Portfolio
+          </a>
+          <a href="https://github.com/cliffordjose" target="_blank" rel="noopener" class="soc-btn" id="link-github">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://lichess.org/@/clifford10" target="_blank" rel="noopener" class="soc-btn" id="link-lichess">
+            <svg viewBox="0 0 50 50" fill="currentColor" style="width:15px;height:15px"><path d="M38.956.5c-3.53.418-6.452 2.525-8.68 4.96C27.808 3.28 25.706 1.593 23.266.5H38.956zM14.75 0c-2.44 1.093-4.542 2.78-7.01 5.46C5.512 3.025 2.592.918.06.5h14.69zM.062.5h38.906C51.184 9.77 49.162 23.88 43.06 29.82c-3.21 3.125-4.753 7.422-5.406 11.655-3.12-1.29-5.94-3.225-8.466-5.7-1.19 1.73-2.712 3.19-4.472 4.29C20.43 40.98 18.4 38.98 16.8 36.85c-2.526 2.475-5.346 4.41-8.466 5.7-.653-4.233-2.196-8.53-5.406-11.655C-3.274 24.91-1.296 10.8 12.04.5H.062z"/></svg>
+            ♟ clifford10
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░ FOOTER ░░░ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-text">
+      ♟ Built by <a href="https://cliffordjose.github.io/clifford-website/" target="_blank">Clifford Jose</a>
+      &nbsp;·&nbsp;
+      Powered by <a href="https://lichess.org" target="_blank">Lichess Open API</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/cliffordjose" target="_blank">GitHub</a>
+    </p>
+    <p class="footer-updated" id="footerDate">—</p>
+  </div>
+</footer>
+
+</div><!-- .page-content -->
+<script src="app.js?v=5"></script>
+</body>
+</html>

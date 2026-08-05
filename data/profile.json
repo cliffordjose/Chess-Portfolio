@@ -1,0 +1,315 @@
+{
+  "username": "clifford10",
+  "name": "Clifford Jose Nediyaparambil",
+  "title": null,
+  "bio": "I'm Clifford, hail from Kerala.",
+  "avatar": "avatar.png",
+  "github": "https://cliffordjose2001.wixsite.com/cliffordjosenediyapa",
+  "linkedin": "",
+  "lichess": "https://lichess.org/@/clifford10",
+  "chessdotcom": "",
+  "ratings": {
+    "rapid": 1547,
+    "blitz": 1058,
+    "bullet": 1016,
+    "classical": 1429
+  },
+  "stats": {
+    "gamesPlayed": 1006,
+    "wins": 460,
+    "losses": 504,
+    "draws": 42,
+    "winRate": 45.7,
+    "avgAccuracy": 82.0,
+    "longestWinStreak": 3,
+    "currentStreak": 0,
+    "bestRating": 1547,
+    "titledPlayerBeaten": false
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "icon": "🥇",
+      "title": "Crossed 2000",
+      "desc": "Reached 2000+ in any time control",
+      "unlocked": false
+    },
+    {
+      "id": 2,
+      "icon": "🎯",
+      "title": "1000 Games Played",
+      "desc": "Completed 1,000 rated games",
+      "unlocked": true
+    },
+    {
+      "id": 3,
+      "icon": "⚔️",
+      "title": "Beat a Titled Player",
+      "desc": "Defeated an NM/FM/IM/GM",
+      "unlocked": false
+    },
+    {
+      "id": 4,
+      "icon": "🔥",
+      "title": "95%+ Accuracy Game",
+      "desc": "95%+ accuracy in a rated game",
+      "unlocked": false
+    },
+    {
+      "id": 5,
+      "icon": "🌟",
+      "title": "Win Streak of 10",
+      "desc": "Won 10 games in a row",
+      "unlocked": false
+    },
+    {
+      "id": 6,
+      "icon": "♟️",
+      "title": "Opening Expert",
+      "desc": "Played 100+ games same opening",
+      "unlocked": false
+    },
+    {
+      "id": 7,
+      "icon": "🏆",
+      "title": "Tournament Winner",
+      "desc": "Won a Lichess arena",
+      "unlocked": false
+    },
+    {
+      "id": 8,
+      "icon": "👑",
+      "title": "Crossed 2200",
+      "desc": "Reached 2200+ in any time control",
+      "unlocked": false
+    }
+  ],
+  "openings": [
+    {
+      "name": "Scandinavian Defense: Mieses-Kotroc Variation",
+      "games": 7,
+      "wins": 1,
+      "draws": 1,
+      "losses": 5,
+      "color": "#769656"
+    },
+    {
+      "name": "Center Game: Normal Variation",
+      "games": 6,
+      "wins": 2,
+      "draws": 0,
+      "losses": 4,
+      "color": "#c9a227"
+    },
+    {
+      "name": "Scandinavian Defense: Valencian Variation",
+      "games": 4,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "color": "#4a90d9"
+    },
+    {
+      "name": "Mieses Opening",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#d94a4a"
+    },
+    {
+      "name": "Queen's Pawn Game",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Center Game",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#e67e22"
+    },
+    {
+      "name": "Nimzowitsch Defense: Scandinavian Variation, Advance Variation",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#1abc9c"
+    }
+  ],
+  "ratingHistory": {
+    "bullet": [
+      {
+        "date": "2026-06",
+        "rating": 1081
+      },
+      {
+        "date": "2026-07",
+        "rating": 1082
+      },
+      {
+        "date": "2026-07",
+        "rating": 1060
+      },
+      {
+        "date": "2026-07",
+        "rating": 1050
+      },
+      {
+        "date": "2026-07",
+        "rating": 1049
+      },
+      {
+        "date": "2026-07",
+        "rating": 1044
+      },
+      {
+        "date": "2026-07",
+        "rating": 1036
+      },
+      {
+        "date": "2026-07",
+        "rating": 1019
+      },
+      {
+        "date": "2026-07",
+        "rating": 1002
+      },
+      {
+        "date": "2026-07",
+        "rating": 1003
+      },
+      {
+        "date": "2026-08",
+        "rating": 1006
+      },
+      {
+        "date": "2026-08",
+        "rating": 1016
+      }
+    ],
+    "blitz": [
+      {
+        "date": "2026-07",
+        "rating": 1100
+      },
+      {
+        "date": "2026-07",
+        "rating": 1109
+      },
+      {
+        "date": "2026-07",
+        "rating": 1115
+      },
+      {
+        "date": "2026-07",
+        "rating": 1117
+      },
+      {
+        "date": "2026-07",
+        "rating": 1132
+      },
+      {
+        "date": "2026-07",
+        "rating": 1124
+      },
+      {
+        "date": "2026-07",
+        "rating": 1112
+      },
+      {
+        "date": "2026-08",
+        "rating": 1123
+      },
+      {
+        "date": "2026-08",
+        "rating": 1124
+      },
+      {
+        "date": "2026-08",
+        "rating": 1083
+      },
+      {
+        "date": "2026-08",
+        "rating": 1082
+      },
+      {
+        "date": "2026-08",
+        "rating": 1058
+      }
+    ],
+    "rapid": [
+      {
+        "date": "2024-05",
+        "rating": 1577
+      },
+      {
+        "date": "2024-06",
+        "rating": 1408
+      },
+      {
+        "date": "2026-01",
+        "rating": 1528
+      },
+      {
+        "date": "2026-01",
+        "rating": 1505
+      },
+      {
+        "date": "2026-01",
+        "rating": 1502
+      },
+      {
+        "date": "2026-02",
+        "rating": 1451
+      },
+      {
+        "date": "2026-02",
+        "rating": 1417
+      },
+      {
+        "date": "2026-07",
+        "rating": 1464
+      },
+      {
+        "date": "2026-07",
+        "rating": 1492
+      },
+      {
+        "date": "2026-07",
+        "rating": 1547
+      }
+    ],
+    "classical": [
+      {
+        "date": "2024-03",
+        "rating": 1276
+      },
+      {
+        "date": "2024-04",
+        "rating": 1105
+      },
+      {
+        "date": "2026-01",
+        "rating": 1231
+      },
+      {
+        "date": "2026-02",
+        "rating": 1299
+      },
+      {
+        "date": "2026-03",
+        "rating": 1355
+      },
+      {
+        "date": "2026-08",
+        "rating": 1429
+      }
+    ]
+  }
+}
