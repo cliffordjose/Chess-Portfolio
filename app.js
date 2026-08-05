@@ -661,15 +661,15 @@ async function initAcademy() {
     const bookContainer = document.getElementById('acBook');
     let html = `<h3 style="color:var(--text-1); font-size:1.4rem; margin-bottom: 1rem;">Course: The Opera Game</h3>`;
     
-    let tokens = pgn.replace(/\\[.*?\\]/g, '').replace(/\\r?\\n/g, ' ').split(/(\\{[^}]+\\}|\\d+\\.+|\\s+)/).filter(t => t.trim().length > 0);
+    let tokens = pgn.replace(/\[.*?\]/g, '').replace(/\r?\n/g, ' ').split(/(\{[^}]+\}|\d+\.+|\s+)/).filter(t => t.trim().length > 0);
     
     let moveCounter = 0;
     tokens.forEach(token => {
       if (token.startsWith('{')) {
         html += `<div style="background: rgba(77,201,148,0.1); border-left: 3px solid var(--primary); padding: 0.5rem; margin: 0.5rem 0; color: var(--text-2); font-size: 0.95rem;">${token.slice(1, -1)}</div>`;
-      } else if (token.match(/^\\d+\\.+$/)) {
+      } else if (token.match(/^\d+\.+$/)) {
         html += `<strong style="color:var(--text-3); margin-right: 4px;">${token}</strong>`;
-      } else if (!token.match(/^(1-0|0-1|1\\/2-1\\/2|\\*)$/)) {
+      } else if (!token.match(/^(1-0|0-1|1\/2-1\/2|\*)$/)) {
         html += `<span class="ac-move-link" data-idx="${moveCounter}" style="color:var(--primary); cursor:pointer; padding: 2px 4px; border-radius: 4px; transition: 0.2s;">${token}</span> `;
         moveCounter++;
       }
