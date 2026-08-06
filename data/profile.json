@@ -9,21 +9,21 @@
   "lichess": "https://lichess.org/@/clifford10",
   "chessdotcom": "",
   "ratings": {
-    "rapid": 1547,
+    "rapid": 1516,
     "blitz": 1058,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1010,
+    "gamesPlayed": 1011,
     "wins": 461,
-    "losses": 507,
+    "losses": 508,
     "draws": 42,
     "winRate": 45.6,
     "avgAccuracy": 82.0,
     "longestWinStreak": 3,
     "currentStreak": 0,
-    "bestRating": 1547,
+    "bestRating": 1516,
     "titledPlayerBeaten": false
   },
   "achievements": [
@@ -283,6 +283,10 @@
       {
         "date": "2026-07",
         "rating": 1547
+      },
+      {
+        "date": "2026-08",
+        "rating": 1516
       }
     ],
     "classical": [
