@@ -10,17 +10,17 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1058,
+    "blitz": 1065,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1011,
-    "wins": 461,
-    "losses": 508,
+    "gamesPlayed": 1016,
+    "wins": 464,
+    "losses": 510,
     "draws": 42,
-    "winRate": 45.6,
-    "avgAccuracy": 82.0,
+    "winRate": 45.7,
+    "avgAccuracy": 72.0,
     "longestWinStreak": 3,
     "currentStreak": 0,
     "bestRating": 1516,
@@ -86,18 +86,18 @@
   ],
   "openings": [
     {
-      "name": "Center Game: Normal Variation",
+      "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
-      "wins": 3,
-      "draws": 0,
+      "wins": 2,
+      "draws": 1,
       "losses": 4,
       "color": "#769656"
     },
     {
-      "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 6,
-      "wins": 1,
-      "draws": 1,
+      "name": "Center Game: Normal Variation",
+      "games": 7,
+      "wins": 3,
+      "draws": 0,
       "losses": 4,
       "color": "#c9a227"
     },
@@ -110,12 +110,20 @@
       "color": "#4a90d9"
     },
     {
+      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#d94a4a"
+    },
+    {
       "name": "French Defense: Exchange Variation",
       "games": 2,
       "wins": 0,
       "draws": 0,
       "losses": 2,
-      "color": "#d94a4a"
+      "color": "#9b59b6"
     },
     {
       "name": "Mieses Opening",
@@ -123,18 +131,10 @@
       "wins": 1,
       "draws": 0,
       "losses": 1,
-      "color": "#9b59b6"
-    },
-    {
-      "name": "Queen's Pawn Game",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
       "color": "#e67e22"
     },
     {
-      "name": "Nimzowitsch Defense: Scandinavian Variation, Advance Variation",
+      "name": "Queen's Pawn Game",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -196,10 +196,6 @@
     "blitz": [
       {
         "date": "2026-07",
-        "rating": 1100
-      },
-      {
-        "date": "2026-07",
         "rating": 1109
       },
       {
@@ -241,6 +237,10 @@
       {
         "date": "2026-08",
         "rating": 1058
+      },
+      {
+        "date": "2026-08",
+        "rating": 1065
       }
     ],
     "rapid": [
