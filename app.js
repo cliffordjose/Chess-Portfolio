@@ -924,6 +924,9 @@ function handleTacClick(alg, sq) {
           const op = oppMove.length > 4 ? oppMove[4] : 'q';
           tacChess.move({ from: of, to: ot, promotion: op });
           tacMoveIdx++;
+          if (tacMoveIdx >= tacSolution.length) {
+            document.getElementById('tacMsg').textContent = 'Puzzle Solved!';
+          }
           renderTacBoard();
         }, 500);
       }
