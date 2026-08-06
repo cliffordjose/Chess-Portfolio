@@ -10,18 +10,18 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1065,
+    "blitz": 1087,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1016,
-    "wins": 464,
-    "losses": 510,
+    "gamesPlayed": 1023,
+    "wins": 470,
+    "losses": 511,
     "draws": 42,
-    "winRate": 45.7,
-    "avgAccuracy": 72.0,
-    "longestWinStreak": 3,
+    "winRate": 45.9,
+    "avgAccuracy": 72.1,
+    "longestWinStreak": 7,
     "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
@@ -88,8 +88,8 @@
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
-      "wins": 2,
-      "draws": 1,
+      "wins": 3,
+      "draws": 0,
       "losses": 4,
       "color": "#769656"
     },
@@ -102,20 +102,28 @@
       "color": "#c9a227"
     },
     {
-      "name": "Scandinavian Defense: Valencian Variation",
-      "games": 4,
-      "wins": 1,
+      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "games": 3,
+      "wins": 2,
       "draws": 0,
-      "losses": 3,
+      "losses": 1,
       "color": "#4a90d9"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "name": "Scandinavian Defense: Valencian Variation",
+      "games": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "color": "#d94a4a"
+    },
+    {
+      "name": "Scandinavian Defense",
       "games": 2,
       "wins": 1,
       "draws": 0,
       "losses": 1,
-      "color": "#d94a4a"
+      "color": "#9b59b6"
     },
     {
       "name": "French Defense: Exchange Variation",
@@ -123,18 +131,10 @@
       "wins": 0,
       "draws": 0,
       "losses": 2,
-      "color": "#9b59b6"
-    },
-    {
-      "name": "Mieses Opening",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
       "color": "#e67e22"
     },
     {
-      "name": "Queen's Pawn Game",
+      "name": "Mieses Opening",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -240,7 +240,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1065
+        "rating": 1087
       }
     ],
     "rapid": [
