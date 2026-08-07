@@ -1,5 +1,50 @@
 [
   {
+    "id": "PUeMS7e3",
+    "white": "bmanihas",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Queen's Pawn Game: Zukertort Variation",
+    "date": "2026-08-07",
+    "moves": 15,
+    "pgn": "1. d4 d5 2. Nf3 e5 3. e3 exd4 4. Nxd4 Bc5 5. Nf3 Nc6 6. Bb5 a6 7. Bxc6+ bxc6 8. Ne5 Qf6 9. Nxc6 Qxc6 10. Qg4 Bxg4 0-1"
+  },
+  {
+    "id": "WHXZBNnL",
+    "white": "clifford10",
+    "black": "Mahmoud_Gamal1989",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Owen Defense",
+    "date": "2026-08-07",
+    "moves": 66,
+    "pgn": "1. e4 b6 2. Nc3 Bb7 3. d3 c5 4. Qe2 Nc6 5. Nf3 d6 6. Ng5 Nd4 7. Qh5 g6 8. Qd1 e5 9. Be3 Bh6 10. Bxd4 exd4 11. Qg4 Bxg5 12. h4 dxc3 13. bxc3 Bf6 14. h5 Qe7 15. hxg6 fxg6 16. O-O-O Bxc3 17. Re1 Qf7 18. Re3 Qxa2 19. Kd1 Qa1+ 20. Ke2 Nf6 21. Qe6+ Kd8 22. Qxf6+ Kc7 23. Qg7+ Bxg7 24. e5 dxe5 25. g3 e4 26. Bg2 Qd4 27. Bxe4 Bh6 28. Rxh6 Bxe4 29. Rxe4 Qb2 30. Re7+ Kc6 31. Re6+ Kb5 32. Kd2 Qb4+ 33. Ke2 Qb2 34. Kd2 a5 35. Rh5 Rac8 36. Rd5 Rc6 37. Rxc6 Kxc6 38. Re5 Qxe5 39. f3 a4 40. f4 Qf5 41. Kc3 a3 42. Kb3 Qh3 43. Kxa3 Qg2 44. Kb3 b5 0-1"
+  },
+  {
+    "id": "5GCmYOoY",
+    "white": "clifford10",
+    "black": "KACETHEKING",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Vienna Game: Giraffe Attack",
+    "date": "2026-08-07",
+    "moves": 12,
+    "pgn": "1. e4 e5 2. Nc3 Bc5 3. Qg4 Qf6 4. Nh3 c6 5. Bc4 Na6 6. Ng5 d5 7. exd5 Bxg4 8. dxc6 Qxf2# 0-1"
+  },
+  {
     "id": "d2CmmYLb",
     "white": "clifford10",
     "black": "JANEK_III",
@@ -253,50 +298,5 @@
     "date": "2026-08-05",
     "moves": 13,
     "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 d6 5. Nc3 Be7 6. Qf3 Nf6 7. Qg3 O-O 8. Bh6 Bg4 9. h3 1-0"
-  },
-  {
-    "id": "AafxC72P",
-    "white": "lugnut555",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Bullet",
-    "accuracy": {
-      "white": 66,
-      "black": 71
-    },
-    "opening": "Scandinavian Defense",
-    "date": "2026-08-05",
-    "moves": 36,
-    "pgn": "1. e4 d5 2. Bb5+ c6 3. Ba4 b5 4. Bb3 dxe4 5. Qh5 g6 6. Qc5 Na6 7. Qxc6+ Bd7 8. Qxa6 Nf6 9. Nc3 e6 10. Nxb5 Bc5 11. Nd6+ Bxd6 12. Qxd6 Rc8 13. Qa6 Rc6 14. Qxa7 Rc7 15. Qe3 Bc6 16. d3 exd3 17. cxd3 Bxg2 18. f4 Bxh1 19. Nf3 Bxf3 20. Qxf3 e5 21. fxe5 Nh5 22. Qe3 Qe7 23. Bxf7+ Qxf7 24. e6 1-0"
-  },
-  {
-    "id": "Keb7keWF",
-    "white": "clifford10",
-    "black": "BUCNDrummer",
-    "result": "0-1",
-    "timeControl": "Bullet",
-    "accuracy": {
-      "white": 64,
-      "black": 59
-    },
-    "opening": "King's Pawn Game: Leonardis Variation",
-    "date": "2026-08-05",
-    "moves": 54,
-    "pgn": "1. e4 e5 2. d3 Nf6 3. Nc3 Bc5 4. Nf3 Ng4 5. Be3 Bxe3 6. fxe3 Nxe3 7. Qe2 Nxf1 8. Rxf1 O-O 9. O-O-O d6 10. d4 Bg4 11. dxe5 dxe5 12. h3 Bh5 13. g4 Bg6 14. Nxe5 Qh4 15. Rh1 Nc6 16. Nf3 Rad8 17. Nxh4 Nd4 18. Qc4 Ne2+ 19. Qxe2 Rxd1+ 20. Qxd1 Bxe4 21. Qe1 Bxh1 22. Qxh1 h6 23. Nf5 b6 24. Nd4 c5 25. Nc6 Rc8 26. Nxa7 Re8 27. Nc6 Rf8 28. Na7 Kh7 29. Nc6 Re8 30. Nb4 Rh8 31. Nbd5 Rg8 32. Nc7 Rh8 33. N7d5 Rf8 34. Nxb6 Rh8 35. Nbd5 g6 36. Nc7 h5 0-1"
-  },
-  {
-    "id": "ej0FY7RC",
-    "white": "clifford10",
-    "black": "Tharegk_alfaro",
-    "result": "1-0",
-    "timeControl": "Classical",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Kádas Opening",
-    "date": "2026-08-05",
-    "moves": 6,
-    "pgn": "1. h4 e5 2. e4 Nc6 3. Qf3 Nd4 4. Qd1 c6 1-0"
   }
 ]

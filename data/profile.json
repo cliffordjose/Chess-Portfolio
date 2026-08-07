@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1078,
+    "blitz": 1072,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1025,
-    "wins": 470,
-    "losses": 513,
+    "gamesPlayed": 1028,
+    "wins": 471,
+    "losses": 515,
     "draws": 42,
-    "winRate": 45.9,
-    "avgAccuracy": 72.1,
+    "winRate": 45.8,
+    "avgAccuracy": 72.5,
     "longestWinStreak": 7,
-    "currentStreak": 1,
+    "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -86,17 +86,17 @@
   ],
   "openings": [
     {
-      "name": "Center Game: Normal Variation",
-      "games": 8,
-      "wins": 3,
-      "draws": 0,
-      "losses": 5,
-      "color": "#769656"
-    },
-    {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
       "wins": 3,
+      "draws": 0,
+      "losses": 4,
+      "color": "#769656"
+    },
+    {
+      "name": "Center Game: Normal Variation",
+      "games": 6,
+      "wins": 2,
       "draws": 0,
       "losses": 4,
       "color": "#c9a227"
@@ -118,27 +118,27 @@
       "color": "#d94a4a"
     },
     {
+      "name": "Queen's Pawn Game: Zukertort Variation",
+      "games": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Owen Defense",
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "color": "#e67e22"
+    },
+    {
       "name": "Center Game",
       "games": 2,
       "wins": 1,
       "draws": 0,
       "losses": 1,
-      "color": "#9b59b6"
-    },
-    {
-      "name": "Scandinavian Defense",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "color": "#e67e22"
-    },
-    {
-      "name": "French Defense: Exchange Variation",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
       "color": "#1abc9c"
     }
   ],
@@ -240,7 +240,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1078
+        "rating": 1072
       }
     ],
     "rapid": [
