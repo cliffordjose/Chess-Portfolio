@@ -10,16 +10,16 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1072,
+    "blitz": 1078,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1028,
-    "wins": 471,
+    "gamesPlayed": 1029,
+    "wins": 472,
     "losses": 515,
     "draws": 42,
-    "winRate": 45.8,
+    "winRate": 45.9,
     "avgAccuracy": 72.5,
     "longestWinStreak": 7,
     "currentStreak": 0,
@@ -87,8 +87,8 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 7,
-      "wins": 3,
+      "games": 8,
+      "wins": 4,
       "draws": 0,
       "losses": 4,
       "color": "#769656"
@@ -240,7 +240,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1072
+        "rating": 1078
       }
     ],
     "rapid": [
