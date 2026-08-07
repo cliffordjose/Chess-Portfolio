@@ -1,5 +1,35 @@
 [
   {
+    "id": "d2CmmYLb",
+    "white": "clifford10",
+    "black": "JANEK_III",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game",
+    "date": "2026-08-07",
+    "moves": 15,
+    "pgn": "1. e4 e5 2. d4 f5 3. exf5 exd4 4. Qxd4 Nc6 5. Qf4 Bd6 6. Qc4 Nf6 7. Bg5 Ne5 8. Qh4 Qe7 9. Bxf6 Nf3+ 10. Kd1 Qe1# 0-1"
+  },
+  {
+    "id": "E2gl0vM6",
+    "white": "clifford10",
+    "black": "FlopGm",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game: Normal Variation",
+    "date": "2026-08-07",
+    "moves": 15,
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Nf6 5. Nc3 Bb4 6. a3 Bxc3+ 7. bxc3 Nxe4 8. Qd4 Nxd4 9. cxd4 d5 10. Bd3 0-1"
+  },
+  {
     "id": "HnX7CSiG",
     "white": "DOTALLSTARS",
     "black": "clifford10",
@@ -268,35 +298,5 @@
     "date": "2026-08-05",
     "moves": 6,
     "pgn": "1. h4 e5 2. e4 Nc6 3. Qf3 Nd4 4. Qd1 c6 1-0"
-  },
-  {
-    "id": "w0NSWmDz",
-    "white": "kothimbireshubham16",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Mieses Opening",
-    "date": "2026-08-05",
-    "moves": 58,
-    "pgn": "1. d3 d5 2. a3 Nf6 3. g3 c5 4. Nc3 d4 5. Nb5 Qb6 6. a4 Bd7 7. Bg5 Bxb5 8. Bxf6 exf6 9. axb5 Qxb5 10. Bg2 Qxb2 11. h4 Qb4+ 12. Kf1 Na6 13. Rb1 Qa5 14. h5 h6 15. f4 g5 16. fxg5 fxg5 17. g4 Be7 18. Rh3 Qc7 19. Rf3 Qh2 20. Rf5 Qh4 21. Bf3 Qg3 22. Qd2 Nb4 23. Rxb4 cxb4 24. c4 b3 25. c5 O-O 26. Qb2 Bxc5 27. Rxc5 Rab8 28. Qxb3 b6 29. Rf5 a5 30. Bd5 Qe3 31. Qb2 a4 32. Qa2 b5 33. Bxf7+ Rxf7 34. Qxf7+ Kh8 35. Qf6+ Kg8 36. Qg6+ Kh8 37. Rf7 Qc1+ 38. Kg2 Qd2 39. Qh7# 1-0"
-  },
-  {
-    "id": "21zZDMGt",
-    "white": "clifford10",
-    "black": "Matthias19700",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 79,
-      "black": 94
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-08-05",
-    "moves": 44,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd4 4. Nb5 Qe5+ 5. Qe2 Qxe2+ 6. Bxe2 Kd7 7. Bg4+ e6 8. d3 a6 9. Nd4 Nf6 10. Bh3 Bc5 11. Bg5 Bxd4 12. Bxf6 Bxf6 13. Nf3 Bxb2 14. Rb1 Bc3+ 15. Ke2 h6 16. Ne5+ Ke7 17. Nc4 Nc6 18. Rb3 Nd4+ 19. Ke3 Nxb3 20. cxb3 Rd8 21. d4 Bxd4+ 22. Kf3 Bc5 23. Rb1 b6 24. b4 Bd6 25. Rd1 Bb7+ 26. Kg4 Bxh2 27. Rxd8 Rxd8 28. g3 Bg1 29. Ne5 Bxf2 0-1"
   }
 ]

@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1087,
+    "blitz": 1078,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1023,
+    "gamesPlayed": 1025,
     "wins": 470,
-    "losses": 511,
+    "losses": 513,
     "draws": 42,
     "winRate": 45.9,
     "avgAccuracy": 72.1,
     "longestWinStreak": 7,
-    "currentStreak": 0,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -86,15 +86,15 @@
   ],
   "openings": [
     {
-      "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 7,
+      "name": "Center Game: Normal Variation",
+      "games": 8,
       "wins": 3,
       "draws": 0,
-      "losses": 4,
+      "losses": 5,
       "color": "#769656"
     },
     {
-      "name": "Center Game: Normal Variation",
+      "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
       "wins": 3,
       "draws": 0,
@@ -118,7 +118,7 @@
       "color": "#d94a4a"
     },
     {
-      "name": "Scandinavian Defense",
+      "name": "Center Game",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -126,19 +126,19 @@
       "color": "#9b59b6"
     },
     {
+      "name": "Scandinavian Defense",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#e67e22"
+    },
+    {
       "name": "French Defense: Exchange Variation",
       "games": 2,
       "wins": 0,
       "draws": 0,
       "losses": 2,
-      "color": "#e67e22"
-    },
-    {
-      "name": "Mieses Opening",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
       "color": "#1abc9c"
     }
   ],
@@ -196,10 +196,6 @@
     "blitz": [
       {
         "date": "2026-07",
-        "rating": 1109
-      },
-      {
-        "date": "2026-07",
         "rating": 1115
       },
       {
@@ -241,6 +237,10 @@
       {
         "date": "2026-08",
         "rating": 1087
+      },
+      {
+        "date": "2026-08",
+        "rating": 1078
       }
     ],
     "rapid": [
