@@ -1,5 +1,20 @@
 [
   {
+    "id": "Vfc8K8im",
+    "white": "clifford10",
+    "black": "Chilota",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game: Normal Variation",
+    "date": "2026-08-08",
+    "moves": 51,
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 d6 5. Nc3 Nf6 6. Nf3 Be7 7. Bg5 h6 8. Bxf6 Bxf6 9. e5 Nxe5 10. Nxe5 dxe5 11. Qxd8+ Bxd8 12. O-O-O O-O 13. Bc4 a6 14. Rde1 Bf6 15. Nd5 Bg5+ 16. Kb1 c6 17. Nc7 Rb8 18. Rxe5 b5 19. Bb3 a5 20. a3 a4 21. Ba2 Rb7 22. Na6 Rd7 23. Nc5 Rd2 24. Rf1 Kh8 25. Nd3 f6 26. Re7 f5 27. Rc7 f4 28. Rxc6 Bb7 29. Re6 Bxg2 30. Rfe1 Rxf2 31. Nxf2 f3 32. Re8 Rxe8 33. Rxe8+ Kh7 34. h3 1-0"
+  },
+  {
     "id": "UUE6UcXi",
     "white": "mvenkatesa",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-06",
     "moves": 61,
     "pgn": "1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. Nf3 Nf6 5. Nc3 Bg4 6. d5 Bxf3 7. gxf3 Nd4 8. Bxc4 c5 9. Be3 e5 10. dxe6 Nxe6 11. Qa4+ Nd7 12. O-O-O Be7 13. Rhg1 O-O 14. Bh6 Bf6 15. Rxd7 Qb6 16. Qb3 Kh8 17. Be3 Bg5 18. Bxg5 Nd4 19. Qxb6 axb6 20. Be2 f6 21. Be3 Ne6 22. Rxb7 g5 23. Rxb6 Nc7 24. Bxc5 Rfc8 25. Be7 Ne8 26. Bxf6+ Nxf6 27. Rxf6 Rxa2 28. Kb1 Raa8 29. Rxg5 Rab8 30. Rb5 Ra8 31. e5 Rd8 32. Kc2 Kg7 33. Rfb6 Re8 34. f4 Rf8 35. Nd5 Rac8+ 36. Kb1 Rcd8 37. Bh5 Rf5 38. Rb7+ Kh6 39. Bg4 Rff8 40. R5b6+ Rf6 41. Rxf6# 1-0"
-  },
-  {
-    "id": "mziU7DXf",
-    "white": "clifford10",
-    "black": "taygayalin",
-    "result": "0-1",
-    "timeControl": "Bullet",
-    "accuracy": {
-      "white": 73,
-      "black": 74
-    },
-    "opening": "French Defense: Exchange Variation",
-    "date": "2026-08-05",
-    "moves": 39,
-    "pgn": "1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nc3 Nf6 5. Bg5 Be7 6. Bxf6 Bxf6 7. Nf3 O-O 8. Bb5 Re8+ 9. Bxe8 Qxe8+ 10. Ne2 c6 11. O-O Bg4 12. h3 Bh5 13. g4 Bg6 14. h4 Be4 15. Nd2 Bxh4 16. f3 Bg6 17. Nf4 Qe3+ 18. Kh1 Qxf4 19. Qe2 Na6 20. Qh2 Qxh2+ 21. Kxh2 Bf6 22. f4 Nb4 23. g5 Be7 24. a3 Nxc2 25. Rac1 Ne3 26. Rfe1 Ng4+ 0-1"
   }
 ]

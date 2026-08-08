@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1078,
+    "blitz": 1085,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1029,
-    "wins": 472,
+    "gamesPlayed": 1030,
+    "wins": 473,
     "losses": 515,
     "draws": 42,
     "winRate": 45.9,
     "avgAccuracy": 72.5,
     "longestWinStreak": 7,
-    "currentStreak": 0,
+    "currentStreak": 3,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -95,8 +95,8 @@
     },
     {
       "name": "Center Game: Normal Variation",
-      "games": 6,
-      "wins": 2,
+      "games": 7,
+      "wins": 3,
       "draws": 0,
       "losses": 4,
       "color": "#c9a227"
@@ -196,10 +196,6 @@
     "blitz": [
       {
         "date": "2026-07",
-        "rating": 1115
-      },
-      {
-        "date": "2026-07",
         "rating": 1117
       },
       {
@@ -241,6 +237,10 @@
       {
         "date": "2026-08",
         "rating": 1078
+      },
+      {
+        "date": "2026-08",
+        "rating": 1085
       }
     ],
     "rapid": [
