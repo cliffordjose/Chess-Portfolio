@@ -22,7 +22,7 @@
     "winRate": 46.1,
     "avgAccuracy": 71.4,
     "longestWinStreak": 7,
-    "currentStreak": 0,
+    "currentStreak": 2,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,10 +87,10 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 8,
+      "games": 7,
       "wins": 4,
       "draws": 0,
-      "losses": 4,
+      "losses": 3,
       "color": "#769656"
     },
     {
@@ -110,12 +110,20 @@
       "color": "#4a90d9"
     },
     {
+      "name": "King's Pawn Game",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#d94a4a"
+    },
+    {
       "name": "Queen's Pawn Game: Zukertort Variation",
       "games": 2,
       "wins": 2,
       "draws": 0,
       "losses": 0,
-      "color": "#d94a4a"
+      "color": "#9b59b6"
     },
     {
       "name": "Owen Defense",
@@ -123,7 +131,7 @@
       "wins": 0,
       "draws": 0,
       "losses": 2,
-      "color": "#9b59b6"
+      "color": "#e67e22"
     },
     {
       "name": "Nimzowitsch Defense: Kennedy Variation",
@@ -131,14 +139,6 @@
       "wins": 2,
       "draws": 0,
       "losses": 0,
-      "color": "#e67e22"
-    },
-    {
-      "name": "Scandinavian Defense",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
       "color": "#1abc9c"
     }
   ],
