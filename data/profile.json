@@ -15,14 +15,14 @@
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1030,
-    "wins": 473,
-    "losses": 515,
+    "gamesPlayed": 1032,
+    "wins": 474,
+    "losses": 516,
     "draws": 42,
     "winRate": 45.9,
-    "avgAccuracy": 72.5,
+    "avgAccuracy": 72.7,
     "longestWinStreak": 7,
-    "currentStreak": 3,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -102,19 +102,19 @@
       "color": "#c9a227"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
-      "games": 3,
-      "wins": 2,
-      "draws": 0,
-      "losses": 1,
-      "color": "#4a90d9"
-    },
-    {
       "name": "Scandinavian Defense: Valencian Variation",
       "games": 3,
       "wins": 1,
       "draws": 0,
       "losses": 2,
+      "color": "#4a90d9"
+    },
+    {
+      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "games": 3,
+      "wins": 2,
+      "draws": 0,
+      "losses": 1,
       "color": "#d94a4a"
     },
     {
@@ -196,10 +196,6 @@
     "blitz": [
       {
         "date": "2026-07",
-        "rating": 1117
-      },
-      {
-        "date": "2026-07",
         "rating": 1132
       },
       {
@@ -237,6 +233,10 @@
       {
         "date": "2026-08",
         "rating": 1078
+      },
+      {
+        "date": "2026-08",
+        "rating": 1085
       },
       {
         "date": "2026-08",

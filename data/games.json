@@ -1,5 +1,35 @@
 [
   {
+    "id": "MWZ0cDNy",
+    "white": "Vladdyy",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense: Valencian Variation",
+    "date": "2026-08-09",
+    "moves": 81,
+    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 e6 5. Bb5+ c6 6. Ba4 Qf6 7. Nf3 b5 8. Bg5 Qf5 9. Bb3 Be7 10. Bxe7 Nxe7 11. O-O c5 12. a4 cxd4 13. Nxd4 Qc5 14. Ndxb5 Bb7 15. Nd6+ Kf8 16. Nxb7 Qb6 17. Qd8+ Qxd8 18. Nxd8 Nd7 19. Nxe6+ fxe6 20. Bxe6 Nc5 21. Bg4 h5 22. Bf3 g6 23. Nb5 Ne6 24. Bxa8 Kf7 25. Nd6+ Kf6 26. Bf3 Nd4 27. Ne4+ Kg7 28. Ng5 Nxc2 29. Rac1 Nb4 30. Rc7 Kf6 31. Ne4+ Ke6 32. Rxa7 Nbc6 33. Ra6 Rb8 34. Nc5+ Kd6 35. Ne4+ Kd7 36. Nc5+ Kd6 37. Bxc6 Nxc6 38. Ne4+ Kd7 39. Rd1+ Kc7 40. Rc1 Rxb2 41. Raxc6+ Kd7 42. a5 Ra2 43. Nf6+ Ke7 44. a6 Kf7 45. Nd7 Kg7 46. Nc5 Kh6 47. Rc7 Ra5 48. a7 Kg5 49. Nd7 Ra6 50. Nc5 Ra5 51. Na6 Rxa6 52. h3 Kh6 53. Kh2 Kg5 54. R1c5+ Kh6 0-1"
+  },
+  {
+    "id": "Zm5qMJqy",
+    "white": "clifford10",
+    "black": "serg76667",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "French Defense: King's Indian Attack",
+    "date": "2026-08-08",
+    "moves": 89,
+    "pgn": "1. e4 e6 2. d3 Bc5 3. Nc3 d5 4. Nf3 d4 5. Ne2 e5 6. Nxe5 Qf6 7. Nf3 Bg4 8. h3 Bxf3 9. gxf3 Qxf3 10. Rh2 Nf6 11. Ng1 Qxd1+ 12. Kxd1 Nc6 13. Bg5 O-O-O 14. Bxf6 gxf6 15. Rg2 Ne5 16. Rg7 h5 17. Rxf7 Nxf7 18. Nf3 Ne5 19. Nxe5 fxe5 20. Bg2 Rhg8 21. Bf1 Rg1 22. Ke2 Rf8 23. c3 Rh1 24. cxd4 Bxd4 25. Rb1 Rxh3 26. Bxh3+ Kb8 27. Rf1 Bxb2 28. f3 c5 29. Be6 b5 30. Rb1 Bd4 31. Rxb5+ Kc7 32. Ra5 Kb6 33. Ra3 h4 34. Rb3+ Kc6 35. Bd5+ Kc7 36. Be6 Rf6 37. Bh3 Rb6 38. Ra3 Rb2+ 39. Ke1 Kb6 40. Kf1 a5 41. Rb3+ Rxb3 42. axb3 Kb5 43. Ke2 Kb4 44. Kd2 Kxb3 45. Kc1 a4 46. Kb1 a3 47. Be6+ Ka4 48. Ka2 Bc3 49. Bb3+ Kb4 50. Bd1 h3 51. f4 h2 52. Bf3 exf4 53. Bg2 Bd4 54. Bf3 Bc3 55. Bg2 Bb2 56. Bf3 Kc3 57. Bg2 Kxd3 58. Bf3 Ke3 59. Bg2 c4 0-1"
+  },
+  {
     "id": "Vfc8K8im",
     "white": "clifford10",
     "black": "Chilota",
@@ -268,35 +298,5 @@
     "date": "2026-08-06",
     "moves": 57,
     "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Nf6 5. Nf3 Nc6 6. Bb5 a6 7. Bxc6+ bxc6 8. O-O e6 9. Ne5 Bb4 10. Nxc6 Qd6 11. Nxb4 Qxb4 12. Qd3 Bb7 13. a3 Qd6 14. Bg5 Qc6 15. f3 Qd5 16. Nxd5 Bxd5 17. c4 Bc6 18. Bxf6 gxf6 19. d5 exd5 20. cxd5 Bb5 21. Qe4+ Kf8 22. d6 cxd6 23. Qxa8+ Kg7 24. Qe4 Bxf1 25. Rxf1 Rb8 26. b4 a5 27. Rd1 axb4 28. axb4 Ra8 29. h3 Ra4 30. Rxd6 f5 31. Qf4 f6 32. Rd7+ Kg6 33. g4 fxg4 34. fxg4 Ra1+ 35. Kg2 Ra2+ 36. Kg3 Ra1 37. Qf5+ Kh6 38. Qh5# 1-0"
-  },
-  {
-    "id": "iV60LvNV",
-    "white": "clifford10",
-    "black": "codett",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-08-06",
-    "moves": 31,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Nge2 b6 5. g3 Bb7 6. Rg1 Qh6 7. h4 e6 8. Bg2 Bxg2 9. Rxg2 Bc5 10. Nf4 g5 11. hxg5 Qxg5 12. Nh3 Qe5+ 13. Ne2 Nd7 14. d3 Qd6 15. Bf4 O-O-O 16. Bxd6 Bxd6 17. Nef4 Ngf6 18. Qe2 Bb4+ 19. c3 Bc5 20. d4 Bd6 21. a4 1-0"
-  },
-  {
-    "id": "DsjRxS78",
-    "white": "Pinkblock1972",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Rapid",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Queen's Gambit Accepted: Central Variation, Modern Defense",
-    "date": "2026-08-06",
-    "moves": 61,
-    "pgn": "1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. Nf3 Nf6 5. Nc3 Bg4 6. d5 Bxf3 7. gxf3 Nd4 8. Bxc4 c5 9. Be3 e5 10. dxe6 Nxe6 11. Qa4+ Nd7 12. O-O-O Be7 13. Rhg1 O-O 14. Bh6 Bf6 15. Rxd7 Qb6 16. Qb3 Kh8 17. Be3 Bg5 18. Bxg5 Nd4 19. Qxb6 axb6 20. Be2 f6 21. Be3 Ne6 22. Rxb7 g5 23. Rxb6 Nc7 24. Bxc5 Rfc8 25. Be7 Ne8 26. Bxf6+ Nxf6 27. Rxf6 Rxa2 28. Kb1 Raa8 29. Rxg5 Rab8 30. Rb5 Ra8 31. e5 Rd8 32. Kc2 Kg7 33. Rfb6 Re8 34. f4 Rf8 35. Nd5 Rac8+ 36. Kb1 Rcd8 37. Bh5 Rf5 38. Rb7+ Kh6 39. Bg4 Rff8 40. R5b6+ Rf6 41. Rxf6# 1-0"
   }
 ]
