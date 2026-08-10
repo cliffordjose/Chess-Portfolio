@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1106,
+    "blitz": 1099,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1046,
+    "gamesPlayed": 1047,
     "wins": 482,
-    "losses": 521,
+    "losses": 522,
     "draws": 43,
-    "winRate": 46.1,
-    "avgAccuracy": 71.4,
+    "winRate": 46.0,
+    "avgAccuracy": 69.3,
     "longestWinStreak": 7,
-    "currentStreak": 2,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -110,19 +110,19 @@
       "color": "#4a90d9"
     },
     {
+      "name": "Center Game",
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "color": "#d94a4a"
+    },
+    {
       "name": "King's Pawn Game",
       "games": 2,
       "wins": 1,
       "draws": 0,
       "losses": 1,
-      "color": "#d94a4a"
-    },
-    {
-      "name": "Queen's Pawn Game: Zukertort Variation",
-      "games": 2,
-      "wins": 2,
-      "draws": 0,
-      "losses": 0,
       "color": "#9b59b6"
     },
     {
@@ -196,10 +196,6 @@
     "blitz": [
       {
         "date": "2026-07",
-        "rating": 1132
-      },
-      {
-        "date": "2026-07",
         "rating": 1124
       },
       {
@@ -241,6 +237,10 @@
       {
         "date": "2026-08",
         "rating": 1106
+      },
+      {
+        "date": "2026-08",
+        "rating": 1099
       }
     ],
     "rapid": [

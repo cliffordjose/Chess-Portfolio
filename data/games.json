@@ -1,5 +1,20 @@
 [
   {
+    "id": "z5hZ8ESv",
+    "white": "clifford10",
+    "black": "wolkan53",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game",
+    "date": "2026-08-10",
+    "moves": 56,
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 c5 4. Qd1 d6 5. Qe2 a6 6. Qf3 b5 7. Nc3 Bb7 8. Nxb5 axb5 9. Bxb5+ Bc6 10. Bxc6+ Nxc6 11. e5 d5 12. Be3 Nxe5 13. Qf4 f6 14. O-O-O Nc4 15. Bxc5 Bxc5 16. Nf3 Bd6 17. Qd4 Ne7 18. b3 Na3 19. Qa4+ Kf7 20. Qg4 Qc7 21. Nd4 Kg8 22. Qe6+ Kf8 23. Rd2 Bf4 24. Nf5 Nxf5 25. Qxd5 Bxd2+ 26. Kxd2 Qxc2+ 27. Ke1 Qc1+ 28. Qd1 Qc3+ 29. Qd2 Re8+ 30. Kd1 Qa1+ 31. Qc1 Rd8+ 32. Ke2 Nd4+ 33. Ke3 Nf5+ 34. Kf3 Nd4+ 35. Kg3 Ne2+ 36. Kh3 Nxc1 37. Rxc1 Qxc1 0-1"
+  },
+  {
     "id": "cVwBQFib",
     "white": "clifford10",
     "black": "gjaeger",
@@ -283,20 +298,5 @@
     "date": "2026-08-07",
     "moves": 15,
     "pgn": "1. d4 d5 2. Nf3 e5 3. e3 exd4 4. Nxd4 Bc5 5. Nf3 Nc6 6. Bb5 a6 7. Bxc6+ bxc6 8. Ne5 Qf6 9. Nxc6 Qxc6 10. Qg4 Bxg4 0-1"
-  },
-  {
-    "id": "WHXZBNnL",
-    "white": "clifford10",
-    "black": "Mahmoud_Gamal1989",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Owen Defense",
-    "date": "2026-08-07",
-    "moves": 66,
-    "pgn": "1. e4 b6 2. Nc3 Bb7 3. d3 c5 4. Qe2 Nc6 5. Nf3 d6 6. Ng5 Nd4 7. Qh5 g6 8. Qd1 e5 9. Be3 Bh6 10. Bxd4 exd4 11. Qg4 Bxg5 12. h4 dxc3 13. bxc3 Bf6 14. h5 Qe7 15. hxg6 fxg6 16. O-O-O Bxc3 17. Re1 Qf7 18. Re3 Qxa2 19. Kd1 Qa1+ 20. Ke2 Nf6 21. Qe6+ Kd8 22. Qxf6+ Kc7 23. Qg7+ Bxg7 24. e5 dxe5 25. g3 e4 26. Bg2 Qd4 27. Bxe4 Bh6 28. Rxh6 Bxe4 29. Rxe4 Qb2 30. Re7+ Kc6 31. Re6+ Kb5 32. Kd2 Qb4+ 33. Ke2 Qb2 34. Kd2 a5 35. Rh5 Rac8 36. Rd5 Rc6 37. Rxc6 Kxc6 38. Re5 Qxe5 39. f3 a4 40. f4 Qf5 41. Kc3 a3 42. Kb3 Qh3 43. Kxa3 Qg2 44. Kb3 b5 0-1"
   }
 ]
