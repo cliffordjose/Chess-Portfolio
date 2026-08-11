@@ -1,5 +1,20 @@
 [
   {
+    "id": "2xuO8TvM",
+    "white": "clifford10",
+    "black": "LinnearisBorealis",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Sicilian Defense: Amazon Attack",
+    "date": "2026-08-11",
+    "moves": 75,
+    "pgn": "1. e4 c5 2. Qg4 d6 3. Qh5 Nf6 4. Qf3 e6 5. Bb5+ Bd7 6. Bxd7+ Nbxd7 7. Qb3 b6 8. Qe3 Be7 9. Qf3 O-O 10. e5 dxe5 11. d3 Qc7 12. Bg5 h6 13. Bxf6 Nxf6 14. Nh3 Rfd8 15. g4 Nd5 16. Qg3 Nf4 17. Nxf4 exf4 18. Qf3 Qe5+ 19. Qe2 Qxb2 20. c3 Qxa1 21. O-O Rd5 22. Qc2 Rad8 23. Na3 Qxf1+ 24. Kxf1 Rxd3 25. Qa4 Rd1+ 26. Kg2 f5 27. Qxa7 Bh4 28. gxf5 exf5 29. Qxb6 R8d2 30. Qe6+ Kh8 31. Qxf5 Rxf2+ 32. Kh3 Bg5 33. Qf8+ Kh7 34. Qf5+ Kh8 35. Nc2 f3 36. Na3 Rff1 37. Qxc5 f2 38. Qf8+ Kh7 39. Qf5+ g6 40. Qf7+ Kh8 41. Qxg6 Rfe1 42. Qf7 f1=Q+ 43. Qxf1 Rxf1 44. Nc4 Rd3+ 45. Kg4 Rxc3 46. Ne5 Rg1+ 47. Kf5 Rc5 48. Kg6 Rxe5 49. Kh5 Rh1 50. Kg6 1-0"
+  },
+  {
     "id": "z5hZ8ESv",
     "white": "clifford10",
     "black": "wolkan53",
@@ -283,20 +298,5 @@
     "date": "2026-08-07",
     "moves": 50,
     "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nf3 Qd8 4. Bd3 Nc6 5. O-O Bg4 6. Nc3 Bxf3 7. Qxf3 Ne5 8. Qxb7 Rb8 9. Qxa7 Nxd3 10. cxd3 Rc8 11. Qa4+ c6 12. Ne4 Qxd3 13. Nc5 Qd6 14. d4 e6 15. Re1 Nf6 16. Nb7 Qc7 17. Nc5 Bxc5 18. dxc5 O-O 19. b4 Ra8 20. Qb3 Nd5 21. Qh3 f6 22. Qxe6+ Kh8 23. Qh3 h6 24. Re4 f5 25. Bf4 Qd7 26. Bxh6 gxh6 27. Qxh6+ Qh7 28. Qxc6 fxe4 29. Qxd5 Rad8 30. Qc4 Rd7 31. b5 Rfd8 32. Qc3+ Kg8 33. Qg3+ Qg7 0-1"
-  },
-  {
-    "id": "PUeMS7e3",
-    "white": "bmanihas",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Queen's Pawn Game: Zukertort Variation",
-    "date": "2026-08-07",
-    "moves": 15,
-    "pgn": "1. d4 d5 2. Nf3 e5 3. e3 exd4 4. Nxd4 Bc5 5. Nf3 Nc6 6. Bb5 a6 7. Bxc6+ bxc6 8. Ne5 Qf6 9. Nxc6 Qxc6 10. Qg4 Bxg4 0-1"
   }
 ]
