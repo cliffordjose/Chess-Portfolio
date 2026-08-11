@@ -10,17 +10,17 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1111,
+    "blitz": 1116,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1049,
-    "wins": 484,
+    "gamesPlayed": 1051,
+    "wins": 485,
     "losses": 522,
-    "draws": 43,
+    "draws": 44,
     "winRate": 46.1,
-    "avgAccuracy": 69.3,
+    "avgAccuracy": 72.3,
     "longestWinStreak": 7,
     "currentStreak": 0,
     "bestRating": 1516,
@@ -88,9 +88,9 @@
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
-      "wins": 4,
+      "wins": 5,
       "draws": 0,
-      "losses": 3,
+      "losses": 2,
       "color": "#769656"
     },
     {
@@ -102,12 +102,20 @@
       "color": "#c9a227"
     },
     {
+      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "games": 3,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
+      "color": "#4a90d9"
+    },
+    {
       "name": "Scandinavian Defense: Valencian Variation",
       "games": 3,
       "wins": 2,
       "draws": 0,
       "losses": 1,
-      "color": "#4a90d9"
+      "color": "#d94a4a"
     },
     {
       "name": "Center Game",
@@ -115,7 +123,7 @@
       "wins": 0,
       "draws": 0,
       "losses": 2,
-      "color": "#d94a4a"
+      "color": "#9b59b6"
     },
     {
       "name": "King's Pawn Game",
@@ -123,22 +131,14 @@
       "wins": 1,
       "draws": 0,
       "losses": 1,
-      "color": "#9b59b6"
-    },
-    {
-      "name": "Owen Defense",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
       "color": "#e67e22"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "name": "Scandinavian Defense",
       "games": 2,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "color": "#1abc9c"
     }
   ],
@@ -240,7 +240,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1111
+        "rating": 1116
       }
     ],
     "rapid": [
