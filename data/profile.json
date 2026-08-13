@@ -10,17 +10,17 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1122,
+    "blitz": 1136,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1057,
-    "wins": 487,
+    "gamesPlayed": 1060,
+    "wins": 490,
     "losses": 525,
     "draws": 45,
-    "winRate": 46.1,
-    "avgAccuracy": 75.8,
+    "winRate": 46.2,
+    "avgAccuracy": 80.0,
     "longestWinStreak": 7,
     "currentStreak": 1,
     "bestRating": 1516,
@@ -94,11 +94,11 @@
       "color": "#769656"
     },
     {
-      "name": "Scandinavian Defense",
+      "name": "Center Game",
       "games": 3,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "color": "#c9a227"
     },
     {
@@ -126,19 +126,19 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Center Game",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
-      "color": "#e67e22"
-    },
-    {
-      "name": "King's Pawn Game",
+      "name": "French Defense: Exchange Variation",
       "games": 2,
       "wins": 1,
       "draws": 0,
       "losses": 1,
+      "color": "#e67e22"
+    },
+    {
+      "name": "Scandinavian Defense",
+      "games": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
       "color": "#1abc9c"
     }
   ],
@@ -240,7 +240,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1122
+        "rating": 1136
       }
     ],
     "rapid": [
