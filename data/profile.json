@@ -10,17 +10,17 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1116,
+    "blitz": 1128,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1051,
-    "wins": 485,
-    "losses": 522,
-    "draws": 44,
-    "winRate": 46.1,
-    "avgAccuracy": 72.3,
+    "gamesPlayed": 1055,
+    "wins": 487,
+    "losses": 523,
+    "draws": 45,
+    "winRate": 46.2,
+    "avgAccuracy": 75.8,
     "longestWinStreak": 7,
     "currentStreak": 0,
     "bestRating": 1516,
@@ -89,16 +89,16 @@
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
       "wins": 5,
-      "draws": 0,
-      "losses": 2,
+      "draws": 1,
+      "losses": 1,
       "color": "#769656"
     },
     {
-      "name": "Center Game: Normal Variation",
-      "games": 4,
+      "name": "Scandinavian Defense",
+      "games": 3,
       "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 1,
       "color": "#c9a227"
     },
     {
@@ -118,15 +118,15 @@
       "color": "#d94a4a"
     },
     {
-      "name": "Center Game",
-      "games": 2,
-      "wins": 0,
+      "name": "Center Game: Normal Variation",
+      "games": 3,
+      "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 1,
       "color": "#9b59b6"
     },
     {
-      "name": "King's Pawn Game",
+      "name": "Mieses Opening",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Scandinavian Defense",
+      "name": "Center Game",
       "games": 2,
-      "wins": 1,
+      "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "color": "#1abc9c"
     }
   ],
@@ -195,10 +195,6 @@
     ],
     "blitz": [
       {
-        "date": "2026-07",
-        "rating": 1112
-      },
-      {
         "date": "2026-08",
         "rating": 1123
       },
@@ -241,6 +237,10 @@
       {
         "date": "2026-08",
         "rating": 1116
+      },
+      {
+        "date": "2026-08",
+        "rating": 1128
       }
     ],
     "rapid": [
