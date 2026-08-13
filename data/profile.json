@@ -15,14 +15,14 @@
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1060,
-    "wins": 490,
-    "losses": 525,
+    "gamesPlayed": 1062,
+    "wins": 491,
+    "losses": 526,
     "draws": 45,
     "winRate": 46.2,
-    "avgAccuracy": 80.0,
+    "avgAccuracy": 82.3,
     "longestWinStreak": 7,
-    "currentStreak": 1,
+    "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -118,15 +118,15 @@
       "color": "#d94a4a"
     },
     {
-      "name": "Center Game: Normal Variation",
-      "games": 3,
+      "name": "Scandinavian Defense",
+      "games": 2,
       "wins": 2,
       "draws": 0,
-      "losses": 1,
+      "losses": 0,
       "color": "#9b59b6"
     },
     {
-      "name": "French Defense: Exchange Variation",
+      "name": "King's Pawn Game",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Scandinavian Defense",
+      "name": "Center Game: Normal Variation",
       "games": 2,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "color": "#1abc9c"
     }
   ],
