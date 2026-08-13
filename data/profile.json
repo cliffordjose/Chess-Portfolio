@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1128,
+    "blitz": 1122,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1055,
+    "gamesPlayed": 1057,
     "wins": 487,
-    "losses": 523,
+    "losses": 525,
     "draws": 45,
-    "winRate": 46.2,
+    "winRate": 46.1,
     "avgAccuracy": 75.8,
     "longestWinStreak": 7,
-    "currentStreak": 0,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,10 +87,10 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 7,
+      "games": 8,
       "wins": 5,
       "draws": 1,
-      "losses": 1,
+      "losses": 2,
       "color": "#769656"
     },
     {
@@ -126,19 +126,19 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Mieses Opening",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "color": "#e67e22"
-    },
-    {
       "name": "Center Game",
       "games": 2,
       "wins": 0,
       "draws": 0,
       "losses": 2,
+      "color": "#e67e22"
+    },
+    {
+      "name": "King's Pawn Game",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
       "color": "#1abc9c"
     }
   ],
@@ -240,7 +240,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1128
+        "rating": 1122
       }
     ],
     "rapid": [
