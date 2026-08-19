@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1153,
+    "blitz": 1158,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1067,
-    "wins": 494,
+    "gamesPlayed": 1068,
+    "wins": 495,
     "losses": 527,
     "draws": 46,
     "winRate": 46.3,
-    "avgAccuracy": 82.3,
-    "longestWinStreak": 7,
-    "currentStreak": 7,
+    "avgAccuracy": 84.0,
+    "longestWinStreak": 6,
+    "currentStreak": 6,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -118,15 +118,15 @@
       "color": "#d94a4a"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
-      "games": 3,
-      "wins": 3,
+      "name": "Scandinavian Defense",
+      "games": 2,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
       "color": "#9b59b6"
     },
     {
-      "name": "Scandinavian Defense",
+      "name": "Nimzowitsch Defense: Kennedy Variation",
       "games": 2,
       "wins": 2,
       "draws": 0,

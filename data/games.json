@@ -1,5 +1,20 @@
 [
   {
+    "id": "insgbbwX",
+    "white": "clifford10",
+    "black": "Kuzkaaa",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Alekhine Defense: Maróczy Variation",
+    "date": "2026-08-19",
+    "moves": 33,
+    "pgn": "1. e4 Nf6 2. d3 e5 3. Nc3 d6 4. Nf3 Be7 5. Bg5 O-O 6. Bxf6 Bxf6 7. d4 Be6 8. dxe5 dxe5 9. Qxd8 Rxd8 10. Nb5 Nc6 11. Nxc7 Rac8 12. Nxe6 fxe6 13. Bb5 Rd4 14. Nxd4 exd4 15. Bxc6 Rxc6 16. O-O-O Rb6 17. Rhe1 d3 18. Rxd3 Rxb2 19. e5 Rxa2 20. exf6 Ra1+ 21. Kd2 gxf6 22. Rxe6 1-0"
+  },
+  {
     "id": "TSwPbuMB",
     "white": "Chextor",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-10",
     "moves": 56,
     "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 c5 4. Qd1 d6 5. Qe2 a6 6. Qf3 b5 7. Nc3 Bb7 8. Nxb5 axb5 9. Bxb5+ Bc6 10. Bxc6+ Nxc6 11. e5 d5 12. Be3 Nxe5 13. Qf4 f6 14. O-O-O Nc4 15. Bxc5 Bxc5 16. Nf3 Bd6 17. Qd4 Ne7 18. b3 Na3 19. Qa4+ Kf7 20. Qg4 Qc7 21. Nd4 Kg8 22. Qe6+ Kf8 23. Rd2 Bf4 24. Nf5 Nxf5 25. Qxd5 Bxd2+ 26. Kxd2 Qxc2+ 27. Ke1 Qc1+ 28. Qd1 Qc3+ 29. Qd2 Re8+ 30. Kd1 Qa1+ 31. Qc1 Rd8+ 32. Ke2 Nd4+ 33. Ke3 Nf5+ 34. Kf3 Nd4+ 35. Kg3 Ne2+ 36. Kh3 Nxc1 37. Rxc1 Qxc1 0-1"
-  },
-  {
-    "id": "cVwBQFib",
-    "white": "clifford10",
-    "black": "gjaeger",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "King's Pawn Game",
-    "date": "2026-08-09",
-    "moves": 50,
-    "pgn": "1. e4 e5 2. g3 Nc6 3. Bg2 Bc5 4. Nc3 Bxf2+ 5. Kxf2 Qf6+ 6. Ke1 Nge7 7. Nd5 Nxd5 8. exd5 Nd4 9. c3 Nf5 10. d4 exd4 11. cxd4 O-O 12. Qf3 Re8+ 13. Kd1 Qxd4+ 14. Bd2 Qxb2 15. Rc1 Nd4 16. Qf4 d6 17. Bc3 Qxg2 18. Bxd4 Qxd5 19. Nf3 Re4 20. Qg5 f6 21. Qd2 Bg4 22. Kc2 Bxf3 23. Rhf1 Rxd4 24. Qe3 Be4+ 25. Kc3 Rd3+ 26. Qxd3 Qxd3+ 27. Kb2 Qb5+ 28. Ka1 Re8 29. Rb1 Bxb1 30. Rxb1 Qe5+ 31. Rb2 Qe1+ 32. Rb1 Qc3+ 33. Rb2 Re1# 0-1"
   }
 ]
