@@ -1,5 +1,20 @@
 [
   {
+    "id": "lq2AhPmr",
+    "white": "matheus3442",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Horwitz Defense",
+    "date": "2026-08-19",
+    "moves": 16,
+    "pgn": "1. d4 e6 2. g3 Qf6 3. Nf3 Nc6 4. Bg2 Bb4+ 5. Bd2 Nxd4 6. Bxb4 Nxf3+ 7. Bxf3 Qxb2 8. Bc3 Qb5 9. O-O f6 10. Na3 Qb4 11. Bxb4 1-0"
+  },
+  {
     "id": "IGrqdlXA",
     "white": "clifford10",
     "black": "Jd3306",
@@ -283,20 +298,5 @@
     "date": "2026-08-13",
     "moves": 25,
     "pgn": "1. e4 d5 2. exd5 e6 3. dxe6 fxe6 4. Qe2 g6 5. Qe5 Nf6 6. Qb5+ c6 7. Qg5 Nbd7 8. d3 e5 9. Nf3 Qe7 10. Be2 Nc5 11. Nxe5 Nxd3+ 12. Bxd3 Bf5 13. Bxf5 gxf5 14. Qxf5 Nd5 15. Bg5 Qg7 16. Qe6+ Ne7 17. Qd7# 1-0"
-  },
-  {
-    "id": "RCAARrRp",
-    "white": "clifford10",
-    "black": "sf2020",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 83,
-      "black": 76
-    },
-    "opening": "Nimzowitsch Defense: Kennedy Variation",
-    "date": "2026-08-11",
-    "moves": 49,
-    "pgn": "1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Qd4 d6 5. Bf4 Qf6 6. Bxe5 Qxe5 7. Qxe5+ dxe5 8. Nf3 Bb4+ 9. c3 Bc5 10. Nxe5 Nf6 11. Bd3 O-O 12. b4 Bd6 13. a3 Bxe5 14. O-O b6 15. f4 Bd6 16. e5 Bxe5 17. fxe5 Ng4 18. Be4 Ne3 19. Re1 Nc2 20. Bxc2 Be6 21. Be4 Rad8 22. a4 a5 23. bxa5 bxa5 24. Na3 f5 25. Bc6 Rd3 26. Rac1 Rb8 27. Nb5 Bc4 28. Nxc7 Rb3 29. e6 Rbxc3 30. Rxc3 Rxc3 31. e7 Bf7 32. Bd5 Rxc7 33. e8=Q# 1-0"
   }
 ]

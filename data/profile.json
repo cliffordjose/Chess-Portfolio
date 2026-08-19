@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1160,
+    "blitz": 1156,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1072,
+    "gamesPlayed": 1073,
     "wins": 497,
-    "losses": 529,
+    "losses": 530,
     "draws": 46,
-    "winRate": 46.4,
+    "winRate": 46.3,
     "avgAccuracy": 84.0,
     "longestWinStreak": 3,
-    "currentStreak": 2,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,8 +87,8 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 9,
-      "wins": 5,
+      "games": 8,
+      "wins": 4,
       "draws": 1,
       "losses": 3,
       "color": "#769656"
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Sicilian Defense: Smith-Morra Gambit",
+      "name": "Horwitz Defense",
       "games": 1,
-      "wins": 1,
+      "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "color": "#1abc9c"
     }
   ],
@@ -240,7 +240,7 @@
       },
       {
         "date": "2026-08",
-        "rating": 1160
+        "rating": 1156
       }
     ],
     "rapid": [
