@@ -1,5 +1,20 @@
 [
   {
+    "id": "TSwPbuMB",
+    "white": "Chextor",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Queen's Gambit Accepted: Central Variation, McDonnell Defense",
+    "date": "2026-08-19",
+    "moves": 28,
+    "pgn": "1. d4 d5 2. c4 dxc4 3. e4 e5 4. d5 Nf6 5. Bxc4 Nxe4 6. Qf3 Bb4+ 7. Bd2 Nxd2 8. Nxd2 Bxd2+ 9. Kxd2 c6 10. d6 Qxd6+ 11. Kc2 b6 12. Qxf7+ Kd8 13. Rd1 Rf8 14. Rxd6+ Nd7 15. Qxf8+ Kc7 16. Rxd7+ Bxd7 17. Qxg7 e4 18. Qe5+ Kc8 19. Be6 1-0"
+  },
+  {
     "id": "23XTygnK",
     "white": "clifford10",
     "black": "Martinez46244",
@@ -283,20 +298,5 @@
     "date": "2026-08-09",
     "moves": 50,
     "pgn": "1. e4 e5 2. g3 Nc6 3. Bg2 Bc5 4. Nc3 Bxf2+ 5. Kxf2 Qf6+ 6. Ke1 Nge7 7. Nd5 Nxd5 8. exd5 Nd4 9. c3 Nf5 10. d4 exd4 11. cxd4 O-O 12. Qf3 Re8+ 13. Kd1 Qxd4+ 14. Bd2 Qxb2 15. Rc1 Nd4 16. Qf4 d6 17. Bc3 Qxg2 18. Bxd4 Qxd5 19. Nf3 Re4 20. Qg5 f6 21. Qd2 Bg4 22. Kc2 Bxf3 23. Rhf1 Rxd4 24. Qe3 Be4+ 25. Kc3 Rd3+ 26. Qxd3 Qxd3+ 27. Kb2 Qb5+ 28. Ka1 Re8 29. Rb1 Bxb1 30. Rxb1 Qe5+ 31. Rb2 Qe1+ 32. Rb1 Qc3+ 33. Rb2 Re1# 0-1"
-  },
-  {
-    "id": "O56CMuv4",
-    "white": "arthurmanhod",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "King's Pawn Game",
-    "date": "2026-08-09",
-    "moves": 33,
-    "pgn": "1. e4 b5 2. f4 Bb7 3. d3 f5 4. exf5 Na6 5. Qh5+ g6 6. fxg6 Nf6 7. g7+ Nxh5 8. gxh8=Q d6 9. Qxh7 Nf6 10. Nc3 b4 11. Qh8 d5 12. Nce2 Qd6 13. d4 O-O-O 14. Nf3 Ne4 15. Ne5 Qe6 16. Qh3 Qxh3 17. gxh3 Nf6 18. Bg2 Bg7 19. O-O Nh5 20. Nf7 Rd7 21. c3 bxc3 22. bxc3 e6 0-1"
   }
 ]
