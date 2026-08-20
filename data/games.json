@@ -1,5 +1,20 @@
 [
   {
+    "id": "Gn5DKsQN",
+    "white": "aplexduf",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
+    "date": "2026-08-20",
+    "moves": 49,
+    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Be2 Qg5 5. g3 Qc5 6. d4 Qc6 7. d5 Qd6 8. Nf3 Nf6 9. Bf4 Qb6 10. Na4 Qb4+ 11. Nc3 Qxb2 12. Rb1 Qxc3+ 13. Bd2 Qc5 14. O-O Qxd5 15. c4 Qc6 16. Nd4 Qe4 17. f3 Qxd4+ 18. Kg2 Bd7 19. Rxb7 Bc6 20. Rxc7 e6 21. Rc8+ Ke7 22. Bb4+ Kd7 23. Qxd4+ Bd6 24. Qxd6+ Kxc8 25. Ba5 Ne8 26. Qf4 Rg8 27. Qxf7 Rh8 28. Qxe6+ Kb7 29. Rb1+ Ka6 30. Bc7 Nxc7 31. c5+ Ka5 32. Qb3 Ba4 33. Qc3# 1-0"
+  },
+  {
     "id": "5kIca43n",
     "white": "clifford10",
     "black": "forehm",
@@ -283,20 +298,5 @@
     "date": "2026-08-13",
     "moves": 48,
     "pgn": "1. d4 e5 2. dxe5 d6 3. exd6 Bxd6 4. e3 Nf6 5. Bc4 Qe7 6. Ne2 Nbd7 7. O-O Ne5 8. Nbc3 Nxc4 9. Qd3 Qe6 10. Ng3 Bxg3 11. hxg3 Ne5 12. Qe2 Qc4 13. Qd1 Bg4 14. f3 Bh5 15. e4 Nxe4 16. Nxe4 Rd8 17. Bd2 Qd4+ 18. Rf2 f5 19. c3 Qb6 20. Ng5 Qc6 21. g4 fxg4 22. fxg4 Bxg4 23. Qe1 Rd5 24. Nf7 Rf8 25. Nxe5 Qe6 26. Rxf8+ Kxf8 27. Nxg4 Qxg4 28. Qf1+ Kg8 29. Re1 h6 30. Re8+ Kh7 31. Qc4 Rxd2 32. Qe4+ Qxe4 0-1"
-  },
-  {
-    "id": "GgzmzUK4",
-    "white": "clifford10",
-    "black": "NAA25",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-08-13",
-    "moves": 80,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Qe2 Qxe2+ 5. Bxe2 Bf5 6. Bd3 Bxd3 7. cxd3 Nc6 8. Ke2 O-O-O 9. Nf3 Nb4 10. Re1 Nxd3 11. Rh1 Nb4 12. Ne5 Nh6 13. d3 f6 14. Bxh6 fxe5 15. Bg5 h6 16. Bh4 g5 17. Bg3 Bg7 18. Nb5 a6 19. Na3 b5 20. h4 Rhe8 21. hxg5 hxg5 22. Rh7 Bf6 23. Rh6 Nd5 24. Rc1 Nb6 25. Rc6 Kb7 26. Rc5 Nd7 27. Rd5 c6 28. Rxd7+ Rxd7 29. Nc2 c5 30. b4 Kc6 31. bxc5 Kxc5 32. f3 Kb6 33. Bf2+ Ka5 34. d4 exd4 35. Kd3 Bg7 36. Rg6 Bf6 37. Bxd4 Bxd4 38. Nxd4 e5 39. Rxg5 Rxd4+ 40. Ke3 b4 41. f4 Ka4 42. fxe5 Rc4 43. Kd3 Rc5 44. Kd4 Rc2 45. Kd5 Rxa2 46. e6 b3 47. Kd6 b2 48. Rg4+ Kb3 49. Rg3+ Kc2 50. Kd7 Ra8 51. e7 b1=Q 52. e8=Q Rxe8 53. Kxe8 Qe1+ 0-1"
   }
 ]
