@@ -1,5 +1,20 @@
 [
   {
+    "id": "uvhA3cyD",
+    "white": "clifford10",
+    "black": "ALSH1",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "French Defense: Normal Variation",
+    "date": "2026-08-20",
+    "moves": 53,
+    "pgn": "1. e4 e6 2. d4 Qh4 3. Nf3 Qxe4+ 4. Be2 Qc6 5. Be3 b6 6. Nc3 Bb7 7. Bb5 Qd6 8. Qd2 a6 9. Bf4 Qe7 10. Ba4 Qd8 11. b4 Bxb4 12. Rb1 Ba5 13. Qd3 b5 14. Bb3 Nf6 15. Be5 Rg8 16. Bxf6 Qxf6 17. Qxh7 Kf8 18. O-O Bxc3 19. a4 bxa4 20. Bxa4 Bd5 21. Bxd7 Nxd7 22. Qd3 Ba5 23. Ra1 Bb6 24. Rxa6 Nb8 25. Rxa8 Bxa8 26. Qb5 Bb7 27. Qd3 Ba6 28. Qa3+ Qe7 29. Qxe7+ Kxe7 30. Rb1 Be2 31. Ne5 Ba6 32. c4 f6 33. Ng4 Bxc4 34. Rc1 Bd3 35. Rxc7+ Bxc7 0-1"
+  },
+  {
     "id": "Gn5DKsQN",
     "white": "aplexduf",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-13",
     "moves": 10,
     "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 c6 4. Nf3 Na6 5. Ng5 Bc5 6. Qc4 Qxg5 7. Bxg5 1-0"
-  },
-  {
-    "id": "eyT6PwoA",
-    "white": "bobmanqwerty",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Englund Gambit: Hartlaub-Charlick Gambit",
-    "date": "2026-08-13",
-    "moves": 48,
-    "pgn": "1. d4 e5 2. dxe5 d6 3. exd6 Bxd6 4. e3 Nf6 5. Bc4 Qe7 6. Ne2 Nbd7 7. O-O Ne5 8. Nbc3 Nxc4 9. Qd3 Qe6 10. Ng3 Bxg3 11. hxg3 Ne5 12. Qe2 Qc4 13. Qd1 Bg4 14. f3 Bh5 15. e4 Nxe4 16. Nxe4 Rd8 17. Bd2 Qd4+ 18. Rf2 f5 19. c3 Qb6 20. Ng5 Qc6 21. g4 fxg4 22. fxg4 Bxg4 23. Qe1 Rd5 24. Nf7 Rf8 25. Nxe5 Qe6 26. Rxf8+ Kxf8 27. Nxg4 Qxg4 28. Qf1+ Kg8 29. Re1 h6 30. Re8+ Kh7 31. Qc4 Rxd2 32. Qe4+ Qxe4 0-1"
   }
 ]
