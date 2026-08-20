@@ -1,5 +1,20 @@
 [
   {
+    "id": "5kIca43n",
+    "white": "clifford10",
+    "black": "forehm",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Pirc Defense: Classical Variation",
+    "date": "2026-08-20",
+    "moves": 77,
+    "pgn": "1. e4 d6 2. d4 g6 3. Nc3 Nf6 4. Nf3 Bg7 5. e5 dxe5 6. dxe5 Ng4 7. Qxd8+ Kxd8 8. h4 Nxe5 9. Nxe5 Bxe5 10. Bd3 Nc6 11. Bb5 Nd4 12. Bd3 Bf5 13. Bxf5 gxf5 14. Kd2 Bf4+ 15. Kd3 Bxc1 16. Raxc1 Nc6 17. Nb5 e6 18. Rcd1 Ke7 19. Kc3 Rad8 20. Rxd8 Rxd8 21. Nxc7 Rd7 22. Nb5 Rd5 23. Na3 Rc5+ 24. Nc4 Ne5 25. b4 Rxc4+ 26. Kb3 f4 27. Re1 Nd3 28. Rh1 Re4 29. Rd1 Nxf2 30. Rd2 Ng4 31. c3 Nh2 32. g4 f3 33. g5 Rg4 34. Rxh2 f6 35. gxf6+ Kxf6 36. h5 Rf4 37. a4 f2 38. Rh1 f1=Q 39. Rxf1 Rxf1 40. Kc4 Rh1 41. h6 Rxh6 42. b5 Rh5 43. Kb4 Re5 44. Ka5 h5 45. c4 h4 46. c5 Rxc5 47. Kb4 Rd5 48. a5 h3 49. b6 axb6 50. axb6 h2 51. Kc4 h1=Q 0-1"
+  },
+  {
     "id": "kXS67Om0",
     "white": "addicted_13",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-13",
     "moves": 80,
     "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Qe2 Qxe2+ 5. Bxe2 Bf5 6. Bd3 Bxd3 7. cxd3 Nc6 8. Ke2 O-O-O 9. Nf3 Nb4 10. Re1 Nxd3 11. Rh1 Nb4 12. Ne5 Nh6 13. d3 f6 14. Bxh6 fxe5 15. Bg5 h6 16. Bh4 g5 17. Bg3 Bg7 18. Nb5 a6 19. Na3 b5 20. h4 Rhe8 21. hxg5 hxg5 22. Rh7 Bf6 23. Rh6 Nd5 24. Rc1 Nb6 25. Rc6 Kb7 26. Rc5 Nd7 27. Rd5 c6 28. Rxd7+ Rxd7 29. Nc2 c5 30. b4 Kc6 31. bxc5 Kxc5 32. f3 Kb6 33. Bf2+ Ka5 34. d4 exd4 35. Kd3 Bg7 36. Rg6 Bf6 37. Bxd4 Bxd4 38. Nxd4 e5 39. Rxg5 Rxd4+ 40. Ke3 b4 41. f4 Ka4 42. fxe5 Rc4 43. Kd3 Rc5 44. Kd4 Rc2 45. Kd5 Rxa2 46. e6 b3 47. Kd6 b2 48. Rg4+ Kb3 49. Rg3+ Kc2 50. Kd7 Ra8 51. e7 b1=Q 52. e8=Q Rxe8 53. Kxe8 Qe1+ 0-1"
-  },
-  {
-    "id": "AATpRnAO",
-    "white": "Deering",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Mieses Opening",
-    "date": "2026-08-13",
-    "moves": 93,
-    "pgn": "1. d3 d5 2. e3 e5 3. Ne2 Nf6 4. Nd2 Nc6 5. h3 Bb4 6. a3 Bxd2+ 7. Qxd2 O-O 8. g3 Re8 9. Bg2 b6 10. c3 Bb7 11. b4 a5 12. b5 Na7 13. a4 Qd6 14. Ba3 Qd7 15. O-O e4 16. d4 c6 17. Kh2 cxb5 18. axb5 Qxb5 19. Rab1 Qc6 20. Rbc1 Ba6 21. Rfe1 Bxe2 22. Rxe2 Qa4 23. Bd6 Qc6 24. Be5 Nd7 25. f4 Nb5 26. f5 g6 27. fxg6 fxg6 28. Rf2 Nxe5 29. dxe5 Rxe5 30. Rcf1 Ree8 31. Rf6 Qxc3 32. Qxc3 Nxc3 33. Rxb6 Ne2 34. Ra1 a4 35. Rd6 a3 36. Rxd5 Nc3 37. Rd2 Re5 38. Rc2 Nb5 39. g4 Nc7 40. Rc3 Nd5 41. Rcxa3 Rxa3 42. Rxa3 Kf7 43. Ra7+ Kf6 44. h4 g5 45. h5 h6 46. Ra6+ Kg7 47. Rg6+ Kh7 48. Ra6 Nxe3 49. Bh3 Nc4 50. Ra7+ Kg8 51. Kg3 e3 52. Kf3 e2 53. Ra1 e1=Q 54. Rxe1 Rxe1 55. Kf2 Re8 56. Bg2 Rf8+ 57. Kg3 Ne3 58. Bd5+ Kg7 59. Ba2 Ra8 60. Be6 Ra6 61. Bf5 Nxf5+ 62. gxf5 Kf6 0-1"
   }
 ]
