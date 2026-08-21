@@ -22,7 +22,7 @@
     "winRate": 46.1,
     "avgAccuracy": 75.7,
     "longestWinStreak": 3,
-    "currentStreak": 3,
+    "currentStreak": 2,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -134,7 +134,7 @@
       "color": "#e67e22"
     },
     {
-      "name": "Pirc Defense: Classical Variation",
+      "name": "Owen Defense",
       "games": 1,
       "wins": 0,
       "draws": 0,

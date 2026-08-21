@@ -1,5 +1,20 @@
 [
   {
+    "id": "cUnMXNCT",
+    "white": "clifford10",
+    "black": "DylanShort",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Owen Defense",
+    "date": "2026-08-21",
+    "moves": 44,
+    "pgn": "1. e4 b6 2. d4 Bb7 3. Nc3 d6 4. d5 Nd7 5. Nf3 e5 6. dxe6 fxe6 7. Bg5 Be7 8. Qd4 Ngf6 9. Bxf6 Bxf6 10. e5 dxe5 11. Qg4 Qe7 12. Qh5+ g6 13. Qh3 O-O-O 14. Bd3 Nc5 15. Qg4 Nxd3+ 16. cxd3 Rxd3 17. O-O e4 18. Nxe4 Bxe4 19. Qxe4 Rhd8 20. a4 Bxb2 21. Rab1 Qa3 22. Qxe6+ Kb8 23. Qg8 Rxg8 24. Ng5 Qxa4 25. Nxh7 Qc2 26. Ng5 Rgd8 27. Ne6 R8d7 28. Nf4 Rd1 29. Rfxd1 Rxd1+ 0-1"
+  },
+  {
     "id": "gIHb9Har",
     "white": "Axtexus",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-13",
     "moves": 51,
     "pgn": "1. e4 g6 2. d4 Bg7 3. Nc3 e6 4. Nf3 Ne7 5. e5 O-O 6. Be3 b6 7. Qd2 a6 8. Bh6 Bxh6 9. Qxh6 Nf5 10. Qh3 Bb7 11. Ng5 Qxg5 12. g3 Bxh1 13. f4 Qh5 14. Qxh5 gxh5 15. O-O-O Ne3 16. Re1 Nxf1 17. Rxf1 Bg2 18. Rg1 Bc6 19. Rd1 Bf3 20. Rf1 Bg4 21. h4 Nc6 22. Rg1 Nxd4 23. Ne4 Ne2+ 24. Kd2 Nxg1 25. Nc3 Nf3+ 26. Ke3 c5 27. Ke4 b5 28. a3 Rab8 29. b4 cxb4 30. axb4 Ra8 31. Ne2 a5 32. bxa5 Rxa5 33. Nc3 b4 34. Na2 Rxa2 0-1"
-  },
-  {
-    "id": "jaJP6pvn",
-    "white": "clifford10",
-    "black": "Lokman12345x",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "French Defense: Exchange Variation",
-    "date": "2026-08-13",
-    "moves": 42,
-    "pgn": "1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nc3 Qe7+ 5. Nge2 c6 6. g3 f6 7. Bg2 Be6 8. O-O f5 9. Re1 g6 10. Nf4 Qd6 11. Rxe6+ Qxe6 12. Nxe6 Nd7 13. Nc7+ Kd8 14. Nxa8 Kc8 15. Bf4 Ngf6 16. Nc7 Ne4 17. Nxe4 dxe4 18. Ne6 Bg7 19. Nxg7 Rg8 20. Ne6 Re8 21. Ng5 h6 22. Nf7 Re7 23. Nd6+ Kd8 24. Nxb7+ Kc8 25. Nc5 Nxc5 26. dxc5 g5 27. Qd6 Rd7 28. Qb8# 1-0"
   }
 ]
