@@ -1,5 +1,35 @@
 [
   {
+    "id": "eK8uBaO1",
+    "white": "clifford10",
+    "black": "Tanakawashe",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Nimzowitsch Defense: Kennedy Variation",
+    "date": "2026-08-22",
+    "moves": 51,
+    "pgn": "1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Qd4 d6 5. Bf4 Nc6 6. Qd5 Nf6 7. Qg5 Be7 8. e5 O-O 9. exf6 Bxf6 10. Qg3 Re8+ 11. Be2 Bh4 12. Qc3 Bf6 13. Qd3 g6 14. Qg3 Bf5 15. Nf3 Bxc2 16. O-O Rxe2 17. Nc3 Re8 18. Rac1 Bd3 19. Rfd1 Nb4 20. Bg5 Bxg5 21. Nxg5 Bf5 22. Qh4 h5 23. Qxb4 Qxg5 24. Nd5 Bg4 25. Rf1 Rab8 26. Nxc7 Re7 27. Nb5 Be2 28. Nxd6 Bxf1 29. Rxf1 Re2 30. Ne4 Qe5 31. Nc3 Re1 32. Ne2 Qxe2 33. h3 Rxf1+ 34. Kh2 Qe5+ 0-1"
+  },
+  {
+    "id": "LPgdO7WP",
+    "white": "Miku_no_Hatsu",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Blackmar-Diemer Gambit: Blackmar Gambit",
+    "date": "2026-08-22",
+    "moves": 30,
+    "pgn": "1. e4 d5 2. d4 dxe4 3. f3 exf3 4. Nxf3 Nf6 5. Bc4 Nc6 6. Nc3 Bg4 7. d5 Bxf3 8. Qxf3 Ne5 9. Qf4 Qd6 10. O-O Nh5 11. Qh4 g6 12. g4 Nxc4 13. gxh5 gxh5 14. Qxc4 Qg6+ 15. Kh1 Qxc2 16. Rg1 O-O-O 17. Rg2 Qf5 18. Bf4 Rd7 19. Ne2 Rxd5 20. Qxc7# 1-0"
+  },
+  {
     "id": "cUnMXNCT",
     "white": "clifford10",
     "black": "DylanShort",
@@ -268,35 +298,5 @@
     "date": "2026-08-19",
     "moves": 90,
     "pgn": "1. e3 d5 2. g3 e6 3. Bg2 Nf6 4. b3 Nc6 5. Bb2 e5 6. Nc3 d4 7. exd4 exd4 8. Nb1 Qd7 9. Ne2 Bb4 10. c3 dxc3 11. dxc3 Bc5 12. Ng1 Qxd1+ 13. Kxd1 Bxf2 14. Nh3 Be3 15. Re1 Ng4 16. Bf3 Nce5 17. c4 Nxf3 18. Rxe3+ Nxe3+ 19. Ke2 Nc2 20. Nc3 Nxa1 21. Bxa1 Bxh3 22. Kxf3 O-O 23. g4 Rad8 24. Kg3 Rd3+ 25. Kh4 Rxc3 26. Bxc3 Bf1 27. Kg3 g5 28. Kf2 Bd3 29. Ke3 Bb1 30. a4 Ba2 31. Kd2 Bxb3 32. Kd3 Bxa4 33. Be5 c6 34. Bb8 a6 35. Bc7 Bd1 36. Kd2 Bxg4 37. Ke3 Be6 38. Ke4 Bxc4 39. Kd4 Bf1 40. Ke3 Rc8 41. Bb6 a5 42. Bxa5 Ra8 43. Bb6 Ra3+ 44. Kf2 Bh3 45. Bc5 Rc3 46. Bd4 Rc2+ 47. Kg3 Bf5 48. Kf3 f6 49. Ke3 Rxh2 50. Kf3 Rh3+ 51. Kg2 Rh4 52. Kg3 Rxd4 53. Kf3 b5 54. Ke3 Rh4 55. Kf3 b4 56. Ke3 b3 57. Kd2 Rh3 58. Kc1 Rh2 59. Kd1 b2 60. Ke1 b1=Q# 0-1"
-  },
-  {
-    "id": "fio8dDPD",
-    "white": "EBERHARD-e-CO",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Alekhine Defense",
-    "date": "2026-08-13",
-    "moves": 35,
-    "pgn": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. exd6 cxd6 5. Bc4 Qa5+ 6. Bd2 Qc5 7. Bxd5 Qxd5 8. Nf3 Bg4 9. Nc3 Bxf3 10. gxf3 Qxd4 11. O-O e6 12. Qe2 d5 13. Be3 Qf6 14. Kh1 Bd6 15. Rg1 Qh4 16. Rg2 Nd7 17. Rag1 Be5 18. f4 Bf6 19. Rg4 Qh5 20. R1g3 d4 21. Bxd4 Bxd4 22. Ne4 f5 23. Rg5 Qxe2 0-1"
-  },
-  {
-    "id": "tEeX5Gy7",
-    "white": "clifford10",
-    "black": "Midas1_0_1",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Modern Defense: Standard Line",
-    "date": "2026-08-13",
-    "moves": 51,
-    "pgn": "1. e4 g6 2. d4 Bg7 3. Nc3 e6 4. Nf3 Ne7 5. e5 O-O 6. Be3 b6 7. Qd2 a6 8. Bh6 Bxh6 9. Qxh6 Nf5 10. Qh3 Bb7 11. Ng5 Qxg5 12. g3 Bxh1 13. f4 Qh5 14. Qxh5 gxh5 15. O-O-O Ne3 16. Re1 Nxf1 17. Rxf1 Bg2 18. Rg1 Bc6 19. Rd1 Bf3 20. Rf1 Bg4 21. h4 Nc6 22. Rg1 Nxd4 23. Ne4 Ne2+ 24. Kd2 Nxg1 25. Nc3 Nf3+ 26. Ke3 c5 27. Ke4 b5 28. a3 Rab8 29. b4 cxb4 30. axb4 Ra8 31. Ne2 a5 32. bxa5 Rxa5 33. Nc3 b4 34. Na2 Rxa2 0-1"
   }
 ]
