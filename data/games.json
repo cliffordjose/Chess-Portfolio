@@ -1,5 +1,35 @@
 [
   {
+    "id": "2n8VGTa5",
+    "white": "RODRIGO_0117",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Rapport-Jobava System",
+    "date": "2026-08-23",
+    "moves": 72,
+    "pgn": "1. d4 d5 2. Nc3 e6 3. Bf4 Nf6 4. f3 Bb4 5. Qd3 Nh5 6. Be5 f6 7. Bg3 e5 8. e3 exd4 9. exd4 Nxg3 10. hxg3 Nc6 11. Qe3+ Be6 12. a3 Bxc3+ 13. Qxc3 O-O 14. O-O-O Qd6 15. Nh3 Qxg3 16. Re1 Nxd4 17. Qxd4 Qxe1+ 18. Qd1 Qxd1+ 19. Kxd1 Bxh3 20. gxh3 Rad8 21. Kc1 d4 22. Bd3 g6 23. Kb1 f5 24. Ka2 Rfe8 25. Rg1 Re3 26. Bc4+ Kg7 27. h4 Rxf3 28. h5 Rf2 29. hxg6 hxg6 30. Bd3 Rd2 31. Rf1 c5 32. a4 Rc8 33. Rf3 c4 34. Bf1 Rxc2 35. Ka3 c3 36. bxc3 R8xc3+ 37. Rxc3 dxc3 38. Kb4 Rc1 39. Bd3 a5+ 40. Kxa5 Rd1 41. Kb6 Rxd3 42. Kxb7 c2 43. a5 c1=Q 44. a6 Rd7+ 45. Kb8 Qc8+ 46. Kxc8 Ra7 47. Kb8 Rxa6 48. Kc8 Ra1 0-1"
+  },
+  {
+    "id": "ygzPYVlp",
+    "white": "clifford10",
+    "black": "lius09",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game: Normal Variation",
+    "date": "2026-08-23",
+    "moves": 82,
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qc5 d6 5. Qc4 Nf6 6. Nc3 Be6 7. Qd3 Be7 8. Nf3 O-O 9. e5 dxe5 10. Nxe5 Nxe5 11. Qxd8 Raxd8 12. Bf4 Bd6 13. Bxe5 Bxe5 14. Nb5 a6 15. Na3 Rd7 16. Bc4 Bxb2 17. Bxe6 fxe6 18. Rb1 Bxa3 19. Rxb7 Rfd8 20. O-O Rd2 21. Rxc7 Bd6 22. Ra7 Rxc2 23. Rxa6 Ng4 24. f3 Bxh2+ 25. Kh1 Rcd2 26. fxg4 Bg3 27. Rxe6 Rd1 28. Rg1 Kf7 29. Re3 Bf4 30. Rf3 g5 31. g3 Rxg1+ 32. Kxg1 Rd1+ 33. Kg2 Rd2+ 34. Kh3 Rxa2 35. gxf4 Kg6 36. fxg5 Kxg5 37. Rf7 h6 38. Rg7+ Kf6 39. Rh7 Kg6 40. Rh8 Ra3+ 41. Kh4 Ra4 42. Rd8 Ra5 43. Rd6+ Kh7 44. Rd7+ Kg6 45. Rd6+ Kh7 46. Rf6 Rg5 47. Rd6 Rg6 48. Rd5 Rg5 49. Rd7+ Kg6 50. Rd6+ Kh7 51. Rd8 Kg6 52. Rh8 Kg7 53. Rc8 Kg6 54. Rc6+ Kh7 55. Rc7+ 1-0"
+  },
+  {
     "id": "47bN7qJ6",
     "white": "clifford10",
     "black": "nskomolov",
@@ -268,35 +298,5 @@
     "date": "2026-08-19",
     "moves": 61,
     "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Qg6 5. Nf3 Qxg2 6. Rf1 Bg4 7. d4 Bxf3 8. Bxf3 Qxh2 9. Bxb7 c6 10. Bxa8 Nf6 11. Qf3 e6 12. Bf4 Qh5 13. Bxc6+ Nxc6 14. Qxc6+ Ke7 15. Qd6+ Ke8 16. Qc7 Nd5 17. Nb5 Nxc7 18. Nxc7+ Ke7 19. d5 Qf5 20. Be3 Qxc2 21. dxe6 fxe6 22. Rc1 Qxb2 23. f4 Qb4+ 24. Bd2 Qe4+ 25. Kd1 Qa4+ 26. Rc2 Kd6 27. a3 Qxa3 28. Nb5+ Kd5 29. Nxa3 Bxa3 30. Rc3 Bb4 31. Rd3+ Kc4 32. Rff3 Rf8 33. Bxb4 Kxb4 34. Rd4+ Kc5 35. Rd2 Rb8 36. Kc2 a5 37. Rc3+ Kb4 38. Kd3 a4 39. Rb2+ Ka5 40. Rxb8 a3 41. Rxa3# 1-0"
-  },
-  {
-    "id": "Z1feMSmJ",
-    "white": "clifford10",
-    "black": "KingIsonic",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Center Game: Berger Variation",
-    "date": "2026-08-19",
-    "moves": 29,
-    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6 5. e5 Ng4 6. Qg3 Ngxe5 7. Bb5 Bd6 8. Bxc6 Nd3+ 9. Qxd3 dxc6 10. Qe3+ Be6 11. Ne2 O-O 12. b3 Bb4+ 13. c3 Bd6 14. Bb2 Re8 15. Qd4 Bg4 16. Qxg4 Qe7 17. O-O f6 18. Na3 Qe5 19. Rab1 Qxh2# 0-1"
-  },
-  {
-    "id": "xcomZGIc",
-    "white": "teX-w",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-08-19",
-    "moves": 48,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Qxe2+ 5. Bxe2 Nf6 6. Bc4 e6 7. Nf3 Bb4 8. d4 Bxc3+ 9. bxc3 Nc6 10. d5 exd5 11. Bb5 a6 12. Bxc6+ bxc6 13. Ne5 O-O 14. Nxc6 Re8+ 15. Be3 Bd7 16. Nd4 Ng4 17. O-O Nxe3 18. fxe3 Rxe3 19. Nf5 Rxc3 20. Ne7+ Kf8 21. Nxd5 Rxc2 22. Nxc7 Rc8 23. Nxa6 Bb5 24. Nb4 Rb2 25. Rf4 g5 26. Rg4 Be2 27. Re4 Bb5 28. Nd5 Bc6 29. Rd1 Bxd5 30. Rxd5 Rc1+ 31. Rd1 Rxd1+ 32. Re1 Rxe1# 0-1"
   }
 ]
