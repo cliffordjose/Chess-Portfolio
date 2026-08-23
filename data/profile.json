@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1120,
+    "blitz": 1115,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1090,
+    "gamesPlayed": 1091,
     "wins": 503,
-    "losses": 541,
+    "losses": 542,
     "draws": 46,
     "winRate": 46.1,
     "avgAccuracy": 85.3,
     "longestWinStreak": 3,
-    "currentStreak": 2,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
