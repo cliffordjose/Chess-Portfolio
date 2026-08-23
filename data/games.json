@@ -1,5 +1,35 @@
 [
   {
+    "id": "47bN7qJ6",
+    "white": "clifford10",
+    "black": "nskomolov",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game: Normal Variation",
+    "date": "2026-08-23",
+    "moves": 33,
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd5 Nf6 5. Qf5 d5 6. Qf3 dxe4 7. Qe3 Nd4 8. Na3 Bxa3 9. Qd2 Bc5 10. c3 e3 11. Qxe3+ Ne6 12. Qg3 Ne4 13. Qf3 N6g5 14. Qf4 Bd6 15. Qe3 O-O 16. h4 Re8 17. Qxg5 Nxg5+ 18. Be2 Ne4 19. Bg5 Nxg5 20. hxg5 Qxg5 21. Nf3 Qxg2 22. Rg1 Qh3 0-1"
+  },
+  {
+    "id": "j7tqpJzg",
+    "white": "clifford10",
+    "black": "Aset_Kusainov",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense: Modern Variation",
+    "date": "2026-08-23",
+    "moves": 48,
+    "pgn": "1. e4 d5 2. d4 Nf6 3. exd5 c6 4. dxc6 Nxc6 5. Bb5 Ng4 6. Nh3 a6 7. Bxc6+ bxc6 8. f3 Qa5+ 9. c3 Nf6 10. Bg5 Nd5 11. Qd3 e6 12. Qc4 Bb7 13. b4 Nxb4 14. cxb4 Bxb4+ 15. Bd2 Bxd2+ 16. Nxd2 O-O 17. Rb1 Bc8 18. Qxc6 e5 19. Qxa8 Bxh3 20. Qe4 Be6 21. Qxe5 Qxa2 22. O-O Qxd2 23. Rbd1 Qh6 24. g4 Bc4 25. Rf2 f6 26. Qc5 Bb5 27. Qd5+ Kh8 28. Qd6 Re8 29. h4 Qxh4 30. Rb1 h6 31. Rh2 Qg3+ 32. Qxg3 1-0"
+  },
+  {
     "id": "y5JSkr3Q",
     "white": "johndoe2837",
     "black": "clifford10",
@@ -268,35 +298,5 @@
     "date": "2026-08-19",
     "moves": 48,
     "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Qxe2+ 5. Bxe2 Nf6 6. Bc4 e6 7. Nf3 Bb4 8. d4 Bxc3+ 9. bxc3 Nc6 10. d5 exd5 11. Bb5 a6 12. Bxc6+ bxc6 13. Ne5 O-O 14. Nxc6 Re8+ 15. Be3 Bd7 16. Nd4 Ng4 17. O-O Nxe3 18. fxe3 Rxe3 19. Nf5 Rxc3 20. Ne7+ Kf8 21. Nxd5 Rxc2 22. Nxc7 Rc8 23. Nxa6 Bb5 24. Nb4 Rb2 25. Rf4 g5 26. Rg4 Be2 27. Re4 Bb5 28. Nd5 Bc6 29. Rd1 Bxd5 30. Rxd5 Rc1+ 31. Rd1 Rxd1+ 32. Re1 Rxe1# 0-1"
-  },
-  {
-    "id": "insgbbwX",
-    "white": "clifford10",
-    "black": "Kuzkaaa",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Alekhine Defense: Maróczy Variation",
-    "date": "2026-08-19",
-    "moves": 33,
-    "pgn": "1. e4 Nf6 2. d3 e5 3. Nc3 d6 4. Nf3 Be7 5. Bg5 O-O 6. Bxf6 Bxf6 7. d4 Be6 8. dxe5 dxe5 9. Qxd8 Rxd8 10. Nb5 Nc6 11. Nxc7 Rac8 12. Nxe6 fxe6 13. Bb5 Rd4 14. Nxd4 exd4 15. Bxc6 Rxc6 16. O-O-O Rb6 17. Rhe1 d3 18. Rxd3 Rxb2 19. e5 Rxa2 20. exf6 Ra1+ 21. Kd2 gxf6 22. Rxe6 1-0"
-  },
-  {
-    "id": "TSwPbuMB",
-    "white": "Chextor",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Queen's Gambit Accepted: Central Variation, McDonnell Defense",
-    "date": "2026-08-19",
-    "moves": 28,
-    "pgn": "1. d4 d5 2. c4 dxc4 3. e4 e5 4. d5 Nf6 5. Bxc4 Nxe4 6. Qf3 Bb4+ 7. Bd2 Nxd2 8. Nxd2 Bxd2+ 9. Kxd2 c6 10. d6 Qxd6+ 11. Kc2 b6 12. Qxf7+ Kd8 13. Rd1 Rf8 14. Rxd6+ Nd7 15. Qxf8+ Kc7 16. Rxd7+ Bxd7 17. Qxg7 e4 18. Qe5+ Kc8 19. Be6 1-0"
   }
 ]
