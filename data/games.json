@@ -1,5 +1,20 @@
 [
   {
+    "id": "1L8Q2UDA",
+    "white": "anilcn2022",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 80,
+      "black": 88
+    },
+    "opening": "Scandinavian Defense",
+    "date": "2026-08-23",
+    "moves": 49,
+    "pgn": "1. e4 d5 2. e5 e6 3. f4 Qh4+ 4. g3 Qe7 5. Nc3 Qc5 6. d4 Qe7 7. Bd3 Nc6 8. Be3 Nh6 9. Qd2 Bd7 10. O-O-O O-O-O 11. Kb1 Kb8 12. Nge2 Qb4 13. a3 Qb6 14. Na4 Qa5 15. Qxa5 Nxa5 16. Bd2 b6 17. Bxa5 Bxa4 18. Bd2 f6 19. c4 fxe5 20. Rc1 dxc4 21. Bxc4 exd4 22. Bxe6 d3 23. Nc3 Bd7 24. Ba2 a5 25. Bb3 Bc6 26. Na4 Bxh1 27. Rxh1 Ng4 28. Nc3 Nf2 29. Rc1 g6 30. Nd5 Ne4 31. Nxc7 Nxd2+ 32. Ka2 Nxb3 33. Kxb3 0-1"
+  },
+  {
     "id": "IF9d5bNK",
     "white": "RGB_SYS",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-19",
     "moves": 40,
     "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6 5. Be2 Nc6 6. O-O e5 7. d3 Bb4 8. Bd2 Bxc3 9. Bxc3 O-O 10. Nxe5 Nxe5 11. Bxe5 Bf5 12. Qd2 Qd5 13. Qc3 Rac8 14. Bf3 Qe6 15. Rfe1 Bg4 16. Bxc7 Bxf3 17. Rxe6 fxe6 18. d4 Rf7 19. Qxf3 Rcxc7 20. c4 Rxc4 21. Rd1 Nd5 22. b3 Rxf3 23. gxf3 Rb4 24. Rc1 Rxd4 25. Rc8+ Kf7 26. Rd8 Rd2 27. Kf1 0-1"
-  },
-  {
-    "id": "JVq1n2UU",
-    "white": "clifford10",
-    "black": "Hanzopolat",
-    "result": "1/2-1/2",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Center Game: Normal Variation",
-    "date": "2026-08-19",
-    "moves": 90,
-    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Bb4+ 5. c3 Ba5 6. b4 Bb6 7. Nf3 d6 8. Nbd2 Bg4 9. h3 Bh5 10. g4 Bg6 11. Ng5 Qxg5 12. Qf3 Ne5 13. Qg3 Ne7 14. Nc4 Nxc4 15. Bxg5 Na3 16. O-O-O Bxe4 17. Bb5+ c6 18. Bd3 Bxh1 19. Rxh1 O-O 20. Qxd6 Nd5 21. c4 Bc7 22. Qc5 Bb6 23. Qd6 Bc7 24. Qd7 Nf4 25. Qxc7 Nxd3+ 26. Kd2 Nxb4 27. Qxb7 Nbc2 28. Qxc6 Rfc8 29. Qf3 Nxc4+ 30. Kxc2 Ne5+ 31. Kb3 Nxf3 32. Be3 Ne5 33. Bd4 Nc6 34. Rc1 Nxd4+ 35. Kb2 Rxc1 36. Kxc1 Kf8 37. Kb2 Ke7 38. Kc3 Nc6 39. Kd3 Ke6 40. f4 Kd5 41. Ke3 Rb8 42. h4 Rb2 43. f5 Rxa2 44. Kf4 Rh2 45. Kg5 Ke5 46. h5 Ke4 47. f6 gxf6+ 48. Kxf6 Rg2 49. g5 Kf4 50. g6 hxg6 51. hxg6 Rxg6+ 52. Kxf7 Rd6 53. Ke8 a5 54. Kf7 a4 55. Kg7 a3 56. Kf7 a2 57. Ke8 a1=Q 58. Kf7 Qa7+ 59. Ke8 Qd7+ 60. Kf8 1/2-1/2"
   }
 ]
