@@ -1,5 +1,20 @@
 [
   {
+    "id": "D0zvyIW7",
+    "white": "clifford10",
+    "black": "Sanshiro-Segata",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game",
+    "date": "2026-08-23",
+    "moves": 81,
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 b6 4. Qd5 c6 5. Qe5+ Qe7 6. Qc7 Qxe4+ 7. Ne2 Na6 8. Nc3 Qxc2 9. Qe5+ Kd8 10. Bg5+ Be7 11. Bxe7+ Nxe7 12. Qxg7 Rg8 13. Qxf7 Qg6 14. Qxg6 Nxg6 15. Ng3 Nc5 16. Bd3 Nxd3+ 17. Kd2 Nxf2 18. Rhf1 Ng4 19. h3 N4e5 20. Nf5 Ba6 21. Rfe1 Nf4 22. Rxe5 Re8 23. Rxe8+ Kxe8 24. Re1+ Kf7 25. Nh6+ Kg6 26. Ng4 Nxg2 27. Rg1 Nf4 28. Ne5+ Kf5 29. Nxd7 Nxh3 30. Rf1+ Bxf1 31. Ke1 Bc4 32. Na4 Bxa2 33. Nc3 Bc4 34. Kd2 Rd8 35. b3 Be6 36. Ne2 Rxd7+ 37. Ke3 Bxb3 38. Ng3+ Kg4 39. Ne4 Ng1 40. Nf6+ Kg5 41. Nxd7 a5 42. Nxb6 a4 43. Kd3 a3 44. Kc3 a2 45. Kxb3 a1=Q 46. Nc4 Qb1+ 47. Nb2 h5 48. Ka3 h4 49. Nc4 h3 50. Ne3 h2 51. Ng2 h1=Q 52. Ne3 Qf3 53. Ka4 Qxe3 54. Ka5 Qa3# 0-1"
+  },
+  {
     "id": "1L8Q2UDA",
     "white": "anilcn2022",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-19",
     "moves": 73,
     "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nf6 4. e5 Ng8 5. Nf3 Nc6 6. Bg5 Be7 7. Qg4 d6 8. Bxe7 Qxe7 9. Qxg7 Nxe5 10. Nxe5 Qxe5+ 11. Qxe5+ dxe5 12. Bc4 Nf6 13. O-O O-O 14. Re1 e4 15. Nc3 Be6 16. Bxe6 fxe6 17. Nxe4 Nxe4 18. Rxe4 Rae8 19. Rae1 Rf6 20. g3 Kf7 21. h4 c6 22. Ra4 Ra8 23. Rb4 b5 24. Kg2 a5 25. Rd4 Ra7 26. f4 c5 27. Rde4 Ra6 28. g4 c4 29. Kg3 a4 30. g5 Rf5 31. Kg4 Rd6 32. b3 axb3 33. cxb3 cxb3 34. axb3 Rd3 35. Rxe6 Rxb3 36. h5 Rc5 37. g6+ Kg7 38. f5 Rc7 39. Kg5 Rg3+ 40. Kf4 Rc4+ 41. Kxg3 Kh6 42. Rh1 Rc3+ 43. Kg4 Rc4+ 44. Kf3 Rc3+ 45. Kf4 Rc4+ 46. Ke5 Rc5+ 47. Kf6 Rc4 48. Re7 Rf4 49. Rxh7# 1-0"
-  },
-  {
-    "id": "adtoHnJF",
-    "white": "Kuzkaaa",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Valencian Variation",
-    "date": "2026-08-19",
-    "moves": 40,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6 5. Be2 Nc6 6. O-O e5 7. d3 Bb4 8. Bd2 Bxc3 9. Bxc3 O-O 10. Nxe5 Nxe5 11. Bxe5 Bf5 12. Qd2 Qd5 13. Qc3 Rac8 14. Bf3 Qe6 15. Rfe1 Bg4 16. Bxc7 Bxf3 17. Rxe6 fxe6 18. d4 Rf7 19. Qxf3 Rcxc7 20. c4 Rxc4 21. Rd1 Nd5 22. b3 Rxf3 23. gxf3 Rb4 24. Rc1 Rxd4 25. Rc8+ Kf7 26. Rd8 Rd2 27. Kf1 0-1"
   }
 ]

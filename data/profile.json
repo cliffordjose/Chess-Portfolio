@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1110,
+    "blitz": 1102,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1084,
+    "gamesPlayed": 1085,
     "wins": 499,
-    "losses": 539,
+    "losses": 540,
     "draws": 46,
     "winRate": 46.0,
     "avgAccuracy": 78.8,
     "longestWinStreak": 3,
-    "currentStreak": 2,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,22 +87,22 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 8,
-      "wins": 3,
+      "games": 7,
+      "wins": 2,
       "draws": 1,
       "losses": 4,
       "color": "#769656"
     },
     {
-      "name": "Scandinavian Defense: Valencian Variation",
-      "games": 3,
+      "name": "Center Game",
+      "games": 4,
       "wins": 2,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "color": "#c9a227"
     },
     {
-      "name": "Center Game",
+      "name": "Scandinavian Defense: Valencian Variation",
       "games": 3,
       "wins": 2,
       "draws": 0,
