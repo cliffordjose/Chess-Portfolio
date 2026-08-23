@@ -1,5 +1,20 @@
 [
   {
+    "id": "IF9d5bNK",
+    "white": "RGB_SYS",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Queen's Gambit Declined: Albin Countergambit",
+    "date": "2026-08-23",
+    "moves": 34,
+    "pgn": "1. d4 d5 2. c4 e5 3. dxe5 Nc6 4. cxd5 Nxe5 5. e4 Bb4+ 6. Nc3 Bxc3+ 7. bxc3 Qf6 8. Nf3 Bg4 9. Be2 Bxf3 10. Bxf3 Nc4 11. Qa4+ c6 12. Qxc4 Ne7 13. Ba3 cxd5 14. exd5 O-O 15. O-O Rac8 16. Bxe7 Rxc4 17. Bxf6 gxf6 18. Rac1 Re8 19. g3 Re3 20. fxe3 Ra4 21. Rf2 Ra3 22. e4 Rxc3 23. Rxc3 1-0"
+  },
+  {
     "id": "eK8uBaO1",
     "white": "clifford10",
     "black": "Tanakawashe",
@@ -283,20 +298,5 @@
     "date": "2026-08-19",
     "moves": 90,
     "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Bb4+ 5. c3 Ba5 6. b4 Bb6 7. Nf3 d6 8. Nbd2 Bg4 9. h3 Bh5 10. g4 Bg6 11. Ng5 Qxg5 12. Qf3 Ne5 13. Qg3 Ne7 14. Nc4 Nxc4 15. Bxg5 Na3 16. O-O-O Bxe4 17. Bb5+ c6 18. Bd3 Bxh1 19. Rxh1 O-O 20. Qxd6 Nd5 21. c4 Bc7 22. Qc5 Bb6 23. Qd6 Bc7 24. Qd7 Nf4 25. Qxc7 Nxd3+ 26. Kd2 Nxb4 27. Qxb7 Nbc2 28. Qxc6 Rfc8 29. Qf3 Nxc4+ 30. Kxc2 Ne5+ 31. Kb3 Nxf3 32. Be3 Ne5 33. Bd4 Nc6 34. Rc1 Nxd4+ 35. Kb2 Rxc1 36. Kxc1 Kf8 37. Kb2 Ke7 38. Kc3 Nc6 39. Kd3 Ke6 40. f4 Kd5 41. Ke3 Rb8 42. h4 Rb2 43. f5 Rxa2 44. Kf4 Rh2 45. Kg5 Ke5 46. h5 Ke4 47. f6 gxf6+ 48. Kxf6 Rg2 49. g5 Kf4 50. g6 hxg6 51. hxg6 Rxg6+ 52. Kxf7 Rd6 53. Ke8 a5 54. Kf7 a4 55. Kg7 a3 56. Kf7 a2 57. Ke8 a1=Q 58. Kf7 Qa7+ 59. Ke8 Qd7+ 60. Kf8 1/2-1/2"
-  },
-  {
-    "id": "FJ4EblTX",
-    "white": "vsk12",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Van't Kruijs Opening",
-    "date": "2026-08-19",
-    "moves": 90,
-    "pgn": "1. e3 d5 2. g3 e6 3. Bg2 Nf6 4. b3 Nc6 5. Bb2 e5 6. Nc3 d4 7. exd4 exd4 8. Nb1 Qd7 9. Ne2 Bb4 10. c3 dxc3 11. dxc3 Bc5 12. Ng1 Qxd1+ 13. Kxd1 Bxf2 14. Nh3 Be3 15. Re1 Ng4 16. Bf3 Nce5 17. c4 Nxf3 18. Rxe3+ Nxe3+ 19. Ke2 Nc2 20. Nc3 Nxa1 21. Bxa1 Bxh3 22. Kxf3 O-O 23. g4 Rad8 24. Kg3 Rd3+ 25. Kh4 Rxc3 26. Bxc3 Bf1 27. Kg3 g5 28. Kf2 Bd3 29. Ke3 Bb1 30. a4 Ba2 31. Kd2 Bxb3 32. Kd3 Bxa4 33. Be5 c6 34. Bb8 a6 35. Bc7 Bd1 36. Kd2 Bxg4 37. Ke3 Be6 38. Ke4 Bxc4 39. Kd4 Bf1 40. Ke3 Rc8 41. Bb6 a5 42. Bxa5 Ra8 43. Bb6 Ra3+ 44. Kf2 Bh3 45. Bc5 Rc3 46. Bd4 Rc2+ 47. Kg3 Bf5 48. Kf3 f6 49. Ke3 Rxh2 50. Kf3 Rh3+ 51. Kg2 Rh4 52. Kg3 Rxd4 53. Kf3 b5 54. Ke3 Rh4 55. Kf3 b4 56. Ke3 b3 57. Kd2 Rh3 58. Kc1 Rh2 59. Kd1 b2 60. Ke1 b1=Q# 0-1"
   }
 ]

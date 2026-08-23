@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1110,
+    "blitz": 1105,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1082,
+    "gamesPlayed": 1083,
     "wins": 498,
-    "losses": 538,
+    "losses": 539,
     "draws": 46,
     "winRate": 46.0,
     "avgAccuracy": 75.7,
     "longestWinStreak": 3,
-    "currentStreak": 0,
+    "currentStreak": 3,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -134,7 +134,7 @@
       "color": "#e67e22"
     },
     {
-      "name": "Blackmar-Diemer Gambit: Blackmar Gambit",
+      "name": "Queen's Gambit Declined: Albin Countergambit",
       "games": 1,
       "wins": 0,
       "draws": 0,
