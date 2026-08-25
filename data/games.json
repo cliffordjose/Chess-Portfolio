@@ -1,5 +1,20 @@
 [
   {
+    "id": "PzpX0bI3",
+    "white": "Magomago1",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense",
+    "date": "2026-08-25",
+    "moves": 64,
+    "pgn": "1. e4 d5 2. d3 dxe4 3. dxe4 Qxd1+ 4. Kxd1 e6 5. Nf3 Nf6 6. Nbd2 Bb4 7. c3 Ba5 8. b4 Bb6 9. Bb5+ c6 10. Ba4 Bxf2 11. Ne5 b5 12. Bb3 Be3 13. g4 Bxd2 14. Bxd2 Nxe4 15. Re1 Nf2+ 16. Ke2 Nh3 17. Bc2 f6 18. Nf3 e5 19. Bf5 Bxf5 20. gxf5 g5 21. a3 g4 22. Ng1 Nxg1+ 23. Rxg1 h5 24. Be3 Nd7 25. a4 bxa4 26. Rxa4 O-O 27. Ra6 e4 28. Rxc6 Ne5 29. Re6 Nc4 30. h3 Kf7 31. hxg4 hxg4 32. Rxg4 Ne5 33. Rh4 Nf3 34. Rh7+ Kg8 35. Rh3 Ng5 36. Rg3 Kf7 37. Bxg5 fxg5 38. Rxg5 Rfc8 39. Kd2 a5 40. Rgg6 axb4 41. Rgf6+ Kg7 42. Re7+ Kxf6 43. cxb4 0-1"
+  },
+  {
     "id": "YOqPhFk9",
     "white": "clifford10",
     "black": "yesterdayafter",
@@ -283,20 +298,5 @@
     "date": "2026-08-22",
     "moves": 30,
     "pgn": "1. e4 d5 2. d4 dxe4 3. f3 exf3 4. Nxf3 Nf6 5. Bc4 Nc6 6. Nc3 Bg4 7. d5 Bxf3 8. Qxf3 Ne5 9. Qf4 Qd6 10. O-O Nh5 11. Qh4 g6 12. g4 Nxc4 13. gxh5 gxh5 14. Qxc4 Qg6+ 15. Kh1 Qxc2 16. Rg1 O-O-O 17. Rg2 Qf5 18. Bf4 Rd7 19. Ne2 Rxd5 20. Qxc7# 1-0"
-  },
-  {
-    "id": "cUnMXNCT",
-    "white": "clifford10",
-    "black": "DylanShort",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Owen Defense",
-    "date": "2026-08-21",
-    "moves": 44,
-    "pgn": "1. e4 b6 2. d4 Bb7 3. Nc3 d6 4. d5 Nd7 5. Nf3 e5 6. dxe6 fxe6 7. Bg5 Be7 8. Qd4 Ngf6 9. Bxf6 Bxf6 10. e5 dxe5 11. Qg4 Qe7 12. Qh5+ g6 13. Qh3 O-O-O 14. Bd3 Nc5 15. Qg4 Nxd3+ 16. cxd3 Rxd3 17. O-O e4 18. Nxe4 Bxe4 19. Qxe4 Rhd8 20. a4 Bxb2 21. Rab1 Qa3 22. Qxe6+ Kb8 23. Qg8 Rxg8 24. Ng5 Qxa4 25. Nxh7 Qc2 26. Ng5 Rgd8 27. Ne6 R8d7 28. Nf4 Rd1 29. Rfxd1 Rxd1+ 0-1"
   }
 ]
