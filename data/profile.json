@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1121,
+    "blitz": 1127,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1095,
-    "wins": 505,
-    "losses": 543,
+    "gamesPlayed": 1099,
+    "wins": 508,
+    "losses": 544,
     "draws": 47,
-    "winRate": 46.1,
+    "winRate": 46.2,
     "avgAccuracy": 85.5,
     "longestWinStreak": 3,
-    "currentStreak": 0,
+    "currentStreak": 2,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -88,17 +88,17 @@
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 8,
-      "wins": 3,
+      "wins": 4,
       "draws": 1,
-      "losses": 4,
+      "losses": 3,
       "color": "#769656"
     },
     {
-      "name": "Center Game",
-      "games": 4,
+      "name": "Sicilian Defense: Smith-Morra Gambit",
+      "games": 3,
       "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 1,
       "color": "#c9a227"
     },
     {
@@ -110,15 +110,15 @@
       "color": "#4a90d9"
     },
     {
-      "name": "Sicilian Defense: Smith-Morra Gambit",
-      "games": 2,
-      "wins": 1,
+      "name": "Center Game",
+      "games": 3,
+      "wins": 2,
       "draws": 0,
       "losses": 1,
       "color": "#d94a4a"
     },
     {
-      "name": "Scandinavian Defense",
+      "name": "Van't Kruijs Opening",
       "games": 2,
       "wins": 2,
       "draws": 0,
@@ -126,7 +126,7 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "name": "Mieses Opening",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Scandinavian Defense: Valencian Variation",
+      "name": "Scandinavian Defense",
       "games": 2,
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
-      "losses": 1,
+      "losses": 0,
       "color": "#1abc9c"
     }
   ],
