@@ -22,7 +22,7 @@
     "winRate": 46.2,
     "avgAccuracy": 88.0,
     "longestWinStreak": 3,
-    "currentStreak": 0,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,9 +87,9 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 7,
+      "games": 6,
       "wins": 3,
-      "draws": 1,
+      "draws": 0,
       "losses": 3,
       "color": "#769656"
     },
@@ -126,7 +126,7 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Van't Kruijs Opening",
+      "name": "King's Pawn Game: Leonardis Variation",
       "games": 2,
       "wins": 2,
       "draws": 0,
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Mieses Opening",
+      "name": "Van't Kruijs Opening",
       "games": 2,
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
-      "losses": 1,
+      "losses": 0,
       "color": "#1abc9c"
     }
   ],
