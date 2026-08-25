@@ -1,5 +1,20 @@
 [
   {
+    "id": "wXOSuN6j",
+    "white": "clifford10",
+    "black": "Bvandr27",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Sicilian Defense: Smith-Morra Gambit",
+    "date": "2026-08-25",
+    "moves": 63,
+    "pgn": "1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qd3 d6 5. Nc3 Nb4 6. Qb5+ Nc6 7. Bf4 a6 8. Qd5 e6 9. Qc4 Na5 10. Qa4+ Bd7 11. Qb4 d5 12. Qd4 f6 13. exd5 e5 14. Bxe5 fxe5 15. Qxe5+ Ne7 16. d6 Nc4 17. Qh5+ g6 18. Qg5 Nf5 19. Qxd8+ Rxd8 20. Bxc4 Bxd6 21. Ne4 Rc8 22. Nf6+ Kd8 23. b3 Rf8 24. Nxh7 Re8+ 25. Ne2 Nd4 26. O-O Nxc2 27. Rac1 Nb4 28. a3 Na2 29. Ra1 Rxc4 30. bxc4 Rxe2 31. Nf6 Nc3 32. Rac1 Be5 33. Ng4 Bg7 34. Rxc3 Bxc3 35. Nh6 Bb2 36. Nf7+ Ke7 37. Ng5 Bxa3 38. f3 Be6 39. Ne4 Bxc4 40. Nc3 Rc2 41. Re1+ Kd6 42. Ne4+ Ke5 0-1"
+  },
+  {
     "id": "OjwNVfvG",
     "white": "FranzAugust",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-19",
     "moves": 16,
     "pgn": "1. d4 e6 2. g3 Qf6 3. Nf3 Nc6 4. Bg2 Bb4+ 5. Bd2 Nxd4 6. Bxb4 Nxf3+ 7. Bxf3 Qxb2 8. Bc3 Qb5 9. O-O f6 10. Na3 Qb4 11. Bxb4 1-0"
-  },
-  {
-    "id": "IGrqdlXA",
-    "white": "clifford10",
-    "black": "Jd3306",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Sicilian Defense: Smith-Morra Gambit",
-    "date": "2026-08-19",
-    "moves": 37,
-    "pgn": "1. e4 c5 2. d4 Nc6 3. dxc5 g6 4. Bb5 Na5 5. Qd4 a6 6. Qxh8 Nf6 7. e5 axb5 8. exf6 exf6 9. Qxh7 Nc6 10. Qh8 Qa5+ 11. c3 b4 12. Bh6 Kd8 13. Qxf8+ Kc7 14. Qxf7 bxc3 15. Nxc3 Qxc5 16. Bf4+ Ne5 17. Qxf6 d6 18. Rc1 Nd3+ 19. Kf1 Nxc1 20. Bxc1 Qc4+ 21. Nge2 Bf5 22. Qe7+ Kb6 23. Qxd6+ Ka7 24. Be3+ b6 25. Qxb6# 1-0"
   }
 ]
