@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1122,
+    "blitz": 1117,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1107,
-    "wins": 511,
-    "losses": 548,
+    "gamesPlayed": 1112,
+    "wins": 513,
+    "losses": 551,
     "draws": 48,
-    "winRate": 46.2,
+    "winRate": 46.1,
     "avgAccuracy": 88.0,
     "longestWinStreak": 3,
-    "currentStreak": 3,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,11 +87,19 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 6,
+      "games": 7,
       "wins": 3,
       "draws": 0,
-      "losses": 3,
+      "losses": 4,
       "color": "#769656"
+    },
+    {
+      "name": "Van't Kruijs Opening",
+      "games": 3,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
+      "color": "#c9a227"
     },
     {
       "name": "Scandinavian Defense",
@@ -99,7 +107,7 @@
       "wins": 2,
       "draws": 1,
       "losses": 0,
-      "color": "#c9a227"
+      "color": "#4a90d9"
     },
     {
       "name": "Sicilian Defense: Smith-Morra Gambit",
@@ -107,7 +115,7 @@
       "wins": 2,
       "draws": 0,
       "losses": 1,
-      "color": "#4a90d9"
+      "color": "#d94a4a"
     },
     {
       "name": "Center Game: Normal Variation",
@@ -115,26 +123,18 @@
       "wins": 1,
       "draws": 1,
       "losses": 1,
-      "color": "#d94a4a"
-    },
-    {
-      "name": "Center Game",
-      "games": 3,
-      "wins": 2,
-      "draws": 0,
-      "losses": 1,
       "color": "#9b59b6"
     },
     {
-      "name": "King's Pawn Game: Leonardis Variation",
+      "name": "Center Game: Berger Variation",
       "games": 2,
-      "wins": 2,
+      "wins": 0,
       "draws": 0,
-      "losses": 0,
+      "losses": 2,
       "color": "#e67e22"
     },
     {
-      "name": "Van't Kruijs Opening",
+      "name": "King's Pawn Game: Leonardis Variation",
       "games": 2,
       "wins": 2,
       "draws": 0,
