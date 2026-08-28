@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1123,
+    "blitz": 1126,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1117,
-    "wins": 516,
-    "losses": 553,
+    "gamesPlayed": 1122,
+    "wins": 519,
+    "losses": 555,
     "draws": 48,
-    "winRate": 46.2,
+    "winRate": 46.3,
     "avgAccuracy": 88.0,
     "longestWinStreak": 3,
-    "currentStreak": 2,
+    "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -88,17 +88,17 @@
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
-      "wins": 3,
+      "wins": 4,
       "draws": 0,
-      "losses": 4,
+      "losses": 3,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 4,
+      "games": 5,
       "wins": 3,
       "draws": 1,
-      "losses": 0,
+      "losses": 1,
       "color": "#c9a227"
     },
     {
@@ -110,11 +110,11 @@
       "color": "#4a90d9"
     },
     {
-      "name": "Sicilian Defense: Smith-Morra Gambit",
-      "games": 3,
-      "wins": 2,
+      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "games": 2,
+      "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "color": "#d94a4a"
     },
     {
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Center Game: Berger Variation",
+      "name": "King's Pawn Game: Leonardis Variation",
       "games": 2,
-      "wins": 0,
+      "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 0,
       "color": "#1abc9c"
     }
   ],
