@@ -10,14 +10,14 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1126,
+    "blitz": 1130,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1122,
-    "wins": 519,
-    "losses": 555,
+    "gamesPlayed": 1126,
+    "wins": 521,
+    "losses": 557,
     "draws": 48,
     "winRate": 46.3,
     "avgAccuracy": 88.0,
@@ -87,8 +87,8 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 7,
-      "wins": 4,
+      "games": 8,
+      "wins": 5,
       "draws": 0,
       "losses": 3,
       "color": "#769656"
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "King's Pawn Game: Leonardis Variation",
+      "name": "Sicilian Defense: Smith-Morra Gambit",
       "games": 2,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "color": "#1abc9c"
     }
   ],
