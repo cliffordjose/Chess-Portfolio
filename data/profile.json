@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1142,
+    "blitz": 1149,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1132,
-    "wins": 525,
+    "gamesPlayed": 1133,
+    "wins": 526,
     "losses": 559,
     "draws": 48,
     "winRate": 46.4,
     "avgAccuracy": 78.0,
     "longestWinStreak": 4,
-    "currentStreak": 0,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -103,8 +103,8 @@
     },
     {
       "name": "Center Game: Normal Variation",
-      "games": 3,
-      "wins": 1,
+      "games": 4,
+      "wins": 2,
       "draws": 0,
       "losses": 2,
       "color": "#4a90d9"

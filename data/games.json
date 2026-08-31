@@ -1,5 +1,20 @@
 [
   {
+    "id": "aLXg9Q8b",
+    "white": "clifford10",
+    "black": "pleiades2",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game: Normal Variation",
+    "date": "2026-08-31",
+    "moves": 49,
+    "pgn": "1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Qd4 Nc6 5. Qc3 Qf6 6. Qxf6 Nxf6 7. Nc3 Bb4 8. Bg5 Nxe4 9. Be3 Nxc3 10. bxc3 Bxc3+ 11. Bd2 Bxa1 12. Bb5 Nd4 13. Bd3 O-O 14. Be3 Re8 15. Kd2 Nc6 16. Bb5 Bd4 17. Bxc6 Bxe3+ 18. fxe3 dxc6 19. Nf3 Be6 20. Re1 Bxa2 21. Nd4 Re7 22. Nf5 Re6 23. Nd4 Re4 24. g3 Rae8 25. Nf5 b6 26. c3 Be6 27. Nd4 c5 28. Nc6 Bd5 29. Nxa7 Ra8 30. Nb5 Ra2+ 31. Kd3 Rxh2 32. Nxc7 Bc4+ 33. Kxe4 1-0"
+  },
+  {
     "id": "btguNCtp",
     "white": "Name0000000",
     "black": "clifford10",
@@ -283,20 +298,5 @@
     "date": "2026-08-27",
     "moves": 72,
     "pgn": "1. e4 d5 2. e5 d4 3. Nf3 Nc6 4. Bb5 Bg4 5. O-O g6 6. c3 Bg7 7. cxd4 a6 8. Bxc6+ bxc6 9. Nc3 Bxf3 10. Qxf3 Rb8 11. d3 Qxd4 12. Qxc6+ Kd8 13. Qxa6 Bxe5 14. Re1 Nh6 15. Bxh6 Kd7 16. Be3 Qh4 17. Qa4+ Qxa4 18. Nxa4 Rxb2 19. Nxb2 Bxb2 20. Rab1 Bc3 21. Rec1 Be5 22. Rc5 Bd6 23. Rd5 Ra8 24. Bf4 Rxa2 25. Bxd6 cxd6 26. h3 Ke6 27. Rdb5 Ra3 28. Rd1 f5 29. Re1+ Kf6 30. g4 fxg4 31. hxg4 e5 32. f3 Rxd3 33. Rb6 Ke6 34. f4 Rg3+ 35. Kh2 Rxg4 36. fxe5 Rh4+ 37. Kg3 Rh5 38. exd6+ Kd7 39. Rd1 Rg5+ 40. Kh4 Re5 41. Rb7+ Ke6 42. d7 Ke7 43. d8=Q+ Ke6 44. Qe8+ Kf5 45. Rf1+ Ke4 46. Rb4+ Kd5 47. Qd8+ Ke6 48. Rd1 Rh5+ 0-1"
-  },
-  {
-    "id": "nJIhg6AW",
-    "white": "dundee_il",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Rapport-Jobava System",
-    "date": "2026-08-26",
-    "moves": 15,
-    "pgn": "1. d4 d5 2. Bf4 e6 3. Nc3 Nf6 4. Nb5 Na6 5. e3 Ne4 6. f3 Nf6 7. c3 Bd6 8. Qa4 c6 9. Nxd6+ Qxd6 10. Bxd6 1-0"
   }
 ]
