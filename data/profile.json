@@ -10,17 +10,17 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1149,
+    "blitz": 1164,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1133,
-    "wins": 526,
-    "losses": 559,
+    "gamesPlayed": 1139,
+    "wins": 530,
+    "losses": 561,
     "draws": 48,
-    "winRate": 46.4,
-    "avgAccuracy": 78.0,
+    "winRate": 46.5,
+    "avgAccuracy": 68.0,
     "longestWinStreak": 4,
     "currentStreak": 1,
     "bestRating": 1516,
@@ -87,8 +87,8 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 9,
-      "wins": 6,
+      "games": 10,
+      "wins": 7,
       "draws": 0,
       "losses": 3,
       "color": "#769656"
@@ -96,21 +96,21 @@
     {
       "name": "Scandinavian Defense",
       "games": 6,
-      "wins": 4,
+      "wins": 3,
       "draws": 1,
-      "losses": 1,
+      "losses": 2,
       "color": "#c9a227"
     },
     {
-      "name": "Center Game: Normal Variation",
-      "games": 4,
+      "name": "Sicilian Defense: Smith-Morra Gambit",
+      "games": 3,
       "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 1,
       "color": "#4a90d9"
     },
     {
-      "name": "Rapport-Jobava System",
+      "name": "Center Game: Normal Variation",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -118,27 +118,27 @@
       "color": "#d94a4a"
     },
     {
+      "name": "Rapport-Jobava System",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#9b59b6"
+    },
+    {
       "name": "Van't Kruijs Opening",
       "games": 2,
       "wins": 2,
       "draws": 0,
       "losses": 0,
-      "color": "#9b59b6"
-    },
-    {
-      "name": "Sicilian Defense: Smith-Morra Gambit",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
       "color": "#e67e22"
     },
     {
-      "name": "King's Pawn Game: Beyer Gambit",
+      "name": "Queen's Gambit Declined: Chigorin Defense, Janowski Variation",
       "games": 1,
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
-      "losses": 1,
+      "losses": 0,
       "color": "#1abc9c"
     }
   ],
