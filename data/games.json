@@ -1,5 +1,35 @@
 [
   {
+    "id": "MGLCMjk8",
+    "white": "clifford10",
+    "black": "Akbaraliev_XVII",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Center Game: Normal Variation",
+    "date": "2026-09-14",
+    "moves": 45,
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd3 d5 5. Nc3 dxe4 6. Qxd8+ Kxd8 7. Nxe4 Bc5 8. Nxc5 Nf6 9. Bg5 Nb4 10. O-O-O+ Ke8 11. Bxf6 gxf6 12. Ne4 Bf5 13. Nxf6+ Kf8 14. Kb1 Bxc2+ 15. Kc1 Bxd1 16. Kxd1 Rd8+ 17. Kc1 Nd3+ 18. Bxd3 Rxd3 19. Nf3 Kg7 20. Ne4 Rhd8 21. Nc5 R3d5 22. Nxb7 R8d7 23. Re1 c6 24. Nh4 Rxb7 25. b3 Rc5+ 26. Kb2 Rd7 27. Nf3 a5 28. h3 a4 29. bxa4 Rb7+ 30. Ka3 Rc3# 0-1"
+  },
+  {
+    "id": "Gzi4y1gz",
+    "white": "anghl_trk1",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense",
+    "date": "2026-09-14",
+    "moves": 54,
+    "pgn": "1. e4 d5 2. f3 dxe4 3. fxe4 Nf6 4. Nf3 Nxe4 5. Qe2 Nf6 6. Nc3 Bg4 7. h3 Bxf3 8. gxf3 Qd6 9. Bg2 Qg3+ 10. Qf2 Qe5+ 11. Qe2 Nc6 12. Qxe5 Nxe5 13. d4 Nc6 14. Bg5 Nxd4 15. Bxf6 exf6 16. O-O-O Bb4 17. Rhe1+ Kf8 18. Rxd4 Bxc3 19. bxc3 g6 20. f4 c6 21. Rd7 Rb8 22. Ree7 Kg7 23. Rxf7+ Kh6 24. Rxf6 a6 25. h4 Rhe8 26. Rd1 Re2 27. Bf3 Rf2 28. Bg4 Rg2 29. Be6 Rh2 30. f5 Rxh4 31. fxg6 hxg6 32. Bf5 Rf4 33. Rxg6+ Kh5 34. Rh1+ Rh4 35. Rhg1 Rf8 36. R1g5# 1-0"
+  },
+  {
     "id": "l13Op28n",
     "white": "HossamKarim88",
     "black": "clifford10",
@@ -268,35 +298,5 @@
     "date": "2026-09-02",
     "moves": 32,
     "pgn": "1. e4 d5 2. Nf3 dxe4 3. Ne5 Qd5 4. d4 Nc6 5. Nc3 Qa5 6. Bd2 Nxe5 7. Nxe4 Qb6 8. dxe5 Qxb2 9. Bc4 Qxe5 10. Qf3 Qxa1+ 11. Ke2 Qxh1 12. Ng5 f6 13. Nf7 Qxh2 14. Nxh8 Nh6 15. Bxh6 gxh6 16. Bf7+ Kd8 17. Qd3+ Bd7 18. Be6 Qe5+ 19. Qe3 Qxe6 20. Qxe6 Bxe6 21. Nf7+ Bxf7 0-1"
-  },
-  {
-    "id": "YJriQeNC",
-    "white": "clifford10",
-    "black": "asliarp",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "French Defense: King's Indian Attack",
-    "date": "2026-09-02",
-    "moves": 70,
-    "pgn": "1. e4 e6 2. d3 d5 3. exd5 exd5 4. Qf3 Nf6 5. d4 Nc6 6. Bb5 Bd7 7. Bg5 Nxd4 8. Be3 Nc6 9. Bg5 Bb4+ 10. c3 Qe7+ 11. Ne2 Bd6 12. Bxf6 gxf6 13. Qxd5 Ne5 14. Qxb7 Rd8 15. Bxd7+ Rxd7 16. Qxa7 Rd8 17. Qa4+ Rd7 18. O-O Rg8 19. Nf4 c5 20. Qa8+ Rd8 21. Qc6+ Rd7 22. Nd5 Qe6 23. Nc7+ Ke7 24. Nxe6 Kxe6 25. Qe4 f5 26. Qh4 Ng4 27. Re1+ Kd5 28. Qxh7 Rg5 29. Rd1+ Ke5 30. Qh8+ Ke6 31. Re1+ Be5 32. Qe8+ Re7 33. Qc8+ Rd7 34. Qc6+ Rd6 35. Qc8+ Rd7 36. Qxc5 Kf6 37. Nd2 Rh5 38. h3 Nh2 39. Qxe5+ Kg5 40. Qxh2 Rxd2 41. Rad1 Rxb2 42. Rd4 Rxa2 43. Qg3+ Kf6 44. Qe5+ Kg5 45. f4+ Kh4 46. Qf6+ Kg3 47. Rd3+ 1-0"
-  },
-  {
-    "id": "p5Xk1CD9",
-    "white": "jaimesep",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "French Defense: La Bourdonnais Variation",
-    "date": "2026-09-02",
-    "moves": 27,
-    "pgn": "1. e4 e6 2. f4 Qf6 3. Ne2 Bc5 4. d4 Qh4+ 5. g3 Qg4 6. Nbc3 Bb6 7. h3 Qf3 8. Rh2 e5 9. Bg2 Qh5 10. Be3 exd4 11. Bxd4 Bxd4 12. Qxd4 d6 13. O-O-O Nf6 14. Qd3 Nc6 15. Bf3 Qa5 16. e5 dxe5 17. Bxc6+ bxc6 18. Qd8# 1-0"
   }
 ]

@@ -10,16 +10,16 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1183,
+    "blitz": 1170,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1160,
+    "gamesPlayed": 1162,
     "wins": 542,
-    "losses": 569,
+    "losses": 571,
     "draws": 49,
-    "winRate": 46.7,
+    "winRate": 46.6,
     "avgAccuracy": 72.0,
     "longestWinStreak": 4,
     "currentStreak": 0,
@@ -87,10 +87,10 @@
   "openings": [
     {
       "name": "Scandinavian Defense",
-      "games": 7,
+      "games": 8,
       "wins": 4,
       "draws": 0,
-      "losses": 3,
+      "losses": 4,
       "color": "#769656"
     },
     {
@@ -102,7 +102,7 @@
       "color": "#c9a227"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "name": "Center Game: Normal Variation",
       "games": 3,
       "wins": 1,
       "draws": 0,
@@ -110,11 +110,11 @@
       "color": "#4a90d9"
     },
     {
-      "name": "Center Game: Berger Variation",
+      "name": "Nimzowitsch Defense: Kennedy Variation",
       "games": 3,
-      "wins": 0,
+      "wins": 1,
       "draws": 0,
-      "losses": 3,
+      "losses": 2,
       "color": "#d94a4a"
     },
     {
