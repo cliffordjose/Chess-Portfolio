@@ -10,16 +10,16 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1157,
+    "blitz": 1161,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1166,
-    "wins": 543,
-    "losses": 574,
-    "draws": 49,
-    "winRate": 46.6,
+    "gamesPlayed": 1173,
+    "wins": 546,
+    "losses": 577,
+    "draws": 50,
+    "winRate": 46.5,
     "avgAccuracy": 72.0,
     "longestWinStreak": 4,
     "currentStreak": 0,
@@ -88,21 +88,21 @@
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 8,
-      "wins": 6,
+      "wins": 5,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 7,
+      "games": 6,
       "wins": 3,
       "draws": 0,
-      "losses": 4,
+      "losses": 3,
       "color": "#c9a227"
     },
     {
-      "name": "Center Game",
+      "name": "Center Game: Berger Variation",
       "games": 3,
       "wins": 1,
       "draws": 0,
@@ -110,15 +110,15 @@
       "color": "#4a90d9"
     },
     {
-      "name": "Center Game: Normal Variation",
+      "name": "Zukertort Opening: Tennison Gambit",
       "games": 3,
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
-      "losses": 2,
+      "losses": 1,
       "color": "#d94a4a"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
+      "name": "Center Game",
       "games": 3,
       "wins": 1,
       "draws": 0,
@@ -126,11 +126,11 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Zukertort Opening: Tennison Gambit",
+      "name": "Center Game: Normal Variation",
       "games": 2,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "color": "#e67e22"
     },
     {
