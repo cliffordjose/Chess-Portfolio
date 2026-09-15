@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1161,
+    "blitz": 1160,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1173,
-    "wins": 546,
-    "losses": 577,
+    "gamesPlayed": 1175,
+    "wins": 547,
+    "losses": 578,
     "draws": 50,
-    "winRate": 46.5,
-    "avgAccuracy": 72.0,
+    "winRate": 46.6,
+    "avgAccuracy": 73.7,
     "longestWinStreak": 4,
-    "currentStreak": 0,
+    "currentStreak": 4,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -95,11 +95,19 @@
     },
     {
       "name": "Scandinavian Defense",
-      "games": 6,
+      "games": 7,
       "wins": 3,
       "draws": 0,
-      "losses": 3,
+      "losses": 4,
       "color": "#c9a227"
+    },
+    {
+      "name": "Center Game",
+      "games": 4,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "color": "#4a90d9"
     },
     {
       "name": "Center Game: Berger Variation",
@@ -107,7 +115,7 @@
       "wins": 1,
       "draws": 0,
       "losses": 2,
-      "color": "#4a90d9"
+      "color": "#d94a4a"
     },
     {
       "name": "Zukertort Opening: Tennison Gambit",
@@ -115,14 +123,6 @@
       "wins": 2,
       "draws": 0,
       "losses": 1,
-      "color": "#d94a4a"
-    },
-    {
-      "name": "Center Game",
-      "games": 3,
-      "wins": 1,
-      "draws": 0,
-      "losses": 2,
       "color": "#9b59b6"
     },
     {
