@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1160,
+    "blitz": 1163,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1175,
-    "wins": 547,
-    "losses": 578,
+    "gamesPlayed": 1179,
+    "wins": 549,
+    "losses": 580,
     "draws": 50,
     "winRate": 46.6,
-    "avgAccuracy": 73.7,
-    "longestWinStreak": 4,
-    "currentStreak": 4,
+    "avgAccuracy": 76.5,
+    "longestWinStreak": 3,
+    "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -88,31 +88,31 @@
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 8,
-      "wins": 5,
+      "wins": 4,
       "draws": 0,
-      "losses": 3,
+      "losses": 4,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 7,
-      "wins": 3,
+      "games": 6,
+      "wins": 2,
       "draws": 0,
       "losses": 4,
       "color": "#c9a227"
     },
     {
-      "name": "Center Game",
+      "name": "Center Game: Berger Variation",
       "games": 4,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "color": "#4a90d9"
     },
     {
-      "name": "Center Game: Berger Variation",
-      "games": 3,
-      "wins": 1,
+      "name": "Center Game",
+      "games": 4,
+      "wins": 2,
       "draws": 0,
       "losses": 2,
       "color": "#d94a4a"
@@ -134,7 +134,7 @@
       "color": "#e67e22"
     },
     {
-      "name": "King's Pawn Game: Napoleon Attack",
+      "name": "Sicilian Defense: Smith-Morra Gambit",
       "games": 2,
       "wins": 2,
       "draws": 0,
