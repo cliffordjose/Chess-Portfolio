@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1135,
+    "blitz": 1130,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1184,
-    "wins": 549,
-    "losses": 585,
+    "gamesPlayed": 1187,
+    "wins": 550,
+    "losses": 587,
     "draws": 50,
-    "winRate": 46.4,
+    "winRate": 46.3,
     "avgAccuracy": 76.5,
     "longestWinStreak": 3,
-    "currentStreak": 3,
+    "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -88,15 +88,15 @@
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
       "games": 7,
-      "wins": 3,
+      "wins": 2,
       "draws": 0,
-      "losses": 4,
+      "losses": 5,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 6,
-      "wins": 2,
+      "games": 7,
+      "wins": 3,
       "draws": 0,
       "losses": 4,
       "color": "#c9a227"
@@ -126,11 +126,11 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Sicilian Defense: Smith-Morra Gambit",
+      "name": "French Defense: King's Indian Attack",
       "games": 2,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "color": "#e67e22"
     },
     {
