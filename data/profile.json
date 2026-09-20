@@ -15,9 +15,9 @@
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1190,
-    "wins": 551,
-    "losses": 589,
+    "gamesPlayed": 1194,
+    "wins": 553,
+    "losses": 591,
     "draws": 50,
     "winRate": 46.3,
     "avgAccuracy": 73.0,
@@ -87,8 +87,8 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 7,
-      "wins": 2,
+      "games": 9,
+      "wins": 4,
       "draws": 0,
       "losses": 5,
       "color": "#769656"
@@ -103,19 +103,11 @@
     },
     {
       "name": "Zukertort Opening: Tennison Gambit",
-      "games": 5,
-      "wins": 2,
-      "draws": 0,
-      "losses": 3,
-      "color": "#4a90d9"
-    },
-    {
-      "name": "Center Game: Berger Variation",
       "games": 4,
       "wins": 1,
       "draws": 0,
       "losses": 3,
-      "color": "#d94a4a"
+      "color": "#4a90d9"
     },
     {
       "name": "Center Game",
@@ -123,10 +115,18 @@
       "wins": 2,
       "draws": 0,
       "losses": 2,
+      "color": "#d94a4a"
+    },
+    {
+      "name": "Center Game: Berger Variation",
+      "games": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
       "color": "#9b59b6"
     },
     {
-      "name": "French Defense: King's Indian Attack",
+      "name": "Nimzowitsch Defense: Kennedy Variation",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -134,9 +134,9 @@
       "color": "#e67e22"
     },
     {
-      "name": "Nimzowitsch Defense: Kennedy Variation",
-      "games": 2,
-      "wins": 1,
+      "name": "French Defense: Marshall Gambit",
+      "games": 1,
+      "wins": 0,
       "draws": 0,
       "losses": 1,
       "color": "#1abc9c"
