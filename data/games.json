@@ -1,5 +1,20 @@
 [
   {
+    "id": "cStJ38WC",
+    "white": "clifford10",
+    "black": "sudheeraswath",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "King's Pawn Game: Leonardis Variation",
+    "date": "2026-10-02",
+    "moves": 53,
+    "pgn": "1. e4 e5 2. d3 Nf6 3. d4 exd4 4. Qxd4 c5 5. Qe5+ Be7 6. Bc4 O-O 7. Nf3 d6 8. Qc3 Nxe4 9. Qe3 Bf6 10. Na3 Re8 11. Qf4 Nc3+ 12. Kf1 Ne4 13. Bd3 Bg5 14. Qxg5 Nxg5 15. Nxg5 Qe7 16. Bf4 g6 17. Re1 Qf8 18. Rxe8 Qxe8 19. Nc4 d5 20. Nd6 Qd7 21. Ndxf7 Qa4 22. b3 Qxa2 23. Ke2 b6 24. Be5 Ba6 25. Nh6+ Kf8 26. Ne6+ Ke7 27. Nc7 Bxd3+ 28. Kxd3 c4+ 29. bxc4 dxc4+ 30. Kc3 Qa3+ 31. Kd2 c3+ 32. Kd3 Qc5 33. Nxa8 Qxe5 34. Ra1 Nc6 35. Nxb6 Qd5+ 0-1"
+  },
+  {
     "id": "HeCjCevT",
     "white": "clifford10",
     "black": "SpellWishperer",
@@ -283,20 +298,5 @@
     "date": "2026-09-18",
     "moves": 24,
     "pgn": "1. f4 d5 2. Nf3 e6 3. Ne5 Qh4+ 4. g3 Qf6 5. e3 Bd6 6. Ng4 Qf5 7. Bd3 Qh5 8. Nf6+ gxf6 9. Qxh5 e5 10. fxe5 fxe5 11. O-O e4 12. Qxf7+ Kd8 13. Bb5 Nh6 14. Qg7 Rf8 15. Rxf8+ Bxf8 16. Qxf8# 1-0"
-  },
-  {
-    "id": "oCH8Es3o",
-    "white": "carlamk",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Zukertort Opening: Tennison Gambit",
-    "date": "2026-09-18",
-    "moves": 36,
-    "pgn": "1. e4 d5 2. Nf3 dxe4 3. Nh4 e6 4. Qe2 Qxh4 5. g3 Qg5 6. d3 exd3 7. Bxg5 f6 8. Qxd3 fxg5 9. Be2 Nh6 10. Nc3 e5 11. Qe4 Bf5 12. Qxb7 Bxc2 13. Qxa8 Bd6 14. Qxb8+ Kf7 15. Qxh8 Nf5 16. Bc4+ Kf6 17. Nd5+ Ke6 18. Ne3+ Kf6 19. Nxc2 e4 20. Qd8+ Ke5 21. Qxg5 h6 22. Qh5 g6 23. Qxg6 Bc5 24. Qe6# 1-0"
   }
 ]
