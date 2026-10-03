@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1117,
+    "blitz": 1111,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1203,
+    "gamesPlayed": 1204,
     "wins": 557,
-    "losses": 596,
+    "losses": 597,
     "draws": 50,
     "winRate": 46.3,
-    "avgAccuracy": 73.0,
+    "avgAccuracy": 71.5,
     "longestWinStreak": 3,
-    "currentStreak": 1,
+    "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -95,10 +95,10 @@
     },
     {
       "name": "Scandinavian Defense",
-      "games": 5,
+      "games": 6,
       "wins": 3,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "color": "#c9a227"
     },
     {

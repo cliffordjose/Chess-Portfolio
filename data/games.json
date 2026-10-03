@@ -1,5 +1,20 @@
 [
   {
+    "id": "aLkfnKwy",
+    "white": "serhiiev",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense",
+    "date": "2026-10-03",
+    "moves": 18,
+    "pgn": "1. e4 d5 2. exd5 Nc6 3. Nc3 a5 4. Nf3 b6 5. Bb5 Bd7 6. dxc6 Ra7 7. cxd7+ Qxd7 8. Bxd7+ Kxd7 9. Ne5+ Kc8 10. Nxf7 Nf6 11. Nxh8 e5 12. Nf7 Nd7 1-0"
+  },
+  {
     "id": "cStJ38WC",
     "white": "clifford10",
     "black": "sudheeraswath",
@@ -283,20 +298,5 @@
     "date": "2026-09-18",
     "moves": 60,
     "pgn": "1. e4 e6 2. d3 c6 3. Nc3 d5 4. exd5 cxd5 5. d4 Bb4 6. Bb5+ Bd7 7. a3 Bxc3+ 8. bxc3 Bxb5 9. Bf4 Nd7 10. a4 Bc6 11. Qd3 a6 12. c4 b5 13. axb5 axb5 14. cxb5 Bb7 15. Rc1 Ngf6 16. Qc3 Rc8 17. Be5 Rxc3 18. Bxf6 Nxf6 19. Nf3 Ne4 20. Ne5 f6 21. Ng4 O-O 22. f3 Nd6 23. Kd2 Ra3 24. Rhe1 Qd7 25. h3 Nxb5 26. c3 Ra2+ 27. Kd3 Rxg2 28. c4 dxc4+ 29. Rxc4 Nd6 30. Rcc1 Ba6+ 31. Ke3 Nc4+ 32. Kf4 Qd6+ 33. Ke4 Qd5+ 34. Kd3 Nb2+ 35. Ke3 Qb3+ 36. Ke4 Qd3+ 37. Kf4 Qxd4+ 38. Re4 e5+ 39. Kf5 Bc8+ 40. Rxc8 Qd7# 0-1"
-  },
-  {
-    "id": "Ry9m1mNy",
-    "white": "Cuthymagama",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Bird Opening: Dutch Variation",
-    "date": "2026-09-18",
-    "moves": 24,
-    "pgn": "1. f4 d5 2. Nf3 e6 3. Ne5 Qh4+ 4. g3 Qf6 5. e3 Bd6 6. Ng4 Qf5 7. Bd3 Qh5 8. Nf6+ gxf6 9. Qxh5 e5 10. fxe5 fxe5 11. O-O e4 12. Qxf7+ Kd8 13. Bb5 Nh6 14. Qg7 Rf8 15. Rxf8+ Bxf8 16. Qxf8# 1-0"
   }
 ]
