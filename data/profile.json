@@ -15,14 +15,14 @@
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1204,
-    "wins": 557,
-    "losses": 597,
+    "gamesPlayed": 1206,
+    "wins": 558,
+    "losses": 598,
     "draws": 50,
     "winRate": 46.3,
     "avgAccuracy": 71.5,
     "longestWinStreak": 3,
-    "currentStreak": 0,
+    "currentStreak": 1,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,16 +87,16 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 10,
-      "wins": 5,
+      "games": 11,
+      "wins": 6,
       "draws": 0,
       "losses": 5,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 6,
-      "wins": 3,
+      "games": 5,
+      "wins": 2,
       "draws": 0,
       "losses": 3,
       "color": "#c9a227"
@@ -118,7 +118,7 @@
       "color": "#d94a4a"
     },
     {
-      "name": "King's Pawn Game: Leonardis Variation",
+      "name": "Pirc Defense",
       "games": 2,
       "wins": 0,
       "draws": 0,
@@ -126,18 +126,18 @@
       "color": "#9b59b6"
     },
     {
+      "name": "King's Pawn Game: Leonardis Variation",
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "color": "#e67e22"
+    },
+    {
       "name": "Rat Defense: Small Center Defense",
       "games": 2,
       "wins": 0,
       "draws": 1,
-      "losses": 1,
-      "color": "#e67e22"
-    },
-    {
-      "name": "King's Pawn Game: Napoleon Attack",
-      "games": 2,
-      "wins": 1,
-      "draws": 0,
       "losses": 1,
       "color": "#1abc9c"
     }
