@@ -15,11 +15,11 @@
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1206,
+    "gamesPlayed": 1207,
     "wins": 558,
-    "losses": 598,
+    "losses": 599,
     "draws": 50,
-    "winRate": 46.3,
+    "winRate": 46.2,
     "avgAccuracy": 71.5,
     "longestWinStreak": 3,
     "currentStreak": 1,
