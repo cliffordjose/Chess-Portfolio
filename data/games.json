@@ -1,5 +1,35 @@
 [
   {
+    "id": "XuGwefue",
+    "white": "clifford10",
+    "black": "Krishnakumar72",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Caro-Kann Defense: Exchange Variation",
+    "date": "2026-10-19",
+    "moves": 35,
+    "pgn": "1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nc3 Nf6 5. Nf3 Nc6 6. Bg5 Bg4 7. Bxf6 exf6 8. Be2 Bd6 9. h3 Bh5 10. g4 Bg6 11. h4 h5 12. Nxd5 hxg4 13. Nd2 Nxd4 14. Bxg4 Nxc2+ 15. Kf1 Nxa1 16. Qxa1 Bd3+ 17. Kg2 Qa5 18. Qe1+ Kf8 19. Nf4 Bxf4 20. Bf3 Bxd2 21. Qd1 Re8 22. Bxb7 Be4+ 23. Kh3 Bxb7 0-1"
+  },
+  {
+    "id": "r0ljkDy9",
+    "white": "radnarock",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
+    "date": "2026-10-19",
+    "moves": 45,
+    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Qxe2+ 5. Ngxe2 Nc6 6. d4 Nf6 7. d5 Nb4 8. Kd1 Nbxd5 9. Nxd5 Nxd5 10. Nc3 Be6 11. Nxd5 Bxd5 12. Bd3 Rd8 13. Re1 Bxg2 14. Be3 Bf3+ 15. Kd2 e6 16. Bxa7 Bb4+ 17. c3 Be4 18. Rxe4 Bd6 19. Rg1 Bxh2 20. Rxg7 h5 21. Kc2 h4 22. Reg4 h3 23. Rg8+ Ke7 24. Rxd8 Kxd8 25. Bd4 Bg1 26. Bxh8 h2 27. Be4 Bxf2 28. Rg2 h1=Q 29. Rg8+ Ke7 30. Bxh1 1-0"
+  },
+  {
     "id": "d7Vdlaxu",
     "white": "Muhammetemin61",
     "black": "clifford10",
@@ -268,35 +298,5 @@
     "date": "2026-09-20",
     "moves": 24,
     "pgn": "1. d4 d5 2. c4 dxc4 3. Nc3 Be6 4. e3 Bf5 5. Bxc4 e6 6. Nf3 Bb4 7. Bd2 Bxc3 8. Bxc3 Be4 9. Bf1 Nf6 10. g3 Qd5 11. Bg2 Ng4 12. O-O Bxf3 13. Bxf3 Qf5 14. Bxb7 Qh5 15. h3 Qxh3 16. Bg2 Qh2# 0-1"
-  },
-  {
-    "id": "xO6YPNnB",
-    "white": "clifford10",
-    "black": "sexysenpaiarko",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "King's Pawn Game: Beyer Gambit",
-    "date": "2026-09-20",
-    "moves": 63,
-    "pgn": "1. e4 e5 2. d4 d5 3. dxe5 dxe4 4. Qxd8+ Kxd8 5. Nc3 Bc5 6. Nxe4 b6 7. Ng5 Nh6 8. N5f3 Bg4 9. Bxh6 gxh6 10. Nh4 Re8 11. f3 Bf5 12. Nxf5 Rxe5+ 13. Be2 Rxf5 14. Rd1+ Nd7 15. Bd3 Re5+ 16. Ne2 Nf6 17. f4 Re3 18. g3 Ng4 19. h3 Nf6 20. O-O Rxe2+ 21. Kh1 Re3 22. Be4+ Bd6 23. Bxa8 Ne4 24. g4 Ng3+ 25. Kg2 Nxf1 26. Kxf1 Rxh3 27. f5 f6 28. Bg2 Rh4 29. Bf3 Rh3 30. Rd3 Kc8 31. Kg2 Rh2+ 32. Kf1 Rxc2 33. Re3 Rc1+ 34. Kf2 Bc5 35. Ke2 Bxe3 36. Kxe3 Rb1 37. b3 Rb2 38. a4 Rxb3+ 39. Kf4 a5 40. Bd1 Rb1 41. Bc2 Rc1 42. Bb3 Rc3 0-1"
-  },
-  {
-    "id": "pLX4YMxH",
-    "white": "Akingdomforahorse",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-09-18",
-    "moves": 61,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Qc6 5. Nf3 Bg4 6. O-O Bxf3 7. Bxf3 Qf6 8. Ne4 Qe5 9. d4 Qf5 10. Re1 e6 11. Ng5 Be7 12. Ne4 Nc6 13. Nc5 Bxc5 14. dxc5 Nb4 15. c3 Nc2 16. Be4 Qxc5 17. Bxc2 Nf6 18. Be3 Qb5 19. b4 Qc4 20. Bd2 Rd8 21. Bb3 Qb5 22. a4 Qf5 23. Bc2 Qd5 24. Be3 Qe5 25. Qf3 Qxc3 26. Bxa7 Qxc2 27. Qxb7 O-O 28. Bc5 Ng4 29. Qf3 Ne5 30. Rxe5 Qb2 31. Ree1 f5 32. Bxf8 Rxf8 33. Qc6 e5 34. Qxc7 e4 35. Qc4+ Kh8 36. Rab1 Qe5 37. b5 f4 38. f3 Qc7 39. Qd5 Qc4 40. Qxe4 Qd5 41. Qxd5 1-0"
   }
 ]
