@@ -2,7 +2,7 @@
   "username": "clifford10",
   "name": "Clifford Jose Nediyaparambil",
   "title": null,
-  "bio": "I'm Clifford, hail from Kerala.",
+  "bio": "Chess player & software developer.",
   "avatar": "avatar.png",
   "github": "https://cliffordjose2001.wixsite.com/cliffordjosenediyapa",
   "linkedin": "",
@@ -10,19 +10,19 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1095,
+    "blitz": 1081,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1209,
+    "gamesPlayed": 1211,
     "wins": 558,
-    "losses": 601,
+    "losses": 603,
     "draws": 50,
-    "winRate": 46.2,
+    "winRate": 46.1,
     "avgAccuracy": 71.5,
     "longestWinStreak": 3,
-    "currentStreak": 2,
+    "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
   },
@@ -87,16 +87,16 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 12,
+      "games": 13,
       "wins": 6,
       "draws": 0,
-      "losses": 6,
+      "losses": 7,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 5,
-      "wins": 2,
+      "games": 4,
+      "wins": 1,
       "draws": 0,
       "losses": 3,
       "color": "#c9a227"
@@ -110,23 +110,23 @@
       "color": "#4a90d9"
     },
     {
+      "name": "King's Pawn Game: Leonardis Variation",
+      "games": 3,
+      "wins": 0,
+      "draws": 0,
+      "losses": 3,
+      "color": "#d94a4a"
+    },
+    {
       "name": "Center Game",
       "games": 3,
       "wins": 1,
       "draws": 0,
       "losses": 2,
-      "color": "#d94a4a"
-    },
-    {
-      "name": "Pirc Defense",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
       "color": "#9b59b6"
     },
     {
-      "name": "King's Pawn Game: Leonardis Variation",
+      "name": "Pirc Defense",
       "games": 2,
       "wins": 0,
       "draws": 0,
