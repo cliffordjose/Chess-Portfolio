@@ -10,17 +10,17 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1081,
+    "blitz": 1099,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1211,
-    "wins": 558,
-    "losses": 603,
+    "gamesPlayed": 1215,
+    "wins": 561,
+    "losses": 604,
     "draws": 50,
-    "winRate": 46.1,
-    "avgAccuracy": 71.5,
+    "winRate": 46.2,
+    "avgAccuracy": 70.7,
     "longestWinStreak": 3,
     "currentStreak": 0,
     "bestRating": 1516,
@@ -87,26 +87,26 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 13,
+      "games": 12,
       "wins": 6,
       "draws": 0,
-      "losses": 7,
+      "losses": 6,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 4,
-      "wins": 1,
+      "games": 5,
+      "wins": 2,
       "draws": 0,
       "losses": 3,
       "color": "#c9a227"
     },
     {
-      "name": "Zukertort Opening: Tennison Gambit",
+      "name": "Center Game",
       "games": 4,
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
-      "losses": 3,
+      "losses": 2,
       "color": "#4a90d9"
     },
     {
@@ -118,11 +118,11 @@
       "color": "#d94a4a"
     },
     {
-      "name": "Center Game",
+      "name": "Zukertort Opening: Tennison Gambit",
       "games": 3,
-      "wins": 1,
+      "wins": 0,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "color": "#9b59b6"
     },
     {
