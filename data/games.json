@@ -1,5 +1,185 @@
 [
   {
+    "id": "WQnwaYIe",
+    "white": "clifford10",
+    "black": "jchrislat",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Owen Defense",
+    "date": "2026-10-26",
+    "moves": 39,
+    "pgn": "1. e4 b6 2. d4 Bb7 3. Bd3 Nf6 4. Qf3 d5 5. Bg5 dxe4 6. Bxe4 Bxe4 7. Qc3 e6 8. f3 Bd5 9. Bxf6 Qxf6 10. Ne2 Qh4+ 11. g3 Qh3 12. Ng1 Qg2 13. Nd2 Qxh1 14. Ke2 Qxh2+ 15. Kd3 Qxg3 16. Rf1 Qg6+ 17. Ke2 Bd6 18. Qe3 Nc6 19. c4 Qc2 20. cxd5 Ne5 21. dxe6 f6 22. dxe5 Bxe5 23. Nh3 Ke7 24. f4 Bd6 25. f5 Rhd8 26. Qg3 Bxg3 0-1"
+  },
+  {
+    "id": "jAsnrzL0",
+    "white": "Arkukuku",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense",
+    "date": "2026-10-26",
+    "moves": 50,
+    "pgn": "1. e4 d5 2. f3 dxe4 3. fxe4 Nf6 4. Nc3 Bg4 5. Be2 Nxe4 6. Nxe4 Bxe2 7. Qxe2 Qd5 8. Nf3 f5 9. d3 fxe4 10. dxe4 Qd6 11. O-O Qc5+ 12. Be3 Qb5 13. Ng5 Qxe2 14. Rf3 h6 15. Ne6 Nc6 16. Nxc7+ Kd7 17. Nxa8 e6 18. h4 Qxc2 19. Rc1 Qxe4 20. Rd1+ Kc8 21. Bf4 Bc5+ 22. Kh2 Rf8 23. Rdf1 g5 24. hxg5 hxg5 25. Nc7 Rh8+ 26. Kg3 gxf4+ 27. Kg4 Rg8+ 28. Kh3 Qf5+ 29. Kh2 Qh5+ 30. Rh3 Qf5 31. g3 Qd3 32. Nxe6 Qxf1 33. Nxf4 Qg1# 0-1"
+  },
+  {
+    "id": "kAjtBL1s",
+    "white": "KF20_20",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
+    "date": "2026-10-26",
+    "moves": 27,
+    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Qc6 5. f3 Qg6 6. g4 Bd7 7. Bd3 Qe6+ 8. Nce2 Qc6 9. c3 Bxg4 10. Be4 Qe6 11. Qc2 Bh5 12. Nh3 c6 13. Nhf4 Qh6 14. d3 e5 15. Nxh5 Qxh5 16. Ng3 Qh3 17. Be3 Qg2 18. Qxg2 1-0"
+  },
+  {
+    "id": "81p1uyHD",
+    "white": "clifford10",
+    "black": "vasily44",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit",
+    "date": "2026-10-26",
+    "moves": 87,
+    "pgn": "1. e4 Nc6 2. d4 d5 3. exd5 Qxd5 4. Nc3 Qxd4 5. Qxd4 Nxd4 6. Bd3 Bf5 7. Bxf5 Nxf5 8. Nf3 e6 9. Be3 Bb4 10. Bd4 Bxc3+ 11. Bxc3 O-O-O 12. O-O Nf6 13. h3 Ne4 14. g4 Nxc3 15. gxf5 Na4 16. b3 Nc5 17. fxe6 Nxe6 18. Ne5 Rhf8 19. Kh2 f6 20. Ng4 f5 21. Ne5 Rd5 22. Nc4 b5 23. Ne3 Rd2 24. c4 f4 25. Ng2 f3 26. Ne1 bxc4 27. Rc1 cxb3 28. axb3 Nd4 29. Kg3 Ne2+ 30. Kg4 Nxc1 31. Nxf3 Rd3 32. Rxc1 Rdxf3 33. Ra1 Kb7 34. Re1 Rxb3 35. Re7 Rg8 36. f4 Rb4 37. h4 a5 38. Re5 a4 39. Re3 Rb3 40. Re2 a3 41. Ra2 Rd8 42. Kg5 Rd6 43. f5 g6 44. fxg6 Rxg6+ 45. Kf5 Rh6 46. Kg5 Rg6+ 47. Kh5 c5 48. Re2 Rh3 49. Re7+ Kb6 50. Rxh7 Rc6 51. Re7 c4 52. Re2 c3 53. Ra2 c2 54. Ra1 c1=Q 55. Rxc1 Rxc1 56. Kg4 Rch1 57. Kh5 Rxh4+ 58. Kg5 R4h2 0-1"
+  },
+  {
+    "id": "vfAnKj8z",
+    "white": "Fingolfin91",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Queen's Pawn Game: Zukertort Variation",
+    "date": "2026-10-26",
+    "moves": 92,
+    "pgn": "1. d4 d5 2. Nf3 e5 3. g3 exd4 4. Nxd4 Nc6 5. Bg2 Nxd4 6. Qxd4 c6 7. O-O Be6 8. Nc3 Bc5 9. Qe3 f6 10. Bh3 Bxe3 11. fxe3 Bxh3 12. Rf3 Bg4 13. Rf4 Be6 14. e4 dxe4 15. Rxe4 Kf7 16. b4 Nh6 17. Na4 Qd7 18. Bf4 c5 19. bxc5 Qxa4 20. Rxa4 b6 21. cxb6 axb6 22. Rxa8 Rxa8 23. Rb1 Ra6 24. a4 Bd7 25. c4 g5 26. Be3 f5 27. Rxb6 Rxb6 28. Bxb6 Bxa4 29. c5 Ke6 30. c6 Bxc6 31. Kf2 Ng4+ 32. Kg1 f4 33. gxf4 gxf4 34. h3 Ne3 35. Bxe3 fxe3 36. Kf1 Kf5 37. Kg1 Kf4 38. Kh2 Bd7 39. h4 Kg4 40. Kg2 Bc6+ 41. Kf1 Kxh4 42. Kg1 Kg4 43. Kh2 Kf4 44. Kh3 Ke4 45. Kg3 Kd4 46. Kf4 Bg2 47. Kg3 Bf1 48. Kf3 Kc3 49. Kxe3 Kc4 50. Kf3 Kd5 51. Kg4 Ke5 52. Kh5 Bxe2+ 53. Kh6 Bd3 54. Kg7 Kf5 55. Kh6 Ke6 56. Kg7 Ke5 57. Kh6 Kf4 58. Kg7 h5 59. Kh6 Be2 60. Kg6 h4 61. Kh6 h3 0-1"
+  },
+  {
+    "id": "iR4FDpRd",
+    "white": "clifford10",
+    "black": "rameshsreddy",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Englund Gambit Declined: Reversed French",
+    "date": "2026-10-26",
+    "moves": 54,
+    "pgn": "1. e3 e5 2. d4 e4 3. Nc3 d5 4. Bb5+ c6 5. Bxc6+ Nxc6 6. Na4 Nf6 7. f3 Be7 8. fxe4 Nxe4 9. Qf3 O-O 10. Ne2 Nf6 11. Nf4 Bg4 12. Qg3 Qd7 13. h3 Ne4 14. Qh2 Bh4+ 15. g3 Bxg3+ 16. Qxg3 Nxg3 17. hxg4 Qxg4 18. Rg1 Qh3 19. Nxh3 Nf5 20. Ng5 Rae8 21. Rf1 Nxe3 22. Bxe3 Rxe3+ 23. Kd2 Rg3 24. Nf3 Rg2+ 25. Kd3 Nb4+ 26. Kc3 Nxc2 27. Rab1 Ne3 28. Rfe1 Nf5 29. Re5 Rc8+ 30. Kb3 Nd6 31. Rxd5 b5 32. Nc3 Ne8 33. Rxb5 Nf6 34. Rc1 Rg3 35. Ne5 g6 36. a4 1-0"
+  },
+  {
+    "id": "TjOsRbRo",
+    "white": "clifford10",
+    "black": "Haaw-Haw",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "French Defense: King's Indian Attack",
+    "date": "2026-10-26",
+    "moves": 62,
+    "pgn": "1. e4 e6 2. d3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Bg5 Be7 6. Bxf6 Bxf6 7. Nc5 Bxb2 8. Rb1 Bc3+ 9. Ke2 b6 10. Ne4 Qd4 11. Nf3 Qd8 12. Nxc3 O-O 13. Ne5 Re8 14. Nc6 Nxc6 15. Ke1 Bb7 16. Be2 Qd4 17. Qd2 Rad8 18. Bf3 e5 19. Nb5 Qf4 20. Qxf4 exf4+ 21. Kd2 Rd7 22. Nxa7 Nxa7 23. Bxb7 Rde7 24. Bc6 Re2+ 25. Kc3 Nxc6 26. Rhf1 h6 27. Rb4 Nxb4 28. Kxb4 Rxc2 29. Kb3 Ree2 30. g3 Rxa2 31. gxf4 Rxf2 32. Rxf2 Rxf2 33. Kc4 Rxf4+ 34. d4 Rf2 35. Kd5 Rxh2 36. Kc6 Rc2+ 37. Kd5 h5 38. Ke4 g6 39. d5 h4 40. Kf4 h3 41. Kg3 h2 0-1"
+  },
+  {
+    "id": "RqWB036L",
+    "white": "capybara18",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Zukertort Opening: Tennison Gambit",
+    "date": "2026-10-26",
+    "moves": 45,
+    "pgn": "1. e4 d5 2. Nf3 dxe4 3. Ng1 Qd5 4. f3 exf3 5. gxf3 Qe5+ 6. Qe2 Qxb2 7. Bxb2 Bf5 8. d3 Nc6 9. Nc3 Nd4 10. Qe5 Rd8 11. Qxc7 Nxc2+ 12. Kd2 Nxa1 13. Qxb7 Nc2 14. Kxc2 Bxd3+ 15. Kc1 Bxf1 16. Nge2 Bxe2 17. Nxe2 e6 18. Qxa7 Bd6 19. Qa4+ Ke7 20. Nd4 Nf6 21. Nc6+ Kd7 22. Nxd8+ Kxd8 23. Qa8+ Ke7 24. Qxh8 Kd7 25. Qxg7 Nh5 26. Qxf7+ Be7 27. Qxh5 Bf6 28. Qxh7+ Kd6 29. Bxf6 e5 30. Rd1+ 1-0"
+  },
+  {
+    "id": "y7viNahY",
+    "white": "ChasDunk",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Queen's Pawn Game",
+    "date": "2026-10-26",
+    "moves": 84,
+    "pgn": "1. d4 d5 2. c3 e5 3. f3 exd4 4. Bf4 dxc3 5. Nxc3 d4 6. Ne4 Bf5 7. Qc2 Bb4+ 8. Kf2 Qd5 9. Rd1 Nc6 10. e3 dxe3+ 11. Kxe3 Bc5+ 12. Nxc5 Bxc2 13. Rxd5 Nge7 14. Rd2 Bg6 15. Bb5 Nf5+ 16. Kf2 O-O 17. Bxc6 bxc6 18. Rd1 Rab8 19. b3 Rb5 20. Ne4 Ra5 21. Ra1 Nd4 22. Ne2 Nxe2 23. Kxe2 Rf5 24. Bxc7 a5 25. Rhe1 c5 26. Kf2 Rh5 27. Bd6 Bxe4 28. Bxf8 Kxf8 29. Rxe4 Rxh2 30. Rc4 g6 31. Rxc5 Kg7 32. Rxa5 Rh4 33. Rb1 Rd4 34. b4 Rd2+ 35. Kf1 Rd4 36. b5 Rh4 37. b6 Rh1+ 38. Kf2 Rxb1 39. Ra6 Rb2+ 40. Kf1 Kf6 41. Ra5 Rxb6 42. Ra8 Rb2 43. Re8 Rxa2 44. Re4 Ra1+ 45. Kf2 Ra2+ 46. Kg3 Ra1 47. Rf4+ Kg7 48. Kg4 f5+ 49. Kg5 Ra5 50. g3 h6+ 51. Kh4 g5+ 52. Kh3 gxf4 53. gxf4 Ra4 54. Kg3 Kg6 55. Kf2 Kh5 56. Kg2 1-0"
+  },
+  {
+    "id": "MKHCQUxn",
+    "white": "clifford10",
+    "black": "Legolog_34",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Caro-Kann Defense: Classical Variation",
+    "date": "2026-10-26",
+    "moves": 27,
+    "pgn": "1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Bf4 Bxe4 6. Bxb8 Rxb8 7. Bd3 Bxg2 8. f3 Bxh1 9. Nh3 Nf6 10. Ke2 Bxf3+ 11. Kxf3 Qxd4 12. c3 Qg4+ 13. Kf2 Qxh3 14. Ke1 Qe3+ 15. Kf1 Qh3+ 16. Kg1 Rd8 17. Bf1 Rxd1 18. Rc1 0-1"
+  },
+  {
+    "id": "K7FBKImg",
+    "white": "Modzik",
+    "black": "clifford10",
+    "result": "0-1",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "French Defense: Advance Variation",
+    "date": "2026-10-26",
+    "moves": 23,
+    "pgn": "1. e4 d5 2. e5 e6 3. d4 Nc6 4. c3 Nh6 5. Bxh6 gxh6 6. Qf3 Qg5 7. Nh3 Qc1+ 8. Qd1 Qxb2 9. Nd2 Qxc3 10. Rc1 Qxd4 11. Bb5 Qxe5+ 12. Be2 Nd4 13. O-O Nxe2+ 14. Kh1 Nxc1 15. Re1 Qg7 0-1"
+  },
+  {
+    "id": "TbOsDs5H",
+    "white": "clifford10",
+    "black": "JMXSK",
+    "result": "1-0",
+    "timeControl": "Blitz",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "King's Pawn Game: Leonardis Variation",
+    "date": "2026-10-26",
+    "moves": 49,
+    "pgn": "1. e4 e5 2. d3 f6 3. d4 Nc6 4. dxe5 Nxe5 5. Qd5 c6 6. Qd4 c5 7. Qd5 Qa5+ 8. c3 b6 9. Bd2 Rb8 10. c4 Qa6 11. Bc3 Bb7 12. Qd2 Nxc4 13. Qf4 Qb5 14. Qxb8+ Kf7 15. b3 Bxe4 16. bxc4 Qc6 17. Qxa7 Bd6 18. f3 Be5 19. fxe4 Bxc3+ 20. Nxc3 Qe6 21. Be2 Ne7 22. Nf3 g5 23. Rb1 g4 24. Nd2 g3 25. hxg3 Rg8 26. Rxb6 Qe5 27. Nf3 Qxg3+ 28. Kd2 Qxg2 29. Nd5 Nxd5 30. Qxd7+ Ne7 31. Ne5+ Kg7 32. Qxe7+ Kh8 33. Rxh7# 1-0"
+  },
+  {
     "id": "pAdGIpip",
     "white": "Chamuco",
     "black": "clifford10",
@@ -118,185 +298,5 @@
     "date": "2026-10-19",
     "moves": 45,
     "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Qxe2+ 5. Ngxe2 Nc6 6. d4 Nf6 7. d5 Nb4 8. Kd1 Nbxd5 9. Nxd5 Nxd5 10. Nc3 Be6 11. Nxd5 Bxd5 12. Bd3 Rd8 13. Re1 Bxg2 14. Be3 Bf3+ 15. Kd2 e6 16. Bxa7 Bb4+ 17. c3 Be4 18. Rxe4 Bd6 19. Rg1 Bxh2 20. Rxg7 h5 21. Kc2 h4 22. Reg4 h3 23. Rg8+ Ke7 24. Rxd8 Kxd8 25. Bd4 Bg1 26. Bxh8 h2 27. Be4 Bxf2 28. Rg2 h1=Q 29. Rg8+ Ke7 30. Bxh1 1-0"
-  },
-  {
-    "id": "d7Vdlaxu",
-    "white": "Muhammetemin61",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-10-11",
-    "moves": 54,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Nge2 e6 5. d4 Qa5 6. Bd2 Qb6 7. Na4 Qd6 8. g3 Qc6 9. Bg2 Qxg2 10. f3 Qxh1+ 11. Kf2 Qxh2+ 12. Ke3 Qh6+ 13. Kf2 Qh2+ 14. Ke3 Nc6 15. Nf4 Qxg3 16. Nxe6 Bxe6 17. d5 Bxd5 18. Bc3 Qg5+ 19. Kf2 Ne5 20. Qxd5 Qh4+ 21. Ke3 Qg5+ 22. Kf2 Nd3+ 23. Qxd3 Qh4+ 24. Ke3 Qg5+ 25. Kf2 b5 26. Qe4+ Be7 27. Qxa8+ Kd7 28. Qe4 bxa4 29. Qd4+ Kc8 30. Qxg7 Bc5+ 31. Ke2 Qe3+ 32. Kd1 Qxf3+ 33. Kd2 Be3+ 34. Ke1 Qf2+ 35. Kd1 Qf1+ 36. Be1 Qf3# 0-1"
-  },
-  {
-    "id": "CIFT2JLe",
-    "white": "clifford10",
-    "black": "BigRon107",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Pirc Defense",
-    "date": "2026-10-11",
-    "moves": 59,
-    "pgn": "1. e4 d6 2. d3 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Bg5 O-O 6. Bxf6 Bxf6 7. Qe2 Nc6 8. O-O-O Nd4 9. Nxd4 Bxd4 10. Nb5 Bxb2+ 11. Kxb2 c6 12. Nd4 Be6 13. Nxe6 fxe6 14. e5 d5 15. Qd2 b5 16. Qb4 a5 17. Qc5 a4 18. Qxc6 a3+ 19. Kc1 b4 20. Qxe6+ Kh8 21. g3 b3 22. cxb3 Qc7+ 23. Kd2 Rac8 24. Bg2 Qc2+ 25. Ke1 Qxa2 26. Bxd5 Qb2 27. b4 a2 28. Bxa2 Rc1 29. Rxc1 Qxc1+ 30. Ke2 Qxh1 31. Qxe7 Qa8 32. b5 Qxa2+ 33. Ke3 Qf7 34. Qd6 Kg7 35. b6 Qf3+ 36. Kd2 Qxf2+ 37. Kc3 Rc8+ 38. Kb4 Qb2+ 39. Ka5 Ra8# 0-1"
-  },
-  {
-    "id": "aLkfnKwy",
-    "white": "serhiiev",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense",
-    "date": "2026-10-03",
-    "moves": 18,
-    "pgn": "1. e4 d5 2. exd5 Nc6 3. Nc3 a5 4. Nf3 b6 5. Bb5 Bd7 6. dxc6 Ra7 7. cxd7+ Qxd7 8. Bxd7+ Kxd7 9. Ne5+ Kc8 10. Nxf7 Nf6 11. Nxh8 e5 12. Nf7 Nd7 1-0"
-  },
-  {
-    "id": "cStJ38WC",
-    "white": "clifford10",
-    "black": "sudheeraswath",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "King's Pawn Game: Leonardis Variation",
-    "date": "2026-10-02",
-    "moves": 53,
-    "pgn": "1. e4 e5 2. d3 Nf6 3. d4 exd4 4. Qxd4 c5 5. Qe5+ Be7 6. Bc4 O-O 7. Nf3 d6 8. Qc3 Nxe4 9. Qe3 Bf6 10. Na3 Re8 11. Qf4 Nc3+ 12. Kf1 Ne4 13. Bd3 Bg5 14. Qxg5 Nxg5 15. Nxg5 Qe7 16. Bf4 g6 17. Re1 Qf8 18. Rxe8 Qxe8 19. Nc4 d5 20. Nd6 Qd7 21. Ndxf7 Qa4 22. b3 Qxa2 23. Ke2 b6 24. Be5 Ba6 25. Nh6+ Kf8 26. Ne6+ Ke7 27. Nc7 Bxd3+ 28. Kxd3 c4+ 29. bxc4 dxc4+ 30. Kc3 Qa3+ 31. Kd2 c3+ 32. Kd3 Qc5 33. Nxa8 Qxe5 34. Ra1 Nc6 35. Nxb6 Qd5+ 0-1"
-  },
-  {
-    "id": "HeCjCevT",
-    "white": "clifford10",
-    "black": "SpellWishperer",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "King's Pawn Game: Leonardis Variation",
-    "date": "2026-10-01",
-    "moves": 38,
-    "pgn": "1. e4 e5 2. d3 Nc6 3. Nc3 d6 4. Nf3 Be6 5. Bg5 Be7 6. Bh4 Bxh4 7. g3 Be7 8. Nb5 a6 9. Nc3 Nf6 10. a4 O-O 11. b4 Nxb4 12. Rb1 Nc6 13. Rxb7 d5 14. exd5 Nxd5 15. Nxd5 Bxd5 16. Rb2 Nd4 17. Nxd4 Bxh1 18. Nc6 Bxc6 19. Qg4 Bxa4 20. d4 Rb8 21. Bd3 Rxb2 22. Qh3 h6 23. Bxa6 Qxd4 24. Bd3 Bxc2 25. Bxc2 Rxc2 0-1"
-  },
-  {
-    "id": "CmQJcWaO",
-    "white": "Vamki",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-10-01",
-    "moves": 56,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Be2 Qe6 5. Nf3 Qc6 6. Bb5 Qxb5 7. Nxb5 Na6 8. d4 Bd7 9. Qd3 c6 10. Nc3 e6 11. O-O Bb4 12. Ne4 Nf6 13. Nd6+ Bxd6 14. c4 Ng4 15. c5 Bxc5 16. dxc5 Nxc5 17. Qd6 Ne4 18. Be3 Nxd6 19. Rad1 Nc4 20. Bd4 e5 21. Bc5 Nxb2 22. Rb1 Nd3 23. Bd6 Ndxf2 24. Rxf2 Nxf2 25. Kxf2 Bf5 26. Rxb7 Rd8 27. Bxe5 Be4 28. Ng5 c5 29. Nxf7 O-O 30. Kg1 Rd1+ 31. Kf2 Bxb7 32. Ke2 Ra1 33. Nd6 Rxa2+ 34. Kd3 Bxg2 35. Kc4 Ra4+ 36. Kxc5 Ra5+ 37. Kb4 Rxe5 0-1"
-  },
-  {
-    "id": "k0ZkKfu8",
-    "white": "clifford10",
-    "black": "Abbaof5",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Rat Defense: Small Center Defense",
-    "date": "2026-09-23",
-    "moves": 69,
-    "pgn": "1. e4 d6 2. d4 e6 3. Nc3 Be7 4. Nf3 Bd7 5. Bc4 a6 6. O-O b5 7. Bb3 c5 8. a3 c4 9. Ba2 Nc6 10. d5 exd5 11. exd5 Ne5 12. Nxe5 dxe5 13. Qe1 Bf6 14. Bg5 h6 15. Bxf6 Qxf6 16. f4 Ne7 17. fxe5 Qb6+ 18. Kh1 O-O 19. d6 Nc6 20. Nd5 Qd4 21. Ne7+ Nxe7 22. dxe7 Rfe8 23. Rd1 Qa7 24. Rd5 Be6 25. Rd6 Rxe7 26. Qf2 Rd7 27. Rxd7 Qxd7 28. Qf3 Rf8 29. b3 cxb3 30. cxb3 a5 31. Bb1 a4 32. Qe4 g6 33. bxa4 bxa4 34. Bc2 Bb3 35. Bd3 Bd5 36. Qd4 Qe6 37. Qxa4 Qc6 38. Qxc6 Bxc6 39. e6 Bd5 40. exf7+ Rxf7 41. Rxf7 Bxf7 42. Bb5 Bb3 43. a4 Kf8 44. a5 Ke7 45. a6 Bd5 46. a7 Kd6 0-1"
-  },
-  {
-    "id": "0OAMypPE",
-    "white": "clifford10",
-    "black": "mance23",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "King's Pawn Game: Maróczy Defense",
-    "date": "2026-09-23",
-    "moves": 15,
-    "pgn": "1. e4 e5 2. d4 d6 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Nf3 Nc6 6. Bb5 Bd7 7. Bxc6 Bxc6 8. Nxe5 Nh6 9. Bxh6 f6 10. Nf7+ 1-0"
-  },
-  {
-    "id": "2R95aMO0",
-    "white": "clifford10",
-    "black": "KiriSDR",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "King's Pawn Game: Napoleon Attack",
-    "date": "2026-09-22",
-    "moves": 12,
-    "pgn": "1. e4 e5 2. Qf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. Bg5 Be7 6. Bxf6 Bxf6 7. Nh3 Nd4 8. Qe3 Nxc2+ 0-1"
-  },
-  {
-    "id": "JER3RI9P",
-    "white": "palmsosinohuyaro",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Scandinavian Defense: Mieses-Kotroc Variation",
-    "date": "2026-09-22",
-    "moves": 19,
-    "pgn": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Be2 Qd6 5. Nb5 Qc6 6. Nf3 Bd7 7. Ne5 Qb6 8. a4 Bxb5 9. Bxb5+ c6 10. Bd3 f6 11. Nc4 Qc5 12. c3 Qd5 13. O-O 0-1"
-  },
-  {
-    "id": "ja6HmnTt",
-    "white": "ANNNNNNN111",
-    "black": "clifford10",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Bird Opening: Williams Gambit",
-    "date": "2026-09-22",
-    "moves": 41,
-    "pgn": "1. e4 d5 2. f4 dxe4 3. Nc3 Qd4 4. Nge2 Qf6 5. d4 Qh4+ 6. g3 Qg4 7. Be3 Qf3 8. Qd2 Qxh1 9. O-O-O Qxh2 10. Nxe4 Bg4 11. Qb4 Bxe2 12. Bxe2 Qxe2 13. Nd2 Qxe3 14. Qxb7 e6 15. Qxa8 Ke7 16. Qxb8 Nf6 17. Qxc7+ Nd7 18. Kb1 g6 19. Qxa7 Bg7 20. Nb3 Qxg3 21. d5 Qf3 22. d6+ Kf6 23. Qd4+ e5 24. fxe5+ Nxe5 25. Re1 Kg5 26. d7 Nd3 27. cxd3 Bxd4 0-1"
-  },
-  {
-    "id": "KIWw89Uu",
-    "white": "clifford10",
-    "black": "rubenj8af",
-    "result": "0-1",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "French Defense: Normal Variation",
-    "date": "2026-09-22",
-    "moves": 47,
-    "pgn": "1. e4 e6 2. d4 Bd6 3. Nf3 Nf6 4. Nc3 Nc6 5. Bg5 Bb4 6. Bxf6 Qxf6 7. e5 Qh6 8. Be2 O-O 9. O-O d5 10. Nxd5 exd5 11. Bb5 Na5 12. c3 Be7 13. b4 Nc4 14. a3 Nb2 15. Qe2 Nc4 16. Bxc4 dxc4 17. Qxc4 Be6 18. Qxc7 Rfc8 19. Qxe7 Rxc3 20. Qxb7 Rac8 21. Qxa7 R8c7 22. Qb8+ Bc8 23. Qb5 g6 24. Qe8+ Kg7 25. h4 Qf4 26. Ng5 Qxh4 27. Nh3 Bxh3 28. gxh3 Qxh3 29. a4 R3c4 30. a5 Rxd4 31. a6 Rg4# 0-1"
   }
 ]

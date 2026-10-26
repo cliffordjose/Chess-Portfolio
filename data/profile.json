@@ -10,18 +10,18 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1099,
+    "blitz": 1087,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1215,
-    "wins": 561,
-    "losses": 604,
+    "gamesPlayed": 1227,
+    "wins": 566,
+    "losses": 611,
     "draws": 50,
-    "winRate": 46.2,
-    "avgAccuracy": 70.7,
-    "longestWinStreak": 3,
+    "winRate": 46.1,
+    "avgAccuracy": 67.5,
+    "longestWinStreak": 4,
     "currentStreak": 0,
     "bestRating": 1516,
     "titledPlayerBeaten": false
@@ -87,8 +87,8 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 12,
-      "wins": 6,
+      "games": 11,
+      "wins": 5,
       "draws": 0,
       "losses": 6,
       "color": "#769656"
@@ -96,26 +96,18 @@
     {
       "name": "Scandinavian Defense",
       "games": 5,
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
-      "losses": 3,
+      "losses": 2,
       "color": "#c9a227"
     },
     {
-      "name": "Center Game",
-      "games": 4,
-      "wins": 2,
-      "draws": 0,
-      "losses": 2,
-      "color": "#4a90d9"
-    },
-    {
       "name": "King's Pawn Game: Leonardis Variation",
-      "games": 3,
-      "wins": 0,
+      "games": 4,
+      "wins": 1,
       "draws": 0,
       "losses": 3,
-      "color": "#d94a4a"
+      "color": "#4a90d9"
     },
     {
       "name": "Zukertort Opening: Tennison Gambit",
@@ -123,6 +115,14 @@
       "wins": 0,
       "draws": 0,
       "losses": 3,
+      "color": "#d94a4a"
+    },
+    {
+      "name": "French Defense: King's Indian Attack",
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
       "color": "#9b59b6"
     },
     {
@@ -134,10 +134,10 @@
       "color": "#e67e22"
     },
     {
-      "name": "Rat Defense: Small Center Defense",
-      "games": 2,
+      "name": "Owen Defense",
+      "games": 1,
       "wins": 0,
-      "draws": 1,
+      "draws": 0,
       "losses": 1,
       "color": "#1abc9c"
     }
