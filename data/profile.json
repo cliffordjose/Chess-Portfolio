@@ -10,16 +10,16 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1516,
-    "blitz": 1087,
+    "blitz": 1113,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1227,
-    "wins": 566,
-    "losses": 611,
+    "gamesPlayed": 1234,
+    "wins": 571,
+    "losses": 613,
     "draws": 50,
-    "winRate": 46.1,
+    "winRate": 46.3,
     "avgAccuracy": 67.5,
     "longestWinStreak": 4,
     "currentStreak": 0,
@@ -87,16 +87,16 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 11,
+      "games": 9,
       "wins": 5,
       "draws": 0,
-      "losses": 6,
+      "losses": 4,
       "color": "#769656"
     },
     {
       "name": "Scandinavian Defense",
-      "games": 5,
-      "wins": 3,
+      "games": 6,
+      "wins": 4,
       "draws": 0,
       "losses": 2,
       "color": "#c9a227"
@@ -110,11 +110,11 @@
       "color": "#4a90d9"
     },
     {
-      "name": "Zukertort Opening: Tennison Gambit",
-      "games": 3,
-      "wins": 0,
+      "name": "Center Game",
+      "games": 2,
+      "wins": 2,
       "draws": 0,
-      "losses": 3,
+      "losses": 0,
       "color": "#d94a4a"
     },
     {
@@ -126,7 +126,7 @@
       "color": "#9b59b6"
     },
     {
-      "name": "Pirc Defense",
+      "name": "Zukertort Opening: Tennison Gambit",
       "games": 2,
       "wins": 0,
       "draws": 0,
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Owen Defense",
-      "games": 1,
+      "name": "Pirc Defense",
+      "games": 2,
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "color": "#1abc9c"
     }
   ],
