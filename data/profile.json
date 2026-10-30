@@ -9,21 +9,21 @@
   "lichess": "https://lichess.org/@/clifford10",
   "chessdotcom": "",
   "ratings": {
-    "rapid": 1516,
+    "rapid": 1451,
     "blitz": 1113,
     "bullet": 1006,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1234,
-    "wins": 571,
-    "losses": 613,
+    "gamesPlayed": 1237,
+    "wins": 572,
+    "losses": 615,
     "draws": 50,
-    "winRate": 46.3,
+    "winRate": 46.2,
     "avgAccuracy": 67.5,
-    "longestWinStreak": 4,
-    "currentStreak": 0,
-    "bestRating": 1516,
+    "longestWinStreak": 5,
+    "currentStreak": 1,
+    "bestRating": 1451,
     "titledPlayerBeaten": false
   },
   "achievements": [
@@ -110,28 +110,20 @@
       "color": "#4a90d9"
     },
     {
+      "name": "Center Game: Normal Variation",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#d94a4a"
+    },
+    {
       "name": "Center Game",
       "games": 2,
       "wins": 2,
       "draws": 0,
       "losses": 0,
-      "color": "#d94a4a"
-    },
-    {
-      "name": "French Defense: King's Indian Attack",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
       "color": "#9b59b6"
-    },
-    {
-      "name": "Zukertort Opening: Tennison Gambit",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
-      "color": "#e67e22"
     },
     {
       "name": "Pirc Defense",
@@ -139,6 +131,14 @@
       "wins": 0,
       "draws": 0,
       "losses": 2,
+      "color": "#e67e22"
+    },
+    {
+      "name": "English Opening: Anglo-Scandinavian Defense",
+      "games": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
       "color": "#1abc9c"
     }
   ],
