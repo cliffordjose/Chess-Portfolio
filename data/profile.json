@@ -11,18 +11,18 @@
   "ratings": {
     "rapid": 1451,
     "blitz": 1113,
-    "bullet": 1006,
+    "bullet": 990,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1237,
+    "gamesPlayed": 1238,
     "wins": 572,
-    "losses": 615,
+    "losses": 616,
     "draws": 50,
     "winRate": 46.2,
     "avgAccuracy": 67.5,
     "longestWinStreak": 5,
-    "currentStreak": 1,
+    "currentStreak": 0,
     "bestRating": 1451,
     "titledPlayerBeaten": false
   },
@@ -95,8 +95,8 @@
     },
     {
       "name": "Scandinavian Defense",
-      "games": 6,
-      "wins": 4,
+      "games": 5,
+      "wins": 3,
       "draws": 0,
       "losses": 2,
       "color": "#c9a227"
@@ -110,7 +110,7 @@
       "color": "#4a90d9"
     },
     {
-      "name": "Center Game: Normal Variation",
+      "name": "Bird Opening: Williams Gambit",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -118,12 +118,20 @@
       "color": "#d94a4a"
     },
     {
+      "name": "Center Game: Normal Variation",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#9b59b6"
+    },
+    {
       "name": "Center Game",
       "games": 2,
       "wins": 2,
       "draws": 0,
       "losses": 0,
-      "color": "#9b59b6"
+      "color": "#e67e22"
     },
     {
       "name": "Pirc Defense",
@@ -131,14 +139,6 @@
       "wins": 0,
       "draws": 0,
       "losses": 2,
-      "color": "#e67e22"
-    },
-    {
-      "name": "English Opening: Anglo-Scandinavian Defense",
-      "games": 1,
-      "wins": 0,
-      "draws": 0,
-      "losses": 1,
       "color": "#1abc9c"
     }
   ],
