@@ -10,14 +10,14 @@
   "chessdotcom": "",
   "ratings": {
     "rapid": 1451,
-    "blitz": 1113,
+    "blitz": 1102,
     "bullet": 990,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1238,
+    "gamesPlayed": 1239,
     "wins": 572,
-    "losses": 616,
+    "losses": 617,
     "draws": 50,
     "winRate": 46.2,
     "avgAccuracy": 67.5,
@@ -87,10 +87,10 @@
   "openings": [
     {
       "name": "Scandinavian Defense: Mieses-Kotroc Variation",
-      "games": 9,
+      "games": 8,
       "wins": 5,
       "draws": 0,
-      "losses": 4,
+      "losses": 3,
       "color": "#769656"
     },
     {
@@ -110,15 +110,15 @@
       "color": "#4a90d9"
     },
     {
-      "name": "Bird Opening: Williams Gambit",
+      "name": "French Defense: Normal Variation",
       "games": 2,
-      "wins": 1,
+      "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "color": "#d94a4a"
     },
     {
-      "name": "Center Game: Normal Variation",
+      "name": "Bird Opening: Williams Gambit",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -126,19 +126,19 @@
       "color": "#9b59b6"
     },
     {
+      "name": "Center Game: Normal Variation",
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "color": "#e67e22"
+    },
+    {
       "name": "Center Game",
       "games": 2,
       "wins": 2,
       "draws": 0,
       "losses": 0,
-      "color": "#e67e22"
-    },
-    {
-      "name": "Pirc Defense",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
       "color": "#1abc9c"
     }
   ],
