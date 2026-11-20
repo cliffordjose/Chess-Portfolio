@@ -11,16 +11,16 @@
   "ratings": {
     "rapid": 1451,
     "blitz": 1102,
-    "bullet": 990,
+    "bullet": 960,
     "classical": 1429
   },
   "stats": {
-    "gamesPlayed": 1239,
+    "gamesPlayed": 1241,
     "wins": 572,
-    "losses": 617,
+    "losses": 619,
     "draws": 50,
-    "winRate": 46.2,
-    "avgAccuracy": 67.5,
+    "winRate": 46.1,
+    "avgAccuracy": 62.7,
     "longestWinStreak": 5,
     "currentStreak": 0,
     "bestRating": 1451,
@@ -110,7 +110,7 @@
       "color": "#4a90d9"
     },
     {
-      "name": "French Defense: Normal Variation",
+      "name": "Queen's Pawn Game",
       "games": 2,
       "wins": 0,
       "draws": 0,
@@ -118,15 +118,15 @@
       "color": "#d94a4a"
     },
     {
-      "name": "Bird Opening: Williams Gambit",
+      "name": "French Defense: Normal Variation",
       "games": 2,
-      "wins": 1,
+      "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "color": "#9b59b6"
     },
     {
-      "name": "Center Game: Normal Variation",
+      "name": "Bird Opening: Williams Gambit",
       "games": 2,
       "wins": 1,
       "draws": 0,
@@ -134,11 +134,11 @@
       "color": "#e67e22"
     },
     {
-      "name": "Center Game",
+      "name": "Center Game: Normal Variation",
       "games": 2,
-      "wins": 2,
+      "wins": 1,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "color": "#1abc9c"
     }
   ],

@@ -1,5 +1,35 @@
 [
   {
+    "id": "JLfcG41L",
+    "white": "clifford10",
+    "black": "omerss3",
+    "result": "0-1",
+    "timeControl": "Bullet",
+    "accuracy": {
+      "white": 0,
+      "black": 0
+    },
+    "opening": "Van't Kruijs Opening",
+    "date": "2026-11-20",
+    "moves": 24,
+    "pgn": "1. e3 e6 2. d4 d5 3. Nc3 c5 4. Nf3 cxd4 5. Nxd4 Nf6 6. Bb5+ Bd7 7. Qd3 a6 8. Bxd7+ Nbxd7 9. e4 Bb4 10. f3 dxe4 11. fxe4 Bxc3+ 12. Qxc3 Nxe4 13. Qe3 Nef6 14. Nf5 Qa5+ 15. c3 Qxf5 16. Qb6 Nxb6 0-1"
+  },
+  {
+    "id": "DzZhAUXJ",
+    "white": "moksreva",
+    "black": "clifford10",
+    "result": "1-0",
+    "timeControl": "Bullet",
+    "accuracy": {
+      "white": 41,
+      "black": 53
+    },
+    "opening": "Queen's Pawn Game",
+    "date": "2026-11-20",
+    "moves": 37,
+    "pgn": "1. d4 d5 2. e3 e6 3. Nc3 Nf6 4. Nf3 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Bd2 Bb4 8. O-O a5 9. a3 Bxc3 10. Bxc3 Qd7 11. b4 axb4 12. Bxb4 Bb5 13. Re1 Ba4 14. Ne5 Qb5 15. Qd3 Qxd3 16. Nxd3 Bxc2 17. Nc5 b6 18. Nb7 Rb8 19. Rac1 Ba4 20. Nc5 bxc5 21. Bxc5 Rb3 22. Rb1 Rxb1 23. Rxb1 Bc2 24. Rb8+ Kd7 25. a4 1-0"
+  },
+  {
     "id": "4LHHd2RY",
     "white": "clifford10",
     "black": "aestas49",
@@ -268,35 +298,5 @@
     "date": "2026-10-26",
     "moves": 62,
     "pgn": "1. e4 e6 2. d3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Bg5 Be7 6. Bxf6 Bxf6 7. Nc5 Bxb2 8. Rb1 Bc3+ 9. Ke2 b6 10. Ne4 Qd4 11. Nf3 Qd8 12. Nxc3 O-O 13. Ne5 Re8 14. Nc6 Nxc6 15. Ke1 Bb7 16. Be2 Qd4 17. Qd2 Rad8 18. Bf3 e5 19. Nb5 Qf4 20. Qxf4 exf4+ 21. Kd2 Rd7 22. Nxa7 Nxa7 23. Bxb7 Rde7 24. Bc6 Re2+ 25. Kc3 Nxc6 26. Rhf1 h6 27. Rb4 Nxb4 28. Kxb4 Rxc2 29. Kb3 Ree2 30. g3 Rxa2 31. gxf4 Rxf2 32. Rxf2 Rxf2 33. Kc4 Rxf4+ 34. d4 Rf2 35. Kd5 Rxh2 36. Kc6 Rc2+ 37. Kd5 h5 38. Ke4 g6 39. d5 h4 40. Kf4 h3 41. Kg3 h2 0-1"
-  },
-  {
-    "id": "RqWB036L",
-    "white": "capybara18",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Zukertort Opening: Tennison Gambit",
-    "date": "2026-10-26",
-    "moves": 45,
-    "pgn": "1. e4 d5 2. Nf3 dxe4 3. Ng1 Qd5 4. f3 exf3 5. gxf3 Qe5+ 6. Qe2 Qxb2 7. Bxb2 Bf5 8. d3 Nc6 9. Nc3 Nd4 10. Qe5 Rd8 11. Qxc7 Nxc2+ 12. Kd2 Nxa1 13. Qxb7 Nc2 14. Kxc2 Bxd3+ 15. Kc1 Bxf1 16. Nge2 Bxe2 17. Nxe2 e6 18. Qxa7 Bd6 19. Qa4+ Ke7 20. Nd4 Nf6 21. Nc6+ Kd7 22. Nxd8+ Kxd8 23. Qa8+ Ke7 24. Qxh8 Kd7 25. Qxg7 Nh5 26. Qxf7+ Be7 27. Qxh5 Bf6 28. Qxh7+ Kd6 29. Bxf6 e5 30. Rd1+ 1-0"
-  },
-  {
-    "id": "y7viNahY",
-    "white": "ChasDunk",
-    "black": "clifford10",
-    "result": "1-0",
-    "timeControl": "Blitz",
-    "accuracy": {
-      "white": 0,
-      "black": 0
-    },
-    "opening": "Queen's Pawn Game",
-    "date": "2026-10-26",
-    "moves": 84,
-    "pgn": "1. d4 d5 2. c3 e5 3. f3 exd4 4. Bf4 dxc3 5. Nxc3 d4 6. Ne4 Bf5 7. Qc2 Bb4+ 8. Kf2 Qd5 9. Rd1 Nc6 10. e3 dxe3+ 11. Kxe3 Bc5+ 12. Nxc5 Bxc2 13. Rxd5 Nge7 14. Rd2 Bg6 15. Bb5 Nf5+ 16. Kf2 O-O 17. Bxc6 bxc6 18. Rd1 Rab8 19. b3 Rb5 20. Ne4 Ra5 21. Ra1 Nd4 22. Ne2 Nxe2 23. Kxe2 Rf5 24. Bxc7 a5 25. Rhe1 c5 26. Kf2 Rh5 27. Bd6 Bxe4 28. Bxf8 Kxf8 29. Rxe4 Rxh2 30. Rc4 g6 31. Rxc5 Kg7 32. Rxa5 Rh4 33. Rb1 Rd4 34. b4 Rd2+ 35. Kf1 Rd4 36. b5 Rh4 37. b6 Rh1+ 38. Kf2 Rxb1 39. Ra6 Rb2+ 40. Kf1 Kf6 41. Ra5 Rxb6 42. Ra8 Rb2 43. Re8 Rxa2 44. Re4 Ra1+ 45. Kf2 Ra2+ 46. Kg3 Ra1 47. Rf4+ Kg7 48. Kg4 f5+ 49. Kg5 Ra5 50. g3 h6+ 51. Kh4 g5+ 52. Kh3 gxf4 53. gxf4 Ra4 54. Kg3 Kg6 55. Kf2 Kh5 56. Kg2 1-0"
   }
 ]
